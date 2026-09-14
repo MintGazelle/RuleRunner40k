@@ -183,6 +183,12 @@
     50%{ box-shadow:0 0 0 6px rgba(184,57,47,0);}
   }
 
+  .listen-bar{
+    display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+    margin-top:10px;
+  }
+  .listen-bar-hint{font-size:0.78rem;color:var(--muted);margin:0;line-height:1.4;flex:1;min-width:180px;}
+
   .caveat{
     margin-top:8px;
     padding:9px 12px;
@@ -597,18 +603,14 @@
 
   <div id="howtoplay-panel"></div>
 
-  <div class="fallback">
-    <button class="mic-btn" id="micBtn" aria-label="Listen for rules and units">
+  <div class="listen-bar" id="listenBar">
+    <button class="mic-btn" id="micBtn">
       <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3"/></svg>
       <span class="dot"></span>
-      <span id="micLabel" class="sr-only">Listen</span>
+      <span id="micLabel">Listen</span>
     </button>
-    <div class="input-wrap">
-      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-      <input type="text" id="manualInput" placeholder="Type or paste a line from the table talk…">
-    </div>
+    <p class="listen-bar-hint">Catches rule questions and unit names from the table talk — matches both sections below at once.</p>
   </div>
-  <div class="scan-feedback" id="scanFeedback"></div>
 
   <div class="caveat unsupported" id="unsupportedNotice">
     This browser doesn't support live speech recognition (works best in Chrome or Edge). Use the text box below instead — just type or paste what's being said and results appear automatically.
@@ -618,6 +620,14 @@
   </div>
   <div class="caveat unsupported" id="micErrorNotice"></div>
 
+  <div class="fallback">
+    <div class="input-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="text" id="manualInput" placeholder="Type or paste a line from the table talk…">
+    </div>
+  </div>
+  <div class="scan-feedback" id="scanFeedback"></div>
+
   <div id="hero-slot">
     <div class="empty-feed" id="emptyFeed">Start listening, or type a phrase above — try "how does blight work?".</div>
   </div>
@@ -625,7 +635,7 @@
 
   <div class="datasheet-section">
     <h2 class="datasheet-heading">Look up a unit</h2>
-    <p class="datasheet-subtext">Type a unit name — e.g. "Intercessors" — for a quick-glance stat card. The <strong>Listen</strong> button above catches unit names too, so there's no separate mic down here.</p>
+    <p class="datasheet-subtext">Type a unit name — e.g. "Intercessors" — for a quick-glance stat card. The <strong>Listen</strong> button above catches unit names too.</p>
     <div class="fallback">
       <div class="input-wrap">
         <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
