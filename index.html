@@ -183,12 +183,6 @@
     50%{ box-shadow:0 0 0 6px rgba(184,57,47,0);}
   }
 
-  .listen-bar{
-    display:flex;align-items:center;gap:12px;flex-wrap:wrap;
-    margin-top:10px;
-  }
-  .listen-bar-hint{font-size:0.78rem;color:var(--muted);margin:0;line-height:1.4;flex:1;min-width:180px;}
-
   .caveat{
     margin-top:8px;
     padding:9px 12px;
@@ -550,12 +544,22 @@
     </div>
 
     <div class="landing-howto">
-      <div class="howto-step"><span class="howto-num">1</span><span class="howto-text">Tap the game you're playing below.</span></div>
+      <div class="howto-step"><span class="howto-num">1</span><span class="howto-text">Search or say the name of the game you're playing below.</span></div>
       <div class="howto-step"><span class="howto-num">2</span><span class="howto-text">Type a question, or tap <strong>Listen</strong> to catch it from the table talk.</span></div>
       <div class="howto-step"><span class="howto-num">3</span><span class="howto-text">Tap a linked term to jump to that rule, or <strong>Browse all rules</strong> to see everything.</span></div>
     </div>
 
-    <h2 class="landing-section-title">Choose a game</h2>
+    <h2 class="landing-section-title">Find your game</h2>
+    <div class="fallback">
+      <button class="mic-btn" id="landingMicBtn" aria-label="Search by voice">
+        <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3"/></svg>
+        <span class="dot"></span>
+      </button>
+      <div class="input-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="landingGameSearch" placeholder="Search or say a game name…" autofocus>
+      </div>
+    </div>
     <div class="landing-game-grid" id="landingGameGrid"></div>
 
     <footer class="site-footer landing-footer">
@@ -603,14 +607,18 @@
 
   <div id="howtoplay-panel"></div>
 
-  <div class="listen-bar" id="listenBar">
-    <button class="mic-btn" id="micBtn">
+  <div class="fallback">
+    <button class="mic-btn" id="micBtn" aria-label="Listen">
       <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3"/></svg>
       <span class="dot"></span>
-      <span id="micLabel">Listen</span>
+      <span id="micLabel" class="sr-only">Listen</span>
     </button>
-    <p class="listen-bar-hint">Catches rule questions and unit names from the table talk — matches both sections below at once.</p>
+    <div class="input-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="text" id="manualInput" placeholder="Type or paste a line from the table talk…">
+    </div>
   </div>
+  <div class="scan-feedback" id="scanFeedback"></div>
 
   <div class="caveat unsupported" id="unsupportedNotice">
     This browser doesn't support live speech recognition (works best in Chrome or Edge). Use the text box below instead — just type or paste what's being said and results appear automatically.
@@ -620,14 +628,6 @@
   </div>
   <div class="caveat unsupported" id="micErrorNotice"></div>
 
-  <div class="fallback">
-    <div class="input-wrap">
-      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-      <input type="text" id="manualInput" placeholder="Type or paste a line from the table talk…">
-    </div>
-  </div>
-  <div class="scan-feedback" id="scanFeedback"></div>
-
   <div id="hero-slot">
     <div class="empty-feed" id="emptyFeed">Start listening, or type a phrase above — try "how does blight work?".</div>
   </div>
@@ -635,8 +635,12 @@
 
   <div class="datasheet-section">
     <h2 class="datasheet-heading">Look up a unit</h2>
-    <p class="datasheet-subtext">Type a unit name — e.g. "Intercessors" — for a quick-glance stat card. The <strong>Listen</strong> button above catches unit names too.</p>
+    <p class="datasheet-subtext">Search or say a unit name — e.g. "Intercessors" — for a quick-glance stat card, separate from the rules search above.</p>
     <div class="fallback">
+      <button class="mic-btn" id="datasheetMicBtn" aria-label="Listen for a unit name">
+        <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3"/></svg>
+        <span class="dot"></span>
+      </button>
       <div class="input-wrap">
         <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
         <input type="text" id="datasheetInput" placeholder="Try &quot;Intercessors&quot;">
@@ -1283,6 +1287,7 @@ const manualInputEl = document.getElementById('manualInput');
 function switchToGame(gameId){
   currentGame = gameId;
   KEYWORD_INDEX = buildIndexForGame(currentGame);
+  DATASHEET_INDEX = buildDatasheetIndex(currentGame);
   manualInputEl.placeholder = `Try "${GAMES[currentGame].example}"`;
   renderHowToPlay();
   // Collapse the How to Play panel on switch — it should be a deliberate
@@ -1337,17 +1342,26 @@ document.getElementById('howtoplayToggle').addEventListener('click', () => {
 
 // ---------- Landing page ----------
 // Descriptions come from games-list.js (GAME_LIST) — nothing game-specific
-// is hardcoded here anymore. Every game in the list gets a clickable card;
-// there's no search/filter step, so this just renders the full list.
-function renderLandingGrid(){
+// is hardcoded here anymore.
+function renderLandingGrid(filter=''){
   const grid = document.getElementById('landingGameGrid');
+  const f = filter.trim().toLowerCase();
 
-  if (GAME_LIST.length === 0){
-    grid.innerHTML = `<div class="landing-empty-state">No games available yet.</div>`;
+  if (!f){
+    grid.innerHTML = `<div class="landing-empty-state">Type or say a game name above to find it — try "${GAME_LIST[0] ? GAMES[GAME_LIST[0].id].name : 'a game'}".</div>`;
     return;
   }
 
-  grid.innerHTML = GAME_LIST.map(g => `
+  const matches = GAME_LIST.filter(g =>
+    GAMES[g.id].name.toLowerCase().includes(f) || (g.description || '').toLowerCase().includes(f)
+  );
+
+  if (matches.length === 0){
+    grid.innerHTML = `<div class="landing-no-results">No games match "${filter}" — try a different word.</div>`;
+    return;
+  }
+
+  grid.innerHTML = matches.map(g => `
     <button class="landing-game-card" data-game="${g.id}">
       <span class="lg-name">${GAMES[g.id].name}</span>
       <span class="lg-desc">${g.description || ''}</span>
@@ -1358,6 +1372,10 @@ function renderLandingGrid(){
   });
 }
 renderLandingGrid();
+document.getElementById('landingGameSearch').addEventListener('input', e => renderLandingGrid(e.target.value));
+// Fallback for browsers that don't reliably honor the autofocus attribute
+// (e.g. if the element isn't immediately visible when the page first parses).
+document.getElementById('landingGameSearch').focus();
 
 function startApp(gameId){
   switchToGame(gameId);
@@ -1419,16 +1437,6 @@ if (!window.isSecureContext){
         // just quietly catching relevant moments. Only a genuine match
         // should ever surface something here.
         scanText(transcript, false);
-
-        // One listening button covers both the rules search and the unit
-        // datasheet lookup — the same transcript is also checked against
-        // unit names, independently of whether it matched a rule keyword,
-        // so either or both can surface from a single utterance.
-        const unitMatch = findDatasheet(transcript);
-        if (unitMatch){
-          datasheetInput.value = transcript;
-          datasheetResult.innerHTML = renderStatCard(unitMatch);
-        }
       }
     }
   };
@@ -1479,6 +1487,59 @@ function stopListening(){
   micLabel.textContent = 'Listen';
 }
 
+// ---------- Landing page voice search ----------
+// A separate, simpler recognition instance from the main app's mic button —
+// this is a one-shot "say a game name" interaction (non-continuous, stops
+// itself after a single result) that fills the search box rather than
+// directly switching games, so a misheard word never accidentally jumps you
+// into the wrong game.
+const landingMicBtn = document.getElementById('landingMicBtn');
+let landingRecognition = null;
+let landingListening = false;
+
+if (!window.isSecureContext || !SpeechRecognitionAPI){
+  landingMicBtn.disabled = true;
+  landingMicBtn.style.opacity = '0.5';
+  landingMicBtn.style.cursor = 'not-allowed';
+} else {
+  landingRecognition = new SpeechRecognitionAPI();
+  landingRecognition.continuous = false;
+  landingRecognition.interimResults = false;
+  landingRecognition.lang = 'en-US';
+
+  landingRecognition.onresult = (event) => {
+    const transcript = event.results[0][0].transcript;
+    const searchInput = document.getElementById('landingGameSearch');
+    searchInput.value = transcript;
+    renderLandingGrid(transcript);
+  };
+
+  landingRecognition.onend = () => {
+    landingListening = false;
+    landingMicBtn.classList.remove('live');
+  };
+
+  landingRecognition.onerror = () => {
+    landingListening = false;
+    landingMicBtn.classList.remove('live');
+  };
+}
+
+landingMicBtn.addEventListener('click', () => {
+  if (!landingRecognition) return;
+  if (landingListening){
+    try { landingRecognition.stop(); } catch(e){}
+    landingListening = false;
+    landingMicBtn.classList.remove('live');
+  } else {
+    try {
+      landingRecognition.start();
+      landingListening = true;
+      landingMicBtn.classList.add('live');
+    } catch(e){ /* already starting */ }
+  }
+});
+
 // ---------- Unit datasheet lookup ----------
 // A separate search, separate from rules — matches unit names instead of
 // rule keywords, and renders a compact stat card instead of a rule card.
@@ -1486,20 +1547,77 @@ const datasheetInput = document.getElementById('datasheetInput');
 const datasheetResult = document.getElementById('datasheet-result');
 let datasheetDebounceTimer = null;
 
-// Crude plural tolerance ("Intercessors" should find "Intercessor Squad")
-// by stripping a trailing 's' from each word before comparing substrings.
-function normalizeForUnitMatch(s){
-  return s.toLowerCase().split(' ').map(w => w.replace(/s$/, '')).join(' ');
+// Same matching engine rules use — tokenize(), fuzzyWordMatch(), and
+// keywordMatchesTokens() are the same functions defined earlier for rules
+// search. Reusing them (rather than a separate simpler string-matching
+// approach) means unit search gets the same typo tolerance, filler-word
+// stripping, and multi-word fuzzy matching rules already have, instead of
+// being a noticeably weaker second-class search experience.
+function buildDatasheetIndex(gameId){
+  const idx = [];
+  const sheets = (GAMES[gameId].datasheets || []);
+  for (const sheet of sheets){
+    const words = tokenize(sheet.name);
+    idx.push({ sheet, words, squashed: words.join('') });
+  }
+  return idx;
 }
+let DATASHEET_INDEX = buildDatasheetIndex(currentGame);
 
 function findDatasheet(query){
-  const sheets = (GAMES[currentGame].datasheets || []);
-  const q = normalizeForUnitMatch(query.trim());
-  if (!q) return null;
-  return sheets.find(u => {
-    const n = normalizeForUnitMatch(u.name);
-    return n.includes(q) || q.includes(n);
-  }) || null;
+  const tokens = tokenize(query);
+  if (tokens.length === 0) return null;
+  const squashedInput = tokens.join('');
+
+  // Collect every candidate with a tier number (lower = better) rather than
+  // relying on list order, then pick the best tier and — within a tie —
+  // the shortest unit name, since that's almost always what "just say the
+  // short name" actually meant. This is what "boyz" needs to find "Boyz"
+  // itself (tier 1) instead of "Beast Snagga Boyz" (tier 2, since "boyz" is
+  // only a fuzzy match to the LAST word of a longer name), and it's also
+  // what stops a longer name winning purely because of index order.
+  let best = null, bestTier = Infinity, bestLen = Infinity;
+  function consider(entry, tier){
+    if (tier < bestTier || (tier === bestTier && entry.words.length < bestLen)){
+      best = entry.sheet; bestTier = tier; bestLen = entry.words.length;
+    }
+  }
+
+  for (const entry of DATASHEET_INDEX){
+    // Tier 1: exact, same word count, every word fuzzy-matches 1:1.
+    if (entry.words.length === tokens.length &&
+        entry.words.every((w, i) => fuzzyWordMatch(tokens[i], w))){
+      consider(entry, 1);
+      continue;
+    }
+    // Tier 2: the query is a fuzzy-matching prefix of the unit's name
+    // ("Intercessors" -> "Intercessor Squad") — the natural way people
+    // shorten a multi-word unit name.
+    if (tokens.length <= entry.words.length &&
+        tokens.every((t, i) => fuzzyWordMatch(t, entry.words[i]))){
+      consider(entry, 2);
+      continue;
+    }
+    // Tier 3: the unit's whole name appears as a consecutive fuzzy run
+    // somewhere within a longer spoken phrase ("stats for a rhino here" ->
+    // "Rhino") — the reverse shape from Tier 2.
+    if (keywordMatchesTokens(entry.words, tokens)){
+      consider(entry, 3);
+      continue;
+    }
+    // Tier 4: the query matches a fuzzy run anywhere within the name, not
+    // just as a prefix (catches a distinctive middle/last word).
+    if (keywordMatchesTokens(tokens, entry.words)){
+      consider(entry, 4);
+      continue;
+    }
+    // Tier 5: squashed-string fallback for missing-space-style typos.
+    if ((entry.squashed.length > 3 && squashedInput.includes(entry.squashed)) ||
+        (squashedInput.length > 3 && entry.squashed.includes(squashedInput))){
+      consider(entry, 5);
+    }
+  }
+  return best;
 }
 
 function renderStatCard(u){
@@ -1583,6 +1701,65 @@ datasheetInput.addEventListener('keydown', (e) => {
   if (e.key === 'Enter'){
     clearTimeout(datasheetDebounceTimer);
     runDatasheetSearch(e.target.value);
+  }
+});
+
+// Separate continuous speech recognition instance for unit lookups — stays
+// silent in the background exactly like the main rules mic, and only ever
+// surfaces something when a unit name is actually recognized.
+const datasheetMicBtn = document.getElementById('datasheetMicBtn');
+let datasheetRecognition = null;
+let datasheetListening = false;
+
+if (window.isSecureContext && SpeechRecognitionAPI){
+  datasheetRecognition = new SpeechRecognitionAPI();
+  datasheetRecognition.continuous = true;
+  datasheetRecognition.interimResults = false;
+  datasheetRecognition.lang = 'en-US';
+
+  datasheetRecognition.onresult = (event) => {
+    for (let i = event.resultIndex; i < event.results.length; i++){
+      if (event.results[i].isFinal){
+        const transcript = event.results[i][0].transcript;
+        const match = findDatasheet(transcript);
+        if (match){
+          datasheetResult.innerHTML = renderStatCard(match);
+        }
+        // No match on a passively-overheard sentence stays silent, same
+        // reasoning as the main rules mic — most conversation won't be a
+        // unit name, so don't react visibly to all of it. Also doesn't
+        // touch the visible input box even on a match, for the same
+        // reason the rules mic doesn't — consistent behavior between the
+        // two mics rather than one filling its box and one not.
+      }
+    }
+  };
+  datasheetRecognition.onend = () => {
+    datasheetListening = false;
+    datasheetMicBtn.classList.remove('live');
+  };
+  datasheetRecognition.onerror = () => {
+    datasheetListening = false;
+    datasheetMicBtn.classList.remove('live');
+  };
+} else {
+  datasheetMicBtn.disabled = true;
+  datasheetMicBtn.style.opacity = '0.5';
+  datasheetMicBtn.style.cursor = 'not-allowed';
+}
+
+datasheetMicBtn.addEventListener('click', () => {
+  if (!datasheetRecognition) return;
+  if (datasheetListening){
+    try { datasheetRecognition.stop(); } catch(e){}
+    datasheetListening = false;
+    datasheetMicBtn.classList.remove('live');
+  } else {
+    try {
+      datasheetRecognition.start();
+      datasheetListening = true;
+      datasheetMicBtn.classList.add('live');
+    } catch(e){ /* already starting */ }
   }
 });
 
