@@ -61,6 +61,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" },
     ],
+    options: [
+      "The Intercessor Sergeant’s bolt rifle can be replaced with one of the following: 1 Astartes chainsword, 1 hand flamer, 1 plasma pistol, 1 power weapon",
+      "The Intercessor Sergeant’s close combat weapon can be replaced with one of the following: 1 Astartes chainsword, 1 power fist, 1 power weapon, 1 thunder hammer",
+      "For every 5 models in this unit, 1 model equipped with a bolt rifle can be equipped with 1 Astartes grenade launcher."
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Objective Secured", text: "If you control an objective marker at the end of your Command phase and this unit is within range of it, you keep control of that marker even without models nearby, until your opponent controls it." },
@@ -107,6 +112,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thunder hammer", tags: "devastating wounds", a: "2", skill: "4+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "4", skill: "3+", s: "4", ap: "-2", d: "1" },
     ],
+    options: [
+      "1 Tactical Marine’s boltgun can be replaced with one of the following: : 1 flamer, 1 heavy bolter, 1 grav-cannon, 1 grav-gun, 1 lascannon, 1 meltagun, 1 missile launcher, 1 multi-melta, 1 plasma cannon, 1 plasma gun",
+      "1 Tactical Marine’s boltgun can be replaced with one of the following: : 1 flamer, 1 grav-gun, 1 meltagun, 1 plasma gun",
+      "The Tactical Sergeant’s bolt pistol and boltgun can be replaced with 1 twin lightning claws, or two different weapons from the following list:* : 1 Astartes chainsword, 1 bolt pistol, 1 boltgun, 1 combi-weapon, 1 grav-pistol, 1 plasma pistol, 1 storm bolter, 1 power fist, 1 power weapon, 1 thunder hammer",
+      "* This model can only be equipped with two ranged weapons if one of them is a Pistol (and it can only have one Pistol)."
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Combat Squads", text: "At the start of the Declare Battle Formations step, before any units have been set up, this unit can be split into two units of 5 models each." },
@@ -134,6 +145,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "6", skill: "2+", s: "4", ap: "0", d: "1" },
       { name: "Master-crafted power weapon", tags: "", a: "6", skill: "2+", s: "5", ap: "-2", d: "2" },
       { name: "Power fist", tags: "", a: "5", skill: "2+", s: "8", ap: "-2", d: "2" },
+    ],
+    options: [
+      "This model’s bolt pistol, master-crafted bolter and close combat weapon can be replaced with one of the following: : 1 heavy bolt pistol and 1 power fist , 1 heavy bolt pistol and 1 master-crafted power weapon , 1 neo-volkite pistol and 1 power fist , 1 neo-volkite pistol and 1 master-crafted power weapon , 1 plasma pistol and 1 power fist , 1 plasma pistol and 1 master-crafted power weapon , 1 heavy bolt pistol, 1 master-crafted power weapon and 1 relic shield",
+      "This model’s close combat weapon can be replaced with one of the following: : 1 master-crafted power weapon , 1 power fist"
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a range of Battleline and elite Space Marines squads (Intercessor Squad, Tactical Squad, Bladeguard Veteran Squad, and several others), forming a single Attached unit with them." },
@@ -164,6 +179,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "For every 5 models in this unit, 1 Terminator’s storm bolter can be replaced with one of the following: 1 assault cannon, 1 heavy flamer, 1 cyclone missile launcher and 1 storm bolter.*",
+      "Any number of models can each have their power fist replaced with 1 chainfist.",
+      "The Terminator Squad Leader’s power fist can be replaced with 1 power weapon.",
+      "* This model’s storm bolter cannot be replaced."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Teleport Homer", text: "You can set up a Teleport Homer token anywhere outside the enemy deployment zone at the start of the battle. Once per battle, you can use it to bring this unit in with a free (0CP) Rapid Ingress, arriving within 3\" of the token instead of the normal deployment-zone restriction, as long as it's still more than 9\" from any enemy models." },
@@ -186,6 +207,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -210,6 +234,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Twin power fists", tags: "twin-linked", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" }
+    ],
+    options: [
+      "All models in this unit can each have their flamestorm gauntlets replaced with 1 auto boltstorm gauntlets and 1 fragstorm grenade launcher."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -238,6 +265,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "The Assault Intercessor Sergeant’s heavy bolt pistol can be replaced with one of the following: 1 hand flamer, 1 plasma pistol",
+      "The Assault Intercessor Sergeant’s Astartes chainsword can be replaced with one of the following: 1 power fist, 1 power weapon, 1 thunder hammer"
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Shock Assault", text: "When a model in this unit makes a melee attack, re-roll a Wound roll of 1 — or re-roll any Wound roll instead if the target is within range of an objective marker." }
@@ -260,6 +291,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "For every 5 models in this unit, 1 Heavy Intercessor’s heavy bolt rifle can be replaced with 1 heavy bolter."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -284,6 +318,10 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "The Eliminator Sergeant’s bolt sniper rifle can be replaced with one of the following: 1 instigator bolt carbine, 1 las fusil",
+      "All Eliminators in this unit can each have their bolt sniper rifle replaced with 1 las fusil."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -310,6 +348,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Master-crafted power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "2" }
     ],
+    options: [
+      "The Bladeguard Veteran Sergeant’s heavy bolt pistol can be replaced with one of the following: 1 neo-volkite pistol, 1 plasma pistol"
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Bladeguard", text: "Once per turn, when this unit fights or is targeted by an enemy unit, choose one: this unit's melee attacks get +1 to hit, or attacks targeting this unit get -1 to hit." }
@@ -331,6 +372,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "1 Infiltrator can be equipped with 1 helix gauntlet.*",
+      "1 Infiltrator can be equipped with 1 Infiltrator comms array.*",
+      "* These options cannot be taken on the same model."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -425,6 +471,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "lance", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
@@ -454,6 +503,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s skyhammer missile launcher can be replaced with one of the following: 1 twin heavy bolter, 1 typhoon missile launcher",
+      "This model’s las-talon can be replaced with 1 Icarus stormcannon."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -476,6 +529,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "Any number of models can each have their twin Firestrike las-talon replaced with 1 twin Firestrike autocannon."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -528,6 +584,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with one of the following: 2 heavy bolters, 2 lascannons",
+      "This model can be equipped with one of the following: 1 heavy bolter, 1 heavy flamer, 1 multi-melta, 1 storm bolter"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -551,6 +611,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "1", skill: "6+", s: "3", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s twin heavy bolter replaced with 1 twin lascannon."
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Sentinel Protocols", text: "When this unit uses the Fire Overwatch Stratagem, it hits on unmodified rolls of 4+ instead of the usual 6." }
@@ -571,6 +634,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "1", skill: "4+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -594,6 +660,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "For every 3 models in this unit, 1 Eradicator’s melta rifle can be replaced with 1 multi-melta."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -620,6 +689,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "2", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s quad heavy bolter can be replaced with one of the following: 1 graviton cannon, 1 laser destroyer, 1 quad launcher"
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -651,6 +723,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured feet", tags: "", a: "5", skill: "3+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s 2 twin heavy bolters can be replaced with one of the following: 2 assault cannons, 2 Dreadnought inferno cannons, 2 heavy plasma cannons, 2 missile launchers, 2 multi-meltas, 2 twin autocannons, 2 twin lascannons"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -678,6 +753,10 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s twin heavy bolter can be replaced with one of the following: 1 twin multi-melta, 1 typhoon missile launcher",
+      "This model’s 2 twin hellstrike missile launchers can be replaced with 2 twin lascannons"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -736,6 +815,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "5", skill: "3+", s: "6", ap: "0", d: "1" },
       { name: "Dreadnought combat weapon", tags: "", a: "5", skill: "3+", s: "12", ap: "-2", d: "3" }
     ],
+    options: [
+      "This model’s assault cannon can be replaced with one of the following: 1 heavy plasma cannon, 1 multi-melta, 1 twin lascannon",
+      "This model’s Dreadnought combat weapon and storm bolter can be replaced with one of the following: 1 missile launcher and 1 close combat weapon, 1 heavy flamer and 1 Dreadnought combat weapon"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -757,6 +840,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -808,6 +894,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "All models in this unit can each have their assault bolters replaced with 1 plasma exterminators."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -853,6 +942,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
@@ -880,6 +972,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Brutalis fists", tags: "twin-linked", a: "6", skill: "3+", s: "12", ap: "-2", d: "3" },
       { name: "Brutalis talons – strike", tags: "twin-linked", a: "6", skill: "3+", s: "12", ap: "-2", d: "3" },
       { name: "Brutalis talons – sweep", tags: "twin-linked", a: "10", skill: "3+", s: "7", ap: "-2", d: "1" }
+    ],
+    options: [
+      "This model’s twin heavy bolter can be replaced with 1 twin multi-melta.",
+      "This model’s Brutalis fists and Brutalis bolt rifles can be replaced with 1 Brutalis talons."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -919,6 +1015,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "3", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "2", skill: "4+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "The Scout Biker Sergeant’s bolt pistol can be replaced with one of the following: 1 Astartes chainsword, 1 boltgun, 1 combi-weapon, 1 hand flamer, 1 grav-pistol, 1 inferno pistol, 1 plasma pistol, 1 storm bolter, 1 power fist, 1 power weapon, 1 thunder hammer",
+      "Any number of models can each have their twin boltgun replaced with 1 Astartes grenade launcher."
+    ],
     abilities: [
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -941,6 +1041,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "4", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s heavy bolter can be replaced with 1 assault cannon."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -966,6 +1069,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s avenger mega bolter can be replaced with 1 Nephilim lascannons."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -1015,6 +1121,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "4", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s heavy bolter can be replaced with 1 assault cannon."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -1039,6 +1148,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Astartes chainsword", tags: "", a: "4", skill: "3+", s: "4", ap: "-1", d: "1" },
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" }
+    ],
+    options: [
+      "The Blood Claw Pack Leader’s bolt pistol can be replaced with 1 plasma pistol.",
+      "The Blood Claw Pack Leader’s Astartes chainsword can be replaced with 1 power weapon."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -1066,6 +1179,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "The Grey Hunter Pack Leader’s bolt carbine can be replaced with 1 plasma pistol.",
+      "The Grey Hunter Pack Leader’s Astartes chainsword can be replaced with one of the following: 1 power fist, 1 power weapon"
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Cunning Hunters", text: "When a model in this unit attacks, re-roll a Wound roll of 1 — or re-roll any Wound roll if the target is within range of an objective marker." }
@@ -1091,6 +1208,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s 2 skyhammer missile launchers can replaced with one of the following: 2 twin heavy bolters, 2 twin multi-meltas"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -1121,6 +1241,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s 2 skyhammer missile launchers can be replaced with one of the following: 2 twin multi-meltas, 2 twin heavy bolters",
+      "This model’s twin stormstrike missile launcher can be replaced with 1 twin lascannon."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
@@ -1149,6 +1273,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with one of the following: 2 heavy bolters, 2 lascannons",
+      "This model can be equipped with one of the following: 1 heavy bolter, 1 heavy flamer, 1 multi-melta, 1 storm bolter"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -1175,6 +1303,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Invictor fist", tags: "", a: "5", skill: "3+", s: "14", ap: "-2", d: "3" }
     ],
+    options: [
+      "This model’s incendium cannon can be replaced with 1 twin ironhail autocannon."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -1200,6 +1331,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "5", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s onslaught gatling cannon can be replaced with 1 multi-melta."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -1230,6 +1364,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "2", skill: "3+", s: "4", ap: "0", d: "1" },
       { name: "Combat knife", tags: "", a: "3", skill: "3+", s: "4", ap: "-1", d: "1" }
     ],
+    options: [
+      "The Scout Sergeant's boltgun can be replaced with 1 Astartes chainsword.",
+      "Any number of models can each have their boltgun replaced with one of the following: : 1 Astartes shotgun , 1 combat knife",
+      "For every 5 models in this unit, 1 Scout’s boltgun can be replaced with 1 Scout sniper rifle.",
+      "For every 5 models in this unit, 1 Scout’s boltgun can be replaced with one of the following: : 1 heavy bolter , 1 missile launcher"
+    ],
     abilities: [
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -1254,6 +1394,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -1281,6 +1424,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s heavy bolter can be replaced with 1 multi-melta.",
+      "This model’s assault cannon can be replaced with 1 heavy flamer."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -1305,6 +1452,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "9", skill: "4+", s: "9", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -1334,6 +1484,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s 2 heavy flamers can be replaced with one of the following: 2 heavy bolters, 2 lascannons, 2 volkite culverins",
+      "This model’s 2 lascannons can be replaced with on of the following: 2 heavy bolters, 2 heavy flamers, 2 volkite culverins"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -1360,6 +1514,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s skyhammer missile launcher can be replaced with one of the following: 1 twin heavy bolter, 1 twin lascannon, 1 typhoon missile launcher"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -1392,6 +1549,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s twin assault cannon can be replaced with one of the following: 1 twin heavy plasma cannon, 1 twin lascannon",
+      "This model’s typhoon missile launcher can be replaced with one of the following: 1 twin heavy bolter, 1 twin multi-melta",
+      "This model can be equipped with 2 hurricane bolters."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
@@ -1423,6 +1585,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Armoured feet", tags: "", a: "5", skill: "3+", s: "6", ap: "0", d: "1" },
       { name: "Dreadnought combat weapon", tags: "", a: "5", skill: "3+", s: "12", ap: "-2", d: "3" }
     ],
+    options: [
+      "This model’s storm bolter and Dreadnought combat weapon can be replaced with one of the following: 1 heavy flamer and 1 Dreadnought combat weapon, 1 assault cannon, 1 Dreadnought inferno cannon, 1 heavy plasma cannon, 1 multi-melta, 1 twin lascannon",
+      "This model’s assault cannon can be replaced with one of the following: 1 Dreadnought inferno cannon, 1 heavy plasma cannon, 1 multi-melta, 1 storm bolter and 1 Dreadnought combat weapon, 1 heavy flamer and 1 Dreadnought combat weapon, 1 twin lascannon"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -1449,6 +1615,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Centurion fists", tags: "", a: "3", skill: "4+", s: "5", ap: "-1", d: "2" }
     ],
+    options: [
+      "Any number of models can each have their Centurion bolters replaced with 1 Centurion missile launcher.",
+      "Any number of models can each have their grav-cannon replaced with one of the following: 1 twin heavy bolter, 1 twin lascannon"
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Decimator Protocols", text: "When a model in this unit makes a ranged attack, re-roll a Hit roll of 1 — or re-roll any Hit roll if the target is within range of an objective marker." }
@@ -1472,6 +1642,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "2", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "1 Scout Sniper’s scout sniper rifle can be replaced with 1 missile launcher."
     ],
     abilities: [
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
@@ -1499,6 +1672,10 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s 2 twin hellstrike missile launchers can be replaced with 2 twin lascannons",
+      "This model’s 2 twin autocannons can be replaced with 2 quad heavy bolters."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -1556,6 +1733,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s 2 quad lascannons can be replaced with 2 laser destroyers.",
+      "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer",
+      "This model can be equipped with one of the following: 1 heavy bolter, 1 heavy flamer, 1 multi-melta, 1 storm bolter"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -1582,6 +1764,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with one of the following: 1 ironhail heavy stubber, 1 multi-melta",
+      "This model can be equipped with 1 Icarus rocket pod."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
@@ -1607,6 +1793,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with one of the following: 1 ironhail heavy stubber, 1 multi-melta",
+      "This model can be equipped with 1 Icarus rocket pod."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
@@ -1631,6 +1821,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Termite drill", tags: "anti-vehicle 3+", a: "6", skill: "4+", s: "14", ap: "-2", d: "D3+3" }
+    ],
+    options: [
+      "This model’s 2 combi-bolters can be replaced with one of the following: 2 heavy flamers, 2 twin volkite chargers"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -1658,6 +1851,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their heavy bolter replaced with 1 multi-melta."
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Outrider Escort", text: "Once per turn, when another friendly Adeptus Astartes Mounted unit within 6\" is targeted in your opponent's Shooting phase, this model can shoot back immediately as if it were your Shooting phase." }
@@ -1681,6 +1877,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s heavy bolter can be replaced with 1 multi-melta."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -1712,6 +1911,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s 2 quad lascannons can be replaced with 2 laser destroyers.",
+      "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer",
+      "This model can be equipped with one of the following: 1 heavy bolter, 1 heavy flamer, 1 multi-melta, 1 storm bolter"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -1741,6 +1945,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Power weapon", tags: "", a: "5", skill: "2+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "The Sternguard Veteran Squad Leader’s Sternguard bolt rifle can be replaced with one of the following: : 1 Astartes chainsword , 1 combi-weapon , 1 power fist , 1 power weapon , 1 Astartes chainsword and 1 Sternguard bolt rifle*, 1 power fist and 1 Sternguard bolt rifle*, 1 power weapon and 1 Sternguard bolt rifle*",
+      "Any number of Sternguard Veterans can each have their Sternguard bolt rifle replaced with 1 combi-weapon.",
+      "For every 5 models in this unit, 1 Sternguard Veteran’s Sternguard bolt rifle can be replaced with one of the following: : 1 pyrecannon, 1 Sternguard heavy bolter",
+      "* This model's Sternguard bolt rifle cannot be replaced."
+    ],
     abilities: [
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
       { name: "Virtuous Onslaught", text: "When a model in this unit attacks the closest eligible target, re-roll a Wound roll of 1." }
@@ -1762,6 +1972,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       
+    ],
+    options: [
+      "This model’s deathstorm cannon array can be replaced with 1 deathstorm missile array"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -1794,6 +2007,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured feet", tags: "", a: "5", skill: "3+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s anvilus autocannon battery can be replaced with one of the following: 1 arachnus heavy lascannon battery, 1 hellfire plasma carronade, 1 volkite falconet battery",
+      "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer.",
+      "This model can be equipped with one of the following: 1 aiolos missile launcher, 1 boreas air defence missiles"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -1819,6 +2037,10 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "All of the models in this unit can each have their superfrag rocket launcher replaced with 1 superkrak rocket launcher.",
+      "The Desolation Sergeant’s superfrag rocket launcher or superkrak rocket launcher can be replaced with 1 vengor launcher."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -1847,6 +2069,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s 2 Astraeus las-rippers can be replaced with 2 plasma eradicators.",
+      "This model’s twin heavy bolter can be replaced with 1 twin lascannon.",
+      "This model can be equipped with 1 ironhail heavy stubber."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -1883,6 +2110,12 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s 2 quad lascannons can be replaced with one of the following: 2 laser destroyers, 2 quad heavy bolters",
+      "This model’s twin heavy bolter can be replaced with 1 twin heavy flamer.",
+      "This model can be equipped with 1 havoc launcher.",
+      "This model can be equipped with one of the following: 1 combi-weapon, 1 heavy bolter, 1 heavy flamer, 1 multi-melta, 1 storm bolter"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -1910,6 +2143,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s 2 storm bolters can be replaced with 2 fragstorm grenade launchers.",
+      "This model can be equipped with one of the following: 1 ironhail heavy stubber, 1 multi-melta",
+      "This model can be equipped with 1 Icarus rocket pod."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
@@ -1934,6 +2172,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close-combat weapon", tags: "", a: "4", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can have its 1 onslaught gatling cannon replaced with 1 heavy flamer"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -1962,6 +2203,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Astartes chainsword", tags: "", a: "4", skill: "3+", s: "4", ap: "-1", d: "1" },
       { name: "Close combat weapon", tags: "", a: "5", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "An Invader ATV’s onslaught gatling cannon can be replaced with 1 multi-melta."
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Thunderous Impact", text: "If this unit made a Charge move this turn, its melee attacks get +1 Strength and +1 Damage." }
@@ -1989,6 +2233,12 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Redemptor fist", tags: "", a: "5", skill: "3+", s: "12", ap: "-2", d: "3" }
+    ],
+    options: [
+      "This model can be equipped with 1 Icarus rocket pod.",
+      "This model’s heavy flamer can be replaced with 1 onslaught gatling cannon.",
+      "This model’s heavy onslaught gatling cannon can be replaced with 1 macro plasma incinerator.",
+      "This model’s twin fragstorm grenade launcher can be replaced with 1 twin storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -2021,6 +2271,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s macro plasma incinerator can be replaced with 1 heavy laser destroyer.",
+      "This model can be equipped with one of the following: 1 ironhail heavy stubber, 1 multi-melta",
+      "This model can be equipped with 1 Icarus rocket pod."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
@@ -2043,6 +2298,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "8", skill: "4+", s: "8", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -2068,6 +2326,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "anti-tyranids 4+", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Tyrannic War Veterans", text: "This unit's weapons gain Devastating Wounds when targeting Tyranids units." }
@@ -2089,6 +2350,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -2116,6 +2380,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Astartes chainsword", tags: "", a: "4", skill: "3+", s: "4", ap: "-1", d: "1" },
       { name: "Power weapon", tags: "", a: "5", skill: "2+", s: "5", ap: "-2", d: "1" },
       { name: "Power fist", tags: "", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" }
+    ],
+    options: [
+      "For every 5 models in this unit, 1 Assault Intercessor with Jump Pack’s heavy bolt pistol can be replaced with 1 plasma pistol.",
+      "The Assault Intercessor Sergeant with Jump Pack’s Astartes chainsword can be replaced with one of the following: : 1 power weapon , 1 power fist",
+      "The Assault Intercessor Sergeant with Jump Pack’s heavy bolt pistol can be replaced with one of the following: : 1 hand flamer, 1 plasma pistol"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -2165,6 +2434,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Grabbin’ Klaw", tags: "Extra Attacks", a: "2", skill: "3+", s: "10", ap: "-2", d: "2" },
       { name: "Spiked Ram", tags: "CLEAVE 1", a: "3", skill: "3+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s Dual Big Shoota can be replaced with 1 Rokkit Launcha.",
+      "This model can be equipped with one of the following: 1 Buzzsaw, 1 Grabbin' Klaw"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
@@ -2190,6 +2463,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Kustom Choppa", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "2" },
       { name: "Power Klaw", tags: "", a: "3", skill: "3+", s: "10", ap: "-2", d: "2" }
     ],
+    options: [
+      "The Nob can have their Kustom Choppa replaced with 1 Power Klaw."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -2211,6 +2487,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured Impact", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with 1 Dual Supa-shoota."
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
@@ -2236,6 +2515,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured Impact", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with 1 Skorcha Missile Rack."
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
@@ -2312,6 +2594,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Spiked Ram", tags: "CLEAVE 1", a: "4", skill: "3+", s: "7", ap: "-1", d: "2" }
     ],
+    options: [
+      "Any number of models can each have their Mek Speshul replaced with 1 Rivet Kannon."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -2337,6 +2622,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Scavenged Shivs", tags: "", a: "5", skill: "5+", s: "2", ap: "0", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their Smasha Gun replaced with one of the following: 1 Bubblechukka, 1 Kustom Mega-kannon, 1 Traktor Kannon"
+    ],
     abilities: [
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Madcap Artillery", text: "After this unit shoots with matching Mek Gunz weapons, an enemy unit hit gains a negative effect matching that weapon's type until your next turn." }
@@ -2359,6 +2647,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Crushin’ Bulk", tags: "CLEAVE 1", a: "6", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Grabbin’ Klaw", tags: "Extra Attacks", a: "2", skill: "3+", s: "10", ap: "-2", d: "2" },
       { name: "Wreckin’ Ball", tags: "CLEAVE 2, Extra Attacks", a: "1", skill: "3+", s: "10", ap: "0", d: "D6" }
+    ],
+    options: [
+      "This model can be equipped with 1 Wreckin’ Ball.",
+      "This model can be equipped with up to 4 Big Shoota.",
+      "This model can be equipped with 1 Grabbin’ Klaw."
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
@@ -2388,6 +2681,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Extra Klaw", tags: "Extra Attacks", a: "1", skill: "3+", s: "12", ap: "-2", d: "3" },
       { name: "Dread Klaws", tags: "CLEAVE 1", a: "5", skill: "3+", s: "12", ap: "-2", d: "3" }
+    ],
+    options: [
+      "This model’s Big Shoota can be replaced with one of the following: 1 Extra Klaw, 1 Kustom Mega-blasta, 1 Rokkit Launcha",
+      "This model’s Skorcha can be replaced with one of the following: 1 Extra Klaw, 1 Big Shoota, 1 Kustom Mega-blasta, 1 Rokkit Launcha"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -2462,6 +2759,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Ramshackle hull", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their big shoota replaced with one of the following: 1 grotzooka, 1 kustom mega-blasta, 1 rokkit launcha, 1 skorcha",
+      "For every four models in this unit, one model can be equipped with one of the following in addition to any other weapons: 1 Grot tank shoota, 1 grotzooka, 1 kustom mega-blasta, 1 rokkit launcha, 1 skorcha"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -2488,6 +2789,10 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "6", skill: "4+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s twin big shoota can be replaced with one of the following: 1 twin grotzooka, 1 twin kustom mega-blasta, 1 twin rokkit launcha, 1 twin skorcha",
+      "This model’s twin grotzooka can be replaced with one of the following: 1 twin big shoota, 1 twin kustom mega-blasta, 1 twin rokkit launcha, 1 twin skorcha"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -2516,6 +2821,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Tracks and wheels", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" },
       { name: "Wreckin’ ball", tags: "extra attacks", a: "1", skill: "4+", s: "10", ap: "0", d: "D6" }
     ],
+    options: [
+      "This model’s tracks and wheels can be replaced with 1 deff rolla.",
+      "This model can be equipped with 1 grabbin’ klaw.",
+      "This model can be equipped with 1 wreckin’ ball.",
+      "This model can be equipped with one of the following: 1 big shoota, 2 big shootas, 1 big shoota and 1 rokkit launcha, 1 rokkit launcha, 2 rokkit launchas"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -2542,6 +2853,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with one of the following: 1 kannon, 1 supa-kannon"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
@@ -2567,6 +2881,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Reinforced ram", tags: "", a: "8", skill: "4+", s: "9", ap: "-1", d: "2" }
+    ],
+    options: [
+      "This model’s bursta kannon can be replaced with 1 giga shoota."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -2614,6 +2931,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Choppa - Standard", tags: "", a: "3", skill: "3+", s: "5", ap: "-1", d: "1" },
       { name: "Choppa - Hunter", tags: "", a: "3", skill: "3+", s: "6", ap: "-2", d: "1" },
       { name: "Power Snappa", tags: "ANTI-MONSTER/VEHICLE 4+", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" }
+    ],
+    options: [
+      "For every 10 models in this unit, 1 Beast Snagga Boy model can be equipped with 1 Thump Gun."
     ],
     abilities: [
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -2709,6 +3029,13 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Grabbin’ Klaw", tags: "Extra Attacks", a: "2", skill: "3+", s: "10", ap: "-2", d: "2" },
       { name: "Wreckin’ Ball", tags: "CLEAVE 2, Extra Attacks", a: "1", skill: "3+", s: "10", ap: "0", d: "D6" }
     ],
+    options: [
+      "This model can be equipped with 1 Wreckin’ Ball.",
+      "This model can be equipped with 1 Grabbin’ Klaw.",
+      "This model can be equipped with 1 Lobba.",
+      "This model can be equipped with up to 4 Big Shoota.",
+      "This model’s Kannon can be replaced with one of the following: 1 Killkannon, 1 Zzap Gun"
+    ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -2779,6 +3106,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Astartes chainsword", tags: "", a: "5", skill: "3+", s: "4", ap: "-1", d: "1" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -2806,6 +3136,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 multi-melta.",
+      "This model can be equipped with 1 storm bolter."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -2831,6 +3166,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Force weapon", tags: "psychic", a: "4", skill: "3+", s: "6", ap: "-1", d: "D3" }
+    ],
+    options: [
+      "This model can be equipped with one of the following: 1 combi-weapon, 1 storm bolter"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -2859,6 +3197,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with one of the following: 2 heavy bolters, 2 lascannons",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -2912,6 +3255,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "4", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s javelin missile launcher can be replaced with 2 lascannons",
+      "This model’s heavy bolter can be replaced with 1 multi-melta.",
+      "This model can be equipped with up to 2 hunter-killer missiles."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -2945,6 +3293,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Crozius arcanum", tags: "", a: "5", skill: "2+", s: "6", ap: "-1", d: "2" },
       { name: "Power fist", tags: "", a: "4", skill: "2+", s: "8", ap: "-2", d: "2" }
+    ],
+    options: [
+      "This model’s bolt pistol can be replaced with one of the following: 1 boltgun, 1 combi-weapon, 1 grav-pistol, 1 hand flamer, 1 inferno pistol, 1 plasma pistol, 1 storm bolter, 1 power fist, 1 absolvor bolt pistol."
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -2989,6 +3340,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "2", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Power weapon", tags: "", a: "3", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "2", skill: "4+", s: "8", ap: "-2", d: "2" }
+    ],
+    options: [
+      "The Biker Sergeant’s bolt pistol can be replaced with one of the following: 1 Astartes chainsword, 1 boltgun, 1 combi-weapon, 1 hand flamer, 1 grav-pistol, 1 inferno pistol, 1 plasma pistol, 1 storm bolter, 1 power fist, 1 power weapon, 1 thunder hammer",
+      "Any number of Space Marine Bikers can each have their bolt pistol replaced with 1 Astartes chainsword.",
+      "Up to 2 Space Marine Bikers can each have their bolt pistol replaced with one of the following: 1 flamer, 1 grav-gun, 1 meltagun, 1 plasma gun, 1 plasma pistol",
+      "An Attack Bike’s heavy bolter can be replaced with 1 multi-melta."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -3045,6 +3402,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Fenrisian greataxe – strike", tags: "", a: "6", skill: "3+", s: "10", ap: "-2", d: "D6+1" },
       { name: "Fenrisian greataxe – sweep", tags: "", a: "12", skill: "3+", s: "6", ap: "-2", d: "1" }
     ],
+    options: [
+      "This model’s assault cannon can be replaced with one of the following: 1 helfrost cannon, 1 multi-melta",
+      "This model’s storm bolter can be replaced with 1 heavy flamer.",
+      "This model’s assault cannon, storm bolter and Dreadnought combat weapon can be replaced with one of the following: 1 Fenrisian greataxe, 1 blizzard shield and 1 storm bolter, 1 Fenrisian greataxe, 1 blizzard shield and 1 heavy flamer"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -3096,6 +3458,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with one of the following: 2 heavy bolters, 2 lascannons",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -3121,6 +3488,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s twin heavy bolter can be replaced with 1 twin lascannon.",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -3153,6 +3525,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Leviathan siege claw", tags: "", a: "5", skill: "3+", s: "12", ap: "-2", d: "3" },
       { name: "Leviathan siege drill", tags: "anti-vehicle 3+", a: "4", skill: "3+", s: "12", ap: "-2", d: "3" }
     ],
+    options: [
+      "Each of this model’s grav-flux bombards can be replaced with one of the following: 1 cyclonic melta lance, 1 storm cannon, 1 meltagun and 1 Leviathan siege claw, 1 meltagun and 1 Leviathan siege drill",
+      "This model’s 2 heavy flamers can be replaced with 2 twin volkite calivers.",
+      "This model can be equipped with 3 hunter-killer missiles."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -3180,6 +3557,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "1", skill: "5+", s: "3", ap: "0", d: "1" },
       { name: "Servitor servo-arm", tags: "", a: "1", skill: "5+", s: "6", ap: "-2", d: "3" }
     ],
+    options: [
+      "Up to 2 models can each have their Servitor servo-arm replaced with one of the following: 1 heavy bolter and 1 close combat weapon, 1 multi-melta and 1 close combat weapon, 1 plasma cannon and 1 close combat weapon"
+    ],
     abilities: [
       { name: "Mindlock", text: "While a Techmarine is leading this unit, Astartes Servitor models' weapons get +1 Ballistic Skill and Weapon Skill." },
       { name: "SERVITOR RETINUE", text: "At the start of Battle Formations, this unit can join another unit led by a Techmarine, effectively becoming part of that Bodyguard unit for the rest of the battle." }
@@ -3202,6 +3582,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Relic fist", tags: "", a: "5", skill: "2+", s: "8", ap: "-2", d: "2" },
       { name: "Relic weapon", tags: "", a: "6", skill: "2+", s: "5", ap: "-2", d: "2" }
+    ],
+    options: [
+      "This model’s storm bolter can be replaced with 1 combi-weapon",
+      "This model’s relic weapon can be replaced with 1 relic fist"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -3231,6 +3615,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s Thunderhawk heavy cannon can be replaced with 1 turbo-laser destructor.",
+      "This model’s Thunderhawk cluster bombs can be replaced with 1 hellstrike missile battery."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
@@ -3256,6 +3644,10 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -3287,6 +3679,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Master-crafted power weapon", tags: "", a: "3", skill: "3+", s: "5", ap: "-2", d: "2" },
       { name: "Vanguard Veteran weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-1", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their bolt pistol replaced one of the following: 1 storm shield, 1 grav-pistol, 1 hand flamer, 1 inferno pistol, 1 plasma pistol",
+      "All models can each have their Bolt Pistol and Vanguard Veteran Weapon replaced with: 1 Heavy Bolt Pistol and 1 Master-crafted Power Weapon",
+      "For every 5 models in this unit, 1 model can replace their Heavy Bolt Pistol with 1 Plasma Pistol."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -3310,6 +3707,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "4", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
@@ -3362,6 +3762,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Furioso fist", tags: "", a: "5", skill: "3+", s: "12", ap: "-3", d: "3" },
       { name: "Furioso force halberd", tags: "extra attacks, psychic", a: "1", skill: "2+", s: "9", ap: "-3", d: "D6+3" }
+    ],
+    options: [
+      "This model’s storm bolter can be replaced with one of the following: 1 heavy flamer, 1 meltagun"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -3486,6 +3889,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Heaven’s Teeth", tags: "sustained hits 1", a: "6", skill: "2+", s: "5", ap: "-1", d: "1" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -3539,6 +3945,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Blood talons - strike", tags: "twin-linked", a: "6", skill: "3+", s: "12", ap: "-2", d: "3" },
       { name: "Blood talons - sweep", tags: "twin-linked", a: "10", skill: "3+", s: "7", ap: "-2", d: "1" }
     ],
+    options: [
+      "This model’s twin heavy bolter can be replaced with 1 twin multi-melta.",
+      "This model's blood fists and blood fist bolt rifles can be replaced with 1 blood talons."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
@@ -3568,6 +3978,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Furioso fist", tags: "", a: "5", skill: "3+", s: "12", ap: "-3", d: "3" },
       { name: "Twin Furioso fists", tags: "twin-linked", a: "5", skill: "3+", s: "12", ap: "-3", d: "3" }
     ],
+    options: [
+      "This model’s heavy frag cannon and Furioso fist can be replaced with one of the following: 1 Blood Talons and 1 meltagun, 1 twin Furioso fist and 1 meltagun",
+      "This model’s storm bolter can be replaced with 1 heavy flamer.",
+      "This model’s meltagun can be replaced with 1 heavy flamer.",
+      "This model can be equipped with 1 magna-grapple."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -3595,6 +4011,12 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model's twin assault cannon can be replaced with 1 Baal flamestorm cannon.",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter.",
+      "This model can be equipped with one of the following: 2 heavy bolters, 2 heavy flamers"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -3671,6 +4093,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Black Knight combat weapon", tags: "devastating wounds", a: "3", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "For every 3 models in this unit, 1 model can replace its plasma talon with 1 Astartes grenade launcher."
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Knights of Caliban", text: "If this unit charged this turn, its melee weapons gain Anti-Monster 4+ and Anti-Vehicle 4+ until the end of the phase." },
@@ -3716,6 +4141,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Wyrmclaw", tags: "lethal hits", a: "6", skill: "2+", s: "7", ap: "-2", d: "2" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -3740,6 +4168,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Crushing teeth and claws", tags: "extra attacks", a: "3", skill: "3+", s: "5", ap: "-1", d: "1" },
       { name: "Glacius", tags: "", a: "6", skill: "2+", s: "6", ap: "-2", d: "2" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -3763,6 +4194,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Crushing teeth and claws", tags: "extra attacks", a: "3", skill: "4+", s: "5", ap: "-1", d: "1" },
       { name: "Wolf claws", tags: "twin-linked", a: "8", skill: "2+", s: "5", ap: "-2", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -3841,6 +4275,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Trueclaw", tags: "lethal hits", a: "6", skill: "2+", s: "12", ap: "-2", d: "3" }
     ],
+    options: [
+      "This model’s assault cannon can be replaced with one of the following: Helfrost cannon, Multi-melta"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
@@ -3864,6 +4301,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Wulfen weapons", tags: "sustained hits 1", a: "3", skill: "3+", s: "5", ap: "-2", d: "2" }
+    ],
+    options: [
+      "Any number of models can each have their death totem replaced with 1 stormfrag auto-launcher."
     ],
     abilities: [
       { name: "Curse of the Wulfen", text: "While within range of certain Space Wolves Characters and not Battle-shocked, this unit's Objective Control increases (+1 for Infantry, +3 for Vehicles)." },
@@ -3916,6 +4356,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Relic greataxe", tags: "devastating wounds", a: "3", skill: "3+", s: "7", ap: "-2", d: "3" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "6", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their storm bolter replaced with 1 storm shield.",
+      "For every 5 models in this unit, 1 Wolf Guard Terminator can replace its storm bolter and master-crafted power weapon with 1 assault cannon and 1 powerfist.",
+      "The Wolf Guard Terminator Pack Leader’s storm bolter and master-crafted power weapon can be replaced with 1 of the following: 1 relic greataxe, 1 twin lightning claws"
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -3942,6 +4387,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Teeth and claws", tags: "extra attacks", a: "3", skill: "4+", s: "5", ap: "-1", d: "1" },
       { name: "Wolf Guard weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "2" }
+    ],
+    options: [
+      "Any number of models can each have their bolt pistol replaced with one of the following: 1 boltgun, 1 storm shield",
+      "For every 3 models in this unit, one model’s bolt pistol can be replaced with 1 plasma pistol."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -3997,6 +4446,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "2", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Power weapon", tags: "", a: "3", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "The Skyclaw Pack Leader’s Astartes chainsword can be replaced with one of the following: 1 power fist, 1 power weapon",
+      "The Skyclaw Pack Leader’s bolt pistol can be replaced with 1 plasma pistol.",
+      "Up to 2 Skyclaws can each have their bolt pistol and Astartes chainsword replaced with one of the following: 1 plasma pistol and 1 Astartes chainsword, 1 flamer and 1 close combat weapon, 1 grav-gun and 1 close combat weapon, 1 meltagun and 1 close combat weapon, 1 plasma gun and 1 close combat weapon"
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4020,6 +4474,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Paired combat blades", tags: "sustained hits 1", a: "3", skill: "3+", s: "4", ap: "-1", d: "1" }
+    ],
+    options: [
+      "One Incursor can be equipped with 1 haywire mine."
     ],
     abilities: [
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -4048,6 +4505,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with one of the following: 2 heavy bolters, 2 lascannons",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4071,6 +4533,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Combat knife", tags: "", a: "4", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
@@ -4103,6 +4568,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with one of the following: 2 heavy bolters, 2 lascannons",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4129,6 +4599,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" },
       { name: "Gunner’s servo-arms", tags: "extra attacks", a: "2", skill: "3+", s: "8", ap: "-2", d: "3" },
       { name: "Plasma cutter", tags: "extra attacks", a: "2", skill: "3+", s: "8", ap: "-2", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4180,6 +4653,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Relic chainsword", tags: "extra attacks", a: "3", skill: "2+", s: "4", ap: "-1", d: "2" },
       { name: "Relic fist", tags: "extra attacks", a: "1", skill: "2+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "This model’s master-crafted heavy bolt rifle and master-crafted power weapon can be replaced with: 1 boltstorm gauntlet, 1 power fist and 1 relic chainsword, 1 boltstorm gauntlet, 1 power fist and 1 relic blade, 1 boltstorm gauntlet, 1 power fist and 1 relic fist"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4217,6 +4693,13 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s Kratos battle cannon can be replaced with one of the following: 1 melta blast-gun, 1 volkite cardanelle",
+      "2 of this model’s heavy bolters can be replaced with one of the following: 2 autocannons, 2 lascannons, 2 volkite calivers",
+      "2 of this model’s heavy bolters can be replaced with one of the following: 2 heavy flamers, 2 lascannons, 2 volkite culverins",
+      "This model can be equipped with one of the following: 1 combi-weapon, 1 havoc launcher, 1 heavy bolter, 1 heavy flamer, 1 multi-melta, 1 twin boltgun",
+      "This model can be equipped with 1 hunter killer missile"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4242,6 +4725,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -4276,6 +4762,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "This model’s bolt pistol can be replaced with one of the following: 1 boltgun, 1 combi-weapon, 1 grav-pistol, 1 plasma pistol, 1 storm bolter, 1 power fist, 1 power weapon, 1 thunder hammer"
+    ],
     abilities: [
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4304,6 +4793,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 multi-melta.",
+      "This model can be equipped with 1 storm bolter."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4331,6 +4825,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with one of the following: 2 heavy bolters, 2 lascannons",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4355,6 +4854,10 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -4388,6 +4891,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Force weapon", tags: "psychic", a: "4", skill: "3+", s: "6", ap: "-1", d: "D3" }
+    ],
+    options: [
+      "This model’s bolt pistol can be replaced with one of the following: 1 boltgun, 1 combi-weapon, 1 grav-pistol, 1 hand flamer, 1 inferno pistol, 1 plasma pistol, 1 storm bolter"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -4440,6 +4946,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with 1 multi-melta.",
+      "This model can be equipped with 1 storm bolter.",
+      "This model can be equipped with 1 hunter-killer missile."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4472,6 +4983,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Force weapon", tags: "psychic", a: "4", skill: "3+", s: "6", ap: "-1", d: "D3" }
     ],
+    options: [
+      "This model’s bolt pistol can be replaced with one of the following: 1 boltgun, 1 combi-weapon, 1 grav-pistol, 1 plasma pistol, 1 storm bolter"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4499,6 +5013,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s 2 twin volkite culverins can be replaced with 2 twin multi-melta",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -4552,6 +5071,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "The Hellblaster Sergeant’s bolt pistol can be replaced with 1 plasma pistol."
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "For the Chapter!", text: "When a model in this unit is destroyed, on a 3+ it can shoot back before being removed, even if the destruction was from a failed Hazardous test." },
@@ -4601,6 +5123,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 multi-melta.",
+      "This model can be equipped with 1 storm bolter."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4623,6 +5150,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Master-crafted power weapon", tags: "precision", a: "5", skill: "2+", s: "5", ap: "-2", d: "2" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
@@ -4648,6 +5178,10 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -4770,6 +5304,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Artificer crozius", tags: "", a: "5", skill: "2+", s: "6", ap: "-1", d: "2" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -4822,6 +5359,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Siege drills", tags: "twin-linked", a: "3", skill: "3+", s: "10", ap: "-2", d: "3" }
     ],
+    options: [
+      "Any number of models can each have their twin flamer replaced with 1 twin meltagun.",
+      "Any number of models can each have their Centurion bolters replaced with 1 Centurion assault launcher."
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Annihilator Protocols", text: "This unit's melee weapons gain Sustained Hits 2 against Monster/Vehicle/Fortification targets." },
@@ -4870,6 +5411,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with 1 storm bolter.",
+      "This model can be equipped with 1 hunter-killer missile."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4897,6 +5442,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with one of the following: 2 heavy bolters, 2 lascannons",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4923,6 +5473,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with one of the following: 2 heavy bolters, 2 lascannons",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -4964,6 +5519,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Dreadnought chainfist", tags: "anti-vehicle 3+", a: "4", skill: "3+", s: "12", ap: "-2", d: "3" },
       { name: "Dreadnought combat weapon", tags: "", a: "5", skill: "3+", s: "12", ap: "-2", d: "3" }
     ],
+    options: [
+      "Each of this model’s heavy plasma cannons can be replaced with one of the following: 1 conversion beam cannon, 1 kheres-pattern assault cannon, 1 multi-melta, 1 twin autocannon, 1 twin heavy bolter, 1 twin lascannon, 1 twin volkite culverin, 1 Dreadnought chainfist and 1 combi-bolter, 1 Dreadnought combat weapon and 1 combi-bolter",
+      "Each of this model’s combi-bolters can be replaced with one of the following: 1 graviton blaster, 1 heavy flamer, 1 plasma blaster",
+      "This model can be equipped with 1 cyclone missile launcher."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -4991,6 +5551,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s twin heavy bolter can be replaced with one of the following: 1 multi-melta, 1 twin assault cannon, 1 twin lascannon",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -5021,6 +5586,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s twin heavy bolter can be replaced with 1 twin lascannon.",
+      "This model’s heavy onslaught gatling cannon can be replaced with 1 las-talon.",
+      "This model can be equipped with 1 multi-melta."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
@@ -5045,6 +5615,10 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -5071,6 +5645,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -5093,6 +5671,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Astartes chainsword", tags: "", a: "5", skill: "2+", s: "4", ap: "-1", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -5170,6 +5751,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "5", skill: "2+", s: "4", ap: "0", d: "1" },
       { name: "Power weapon", tags: "", a: "5", skill: "2+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "This model’s bolt rifle and close combat weapon can be replaced with 1 power weapon."
+    ],
     abilities: [
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -5211,6 +5795,14 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "The Kill Team Sergeant can replace its Deathwatch bolt rifle with one of the following: 1 Astartes chainsword, 1 hand flamer, 1 plasma pistol, 1 power weapon",
+      "The Kill Team Sergeant can replace its close combat weapon with one of the following: : 1 Astartes chainsword, 1 power fist, 1 power weapon, 1 thunder hammer",
+      "For every 5 models in this unit, 1 model equipped with a Deathwatch bolt rifle can be equipped with 1 Astartes grenade launcher.",
+      "One model equipped with a plasma incinerator can replace its bolt pistol with 1 plasma pistol.",
+      "1 model can replace its superfrag rocket launcher with 1 vengor launcher.",
+      "Any number of models can each replace their superfrag rocket launcher with 1 superkrak rocket launcher."
+    ],
     abilities: [
       { name: "Mission Tactics", text: "At the start of your Command phase, pick one Mission Tactic to be active until your next Command phase — each can only be chosen once per battle." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -5242,6 +5834,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" },
       { name: "Twin power fists", tags: "twin-linked", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "For every 5 models in this unit, 1 model can replace its Deathwatch heavy bolt rifle with 1 Deathwatch heavy bolter.",
+      "1 model can replace its melta rifle with 1 multi-melta.",
+      "Any number of models can each have their flamestorm gauntlets replaced with 1 auto boltstorm gauntlets and 1 fragstorm grenade launcher."
+    ],
     abilities: [
       { name: "Mission Tactics", text: "At the start of your Command phase, pick one Mission Tactic to be active until your next Command phase — each can only be chosen once per battle." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -5267,6 +5864,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Astartes chainsword", tags: "sustained hits 1", a: "7", skill: "2+", s: "4", ap: "-1", d: "1" },
       { name: "Master-crafted power weapon", tags: "lethal hits", a: "6", skill: "2+", s: "5", ap: "-2", d: "2" }
     ],
+    options: [
+      "This model’s combi-weapon can be replaced with 1 heavy bolt pistol.",
+      "This model’s master-crafted power weapon can be replaced with 1 Astartes chainsword."
+    ],
     abilities: [
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
@@ -5290,6 +5891,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Sword of the High Marshals – strike", tags: "", a: "6", skill: "2+", s: "8", ap: "-3", d: "3" },
       { name: "Sword of the High Marshals – sweep", tags: "", a: "12", skill: "2+", s: "6", ap: "-3", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -5315,6 +5919,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Master-crafted power weapon", tags: "lethal hits", a: "7", skill: "2+", s: "5", ap: "-2", d: "2" }
+    ],
+    options: [
+      "This model’s plasma pistol can be replaced with one combi-weapon."
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -5344,6 +5951,13 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Master-crafted power weapon", tags: "lethal hits", a: "3", skill: "2+", s: "5", ap: "-2", d: "2" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "5", skill: "2+", s: "5", ap: "-2", d: "1" }
+    ],
+    options: [
+      "Any number of Sword Brothers can each have their Astartes chainsword replaced with 1 master-crafted power weapon.",
+      "For every 5 models in this unit, 1 Sword Brother’s Astartes chainsword can be replaced with 1 thunder hammer.",
+      "For every 5 models in this unit, 1 Sword Brother’s heavy bolt pistol can be replaced with 1 plasma pistol.",
+      "For every 5 models in this unit, up to 2 Sword Brothers can each have their heavy bolt pistol replaced with 1 pyre pistol.",
+      "For every 5 models in this unit, 1 Sword Brother’s heavy bolt pistol and Astartes chainsword can be replaced with 1 twin lightning claws."
     ],
     abilities: [
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
@@ -5375,6 +5989,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Master-crafted power weapon", tags: "lethal hits", a: "3", skill: "2+", s: "5", ap: "-2", d: "2" },
       { name: "Power fist", tags: "", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "The Sword Brother’s heavy bolt pistol can be replaced with 1 pyre pistol.",
+      "Any number of Neophytes can each have their bolt pistol and Astartes chainsword replaced with 1 Neophyte firearm and 1 close combat weapon.",
+      "Any number of Initiates can each have their bolt rifle replaced with 1 heavy bolt pistol and 1 Astartes chainsword.",
+      "For every 10 models in this unit, up to 2 Initiates can each have their bolt rifle replaced with one of the following: : 1 heavy bolt pistol and 1 power fist, 1 pyreblaster"
+    ],
     abilities: [
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
       { name: "Righteous Zeal", text: "If this unit loses models to enemy shooting, it can make a surge move of up to D6+2\"." },
@@ -5396,6 +6016,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Morkai combat knife", tags: "anti-psyker 4+, devastating wounds, precision", a: "4", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -5423,6 +6046,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "5", skill: "2+", s: "8", ap: "-2", d: "2" },
       { name: "Relic weapon", tags: "", a: "6", skill: "2+", s: "5", ap: "-2", d: "2" }
     ],
+    options: [
+      "This model's heavy bolt pistol can be replaced with 1 inferno pistol.",
+      "This model’s master-crafted chainsword can be replaced with one of the following: : 1 relic weapon, 1 power fist"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -5445,6 +6072,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Vigil spear", tags: "lance", a: "6", skill: "2+", s: "6", ap: "-2", d: "D3" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -5469,6 +6099,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Master-crafted power weapon", tags: "", a: "6", skill: "2+", s: "5", ap: "-2", d: "2" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
@@ -5503,6 +6136,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" },
       { name: "Power fist", tags: "", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" }
+    ],
+    options: [
+      "The Kill Team Sergeant with Jump Pack can replace its heavy bolt pistol with one of the following: : 1 hand flamer, 1 plasma pistol",
+      "The Kill Team Sergeant with Jump Pack can replace its Astartes chainsword with one of the following: : 1 power fist, 1 power weapon",
+      "For every 5 models in this unit, 1 model can replace its heavy bolt pistol with 1 plasma pistol.",
+      "Any number of models can each have their assault bolters replaced with 1 plasma exterminators."
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -5551,6 +6190,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Thunder hammer", tags: "anti-monster 3+,anti-vehicle 3+", a: "2", skill: "3+", s: "5", ap: "-2", d: "3" }
     ],
+    options: [
+      "Any number of models can each have their death totem replaced with 1 stormfrag auto-launcher."
+    ],
     abilities: [
       { name: "Curse of the Wulfen", text: "While within range of certain Space Wolves Characters and not Battle-shocked, this unit's Objective Control increases (+1 for Infantry, +3 for Vehicles)." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -5575,6 +6217,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Crozius arcanum", tags: "", a: "5", skill: "2+", s: "6", ap: "-1", d: "2" },
       { name: "Master-crafted power weapon", tags: "extra attacks, lethal hits", a: "3", skill: "2+", s: "5", ap: "-2", d: "2" }
+    ],
+    options: [
+      "This model’s absolvor bolt pistol can be replaced with 1 pyre pistol.",
+      "If this model is equipped with an absolvor bolt pistol, it can be equipped with 1 master-crafted power weapon (this model’s absolvor bolt pistol cannot be replaced)."
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -5746,6 +6392,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Master-crafted power weapon", tags: "precision", a: "4", skill: "2+", s: "5", ap: "-2", d: "2" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -5795,6 +6444,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Choppa", tags: "", a: "6", skill: "2+", s: "5", ap: "-1", d: "1" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -5817,6 +6469,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Da Vulcha’s Klaws and choppa", tags: "", a: "6", skill: "2+", s: "8", ap: "-2", d: "2" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -5917,6 +6572,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power klaw", tags: "sustained hits 1", a: "4", skill: "3+", s: "9", ap: "-2", d: "2" },
       { name: "’Urty syringe", tags: "anti-infantry 4+, extra attacks, precision", a: "1", skill: "3+", s: "2", ap: "0", d: "1" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -5969,6 +6627,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power Klaw", tags: "", a: "3", skill: "3+", s: "10", ap: "-2", d: "2" },
       { name: "Twin Killsaws", tags: "Twin-linked", a: "3", skill: "4+", s: "10", ap: "-2", d: "3" }
     ],
+    options: [
+      "Any number of models can each have their Power Klaw replaced with 1 Killsaw.",
+      "Any number of models can each have their Kustom Shoota replaced with 1 Kombi-weapon.",
+      "Any number of models can each have their Power Klaw and Kustom Shoota replaced with 1 Twin Killsaws."
+    ],
     abilities: [
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Arrogant Invulnerability", text: "Attacks targeting this unit take a -1 Armour Penetration penalty." },
@@ -5995,6 +6658,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Choppa", tags: "", a: "3", skill: "4+", s: "5", ap: "-1", d: "1" },
       { name: "Spinnin’ Blades", tags: "CLEAVE 1, Hazardous", a: "4", skill: "3+", s: "5", ap: "-1", d: "1" }
     ],
+    options: [
+      "For every 3 models in this unit, 1 model can have their Rokkit Launcha replaced with 1 Kustom Mega-blasta."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -6020,6 +6686,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured Impact", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s Dual Wazbom Mega-kannon can be replaced with 1 Dual Tellyport Mega-blasta.",
+      "This model can be equipped with 1 Blastajet Force Field.",
+      "This model can be equipped with 1 Dual Supa-shoota."
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
@@ -6135,6 +6806,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Huge tusks – strike", tags: "lance", a: "6", skill: "3+", s: "14", ap: "-3", d: "12" },
       { name: "Huge tusks – sweep", tags: "", a: "18", skill: "3+", s: "9", ap: "-2", d: "3" }
+    ],
+    options: [
+      "This model can be equipped with one of the following: 1 kannon, 1 supa-kannon"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -6293,6 +6967,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Drilla", tags: "", a: "3", skill: "3+", s: "12", ap: "-3", d: "3" },
       { name: "Power Klaw", tags: "", a: "5", skill: "3+", s: "10", ap: "-2", d: "2" }
     ],
+    options: [
+      "This model’s Power Klaw can be replaced with 1 Drilla.",
+      "This model’s Kustom Mega-blasta can be replaced with 1 Traktor Blasta."
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -6319,6 +6997,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Choppa", tags: "", a: "4", skill: "3+", s: "5", ap: "-1", d: "1" },
       { name: "Knucklebustas", tags: "ANTI-MONSTER/VEHICLE 4+", a: "4", skill: "3+", s: "5", ap: "-2", d: "2" },
       { name: "Tankhammer", tags: "Devastating Wounds, Hazardous", a: "3", skill: "4+", s: "12", ap: "-2", d: "3" }
+    ],
+    options: [
+      "The Nob can have their Smash Hammer replaced with 1 Rokkit Pistol.",
+      "1 Breaka Boy model can have their Smash Hammer replaced with 1 Knucklebustas.",
+      "1 Breaka Boy model can have their Smash Hammer replaced with 1 Tankhammer."
     ],
     abilities: [
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -6404,6 +7087,13 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "5", skill: "3+", s: "4", ap: "-2", d: "1" }
     ],
+    options: [
+      "The Assault Sergeant’s bolt pistol can be replaced with one of the following: 1 grav-pistol, 1 hand flamer, 1 inferno pistol, 1 plasma pistol",
+      "The Assault Sergeant’s Astartes chainsword can be replaced with one of the following: 1 power fist, 1 power weapon, 1 thunder hammer",
+      "The Assault Sergeant can do one of the following: Replace its bolt pistol and Astartes chainsword with 1 twin lightning claws., Be equipped with 1 Astartes shield.",
+      "Up to 2 Assault Marines can each have their bolt pistol and Astartes chainsword replaced with one of the following: 1 plasma pistol and 1 Astartes chainsword, 1 flamer and 1 close combat weapon, 1 meltagun and 1 close combat weapon, 1 plasma gun and 1 close combat weapon",
+      "For every 5 models in this unit, 1 model’s Astartes chainsword can be replaced with 1 eviscerator."
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Astartes Shield", text: "The bearer has a 4+ invulnerable save." },
@@ -6442,6 +7132,13 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "5", skill: "3+", s: "4", ap: "-2", d: "1" }
     ],
+    options: [
+      "The Assault Sergeant with Jump Pack’s bolt pistol can be replaced with one of the following: 1 grav-pistol, 1 hand flamer, 1 inferno pistol, 1 plasma pistol",
+      "The Assault Sergeant with Jump Pack’s Astartes chainsword can be replaced with one of the following: 1 power fist, 1 power weapon, 1 thunder hammer",
+      "The Assault Sergeant with Jump Pack can do one of the following: Replace its bolt pistol and Astartes chainsword with 1 twin lightning claws., Be equipped with 1 Astartes shield.",
+      "Up to 2 Assault Marines with Jump Packs can each have their bolt pistol and Astartes chainsword replaced with one of the following: 1 plasma pistol and 1 Astartes chainsword, 1 flamer and 1 close combat weapon, 1 meltagun and 1 close combat weapon, 1 plasma gun and 1 close combat weapon",
+      "For every 5 models in this unit, 1 model’s Astartes chainsword can be replaced with 1 eviscerator."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -6469,6 +7166,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 multi-melta.",
+      "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -6498,6 +7200,12 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter.",
+      "This model can be equipped with 1 multi-melta.",
+      "This model can be equipped with 1 combi-weapon."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -6556,6 +7264,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Relic weapon", tags: "", a: "6", skill: "2+", s: "5", ap: "-2", d: "2" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "5", skill: "3+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "This model’s heavy bolt pistol can be replaced with one of the following: : 1 plasma pistol , 1 hand flamer",
+      "This model’s Astartes chainsword can be replaced with one of the following: : 1 power fist , 1 relic weapon",
+      "This model’s heavy bolt pistol and Astartes chainsword can be replaced with 1 thunder hammer and 1 relic shield.",
+      "If this model is equipped with a heavy bolt pistol and an Astartes chainsword, it can be equipped with 1 relic shield. This model’s heavy bolt pistol and Astartes chainsword cannot be replaced."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -6582,6 +7296,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with 1 hunter-killer missile."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -6636,6 +7353,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Tarsus Scorpii", tags: "", a: "5", skill: "3+", s: "12", ap: "-3", d: "4" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -6662,6 +7382,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       
+    ],
+    options: [
+      "This model’s Hammerfall heavy bolter array can be replaced with 1 Hammerfall heavy flamer array."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -6695,6 +7418,14 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "5", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "The Relic Terminator Sergeant’s combi-bolter can be replaced with one of the following: 1 plasma blaster, 1 volkite charger",
+      "For every 5 models in this unit, 1 Relic Terminator’s combi-bolter can be replaced with one of the following: 1 heavy flamer, 1 reaper autocannon",
+      "For every 5 models in this unit, 1 model can be equipped with 1 grenade harness.",
+      "Any number of models can each have their power fist replaced with 1 power weapon.",
+      "Any number of models can each have their power fist replaced with one 1 chainfist.",
+      "Any number of models can each have their combi-bolter and power fist replaced with 1 twin lightning claws."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -6718,6 +7449,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Crozius arcanum", tags: "", a: "5", skill: "2+", s: "6", ap: "-1", d: "2" }
+    ],
+    options: [
+      "This model’s storm bolter can be replaced with 1 relic shield."
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -6744,6 +7478,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "6", skill: "3+", s: "5", ap: "-2", d: "1" }
+    ],
+    options: [
+      "Any number of models can each have their thunder hammer and storm shield replaced with 1 twin lightning claws."
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -6851,6 +7588,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Dead Man’s Hand", tags: "", a: "6", skill: "2+", s: "4", ap: "-1", d: "2" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -6875,6 +7615,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Dead Man’s Hand", tags: "", a: "6", skill: "2+", s: "4", ap: "-1", d: "2" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -6904,6 +7647,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Encarmine blade", tags: "", a: "4", skill: "2+", s: "6", ap: "-3", d: "2" },
       { name: "Encarmine spear", tags: "Lance", a: "4", skill: "2+", s: "6", ap: "-2", d: "2" }
     ],
+    options: [
+      "Any number of models can each have their encarmine blade replaced with 1 encarmine spear.",
+      "For every 3 models in this unit, 1 model’s Angelus boltgun can be replaced with 1 inferno pistol.",
+      "One model can be equipped with 1 Sanguinary banner."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -6928,6 +7676,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Blood Reaver", tags: "sustained hits 1", a: "6", skill: "2+", s: "8", ap: "-2", d: "3" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -7011,6 +7762,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "Any number of Deathwing Terminators can each have their power fist replaced with 1 chainfist.",
+      "For every 5 models in this unit, 1 Deathwing Terminator can replace its storm bolter with one of the following: 1 assault cannon, 1 heavy flamer, 1 plasma cannon, 1 storm bolter and 1 cyclone missile launcher (this model’s storm bolter cannot be replaced)",
+      "This unit can be equipped with 1 Watcher in the Dark."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -7038,6 +7794,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Mace of absolution", tags: "ANTI-MONSTER 4+, ANTI-VEHICLE 4+", a: "4", skill: "2+", s: "6", ap: "-2", d: "2" },
       { name: "Power weapon", tags: "", a: "5", skill: "2+", s: "6", ap: "-2", d: "2" },
       { name: "Relic weapon", tags: "lethal hits", a: "6", skill: "2+", s: "7", ap: "-2", d: "2" }
+    ],
+    options: [
+      "The Knight Master’s great weapon of the Unforgiven can be replaced with 1 relic weapon.",
+      "All Deathwing Knights in this unit can each have their mace of absolution replaced with 1 power weapon.",
+      "This unit can be equipped with 1 Watcher in the Dark."
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -7093,6 +7854,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "The Axe Morkai – two-handed", tags: "", a: "6", skill: "2+", s: "8", ap: "-2", d: "3" },
       { name: "Flurry of teeth and claws", tags: "extra attacks", a: "6", skill: "4+", s: "5", ap: "-1", d: "1" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -7128,6 +7892,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thunder hammer", tags: "devastating wounds", a: "5", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "7", skill: "2+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "This model’s bolt pistol can be replaced with one of the following: 1 combi-weapon, 1 master-crafted boltgun, 1 plasma pistol, 1 storm bolter, 1 power fist, 1 relic weapon, 1 thunder hammer",
+      "This model’s relic weapon can be replaced with one of the following: 1 plasma pistol, 1 power fist, 1 thunder hammer, 1 relic shield and 1 close combat weapon",
+      "This model’s bolt pistol and relic weapon can be replaced with 1 twin lightning claws."
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -7152,6 +7921,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Claw of the Jackalwolf", tags: "", a: "6", skill: "2+", s: "5", ap: "-2", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -7234,6 +8006,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Heirloom weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-1", d: "1" }
     ],
+    options: [
+      "Any number of models can have their bolt pistol replaced with one of the following: 1 boltgun, 1 combi-weapon, 1 plasma pistol, 1 storm bolter, 1 storm shield"
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Chosen Companions", text: "While a Character is leading this unit, its attacks get +1 to hit." },
@@ -7277,6 +8052,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "2", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Power weapon", tags: "", a: "2", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "Any number of Long Fangs can each have their boltgun replaced with one of the following: 1 grav-cannon, 1 heavy bolter, 1 heavy flamer, 1 lascannon, 1 missile launcher, 1 multi-melta, 1 plasma cannon",
+      "The Long Fang Pack Leader’s boltgun can be replace with one of the following: 1 flamer, 1 grav-gun, 1 meltagun, 1 plasma gun, 1 plasma pistol",
+      "The Long Fang Pack Leader’s close combat weapon can be replaced with one of the following: 1 Astartes chainsword, 1 power fist, 1 power weapon"
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Fire Discipline", text: "If this unit (with a Long Fang Pack Leader) Remains Stationary, its ranged attacks against a chosen visible enemy can re-roll a Hit roll of 1." },
@@ -7303,6 +8083,12 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s twin assault cannon can be replaced with 1 twin lascannon.",
+      "This model’s 2 Blackstar rocket launchers can be replaced with 2 stormstrike missile launchers.",
+      "This model can be equipped with 1 hurricane bolter.",
+      "This model can be equipped with one of the following: 1 auspex array, 1 infernum halo-launcher"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -7335,6 +8121,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Heirloom weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-1", d: "1" }
+    ],
+    options: [
+      "Any number of models can each have their bolt pistol replaced one of the following: 1 storm shield, 1 grav-pistol, 1 hand flamer, 1 inferno pistol, 1 plasma pistol"
     ],
     abilities: [
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -7375,6 +8164,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "3", skill: "3+", s: "5", ap: "-2", d: "2" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "2", skill: "4+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "The Veteran Biker Sergeant’s bolt pistol can be replaced with one of the following: 1 boltgun , 1 combi-weapon, 1 grav-pistol, 1 plasma pistol, 1 storm bolter",
+      "The Veteran Biker Sergeant’s Astartes chainsword can be replaced with one of the following: 1 power fist, 1 power weapon, 1 thunder hammer",
+      "Any number of Veteran Bikers’ bolt pistols can each be replaced with one of the following: 1 grav-pistol, 1 plasma pistol, 1 thunder hammer, 1 power fist, 1 power weapon, 1 storm shield",
+      "Any number of Veteran Bikers’ Astartes chainswords can each be replaced with one of the following: 1 flamer , 1 grav-gun, 1 grav-pistol, 1 meltagun, 1 plasma gun, 1 plasma pistol, 1 power fist, 1 power weapon, 1 thunder hammer, 1 storm shield"
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Storm Shield", text: "The bearer has a Wounds characteristic of 4." },
@@ -7405,6 +8200,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Master-crafted power weapon", tags: "", a: "5", skill: "2+", s: "5", ap: "-2", d: "2" },
       { name: "Power fist", tags: "", a: "4", skill: "2+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "This model’s master-crafted bolter can be replaced with one of the following: : 1 plasma pistol , 1 master-crafted power weapon , 1 power fist",
+      "This model’s bolt pistol, master-crafted bolter and close combat weapon can be replaced with 1 neo volkite pistol, 1 master-crafted power weapon and 1 storm shield.",
+      "This model’s bolt pistol can be replaced with 1 heavy bolt pistol.",
+      "This model’s close combat weapon can be replaced with one of the following: : 1 master-crafted power weapon, 1 power fist"
+    ],
     abilities: [
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -7430,6 +8231,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Power weapon", tags: "", a: "5", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -7453,6 +8257,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Chronus’ servo-arm", tags: "", a: "3", skill: "3+", s: "8", ap: "-2", d: "3" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -7491,6 +8298,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Servo arm", tags: "extra attacks", a: "1", skill: "3+", s: "8", ap: "-2", d: "3" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "This model’s bolt pistol can be replaced with one of the following: 1 boltgun, 1 combi-weapon, 1 grav-pistol, 1 plasma pistol, 1 storm bolter",
+      "This model’s Omnissian power axe can be replaced with one of the following: 1 Astartes chainsword, 1 power fist, 1 thunder hammer",
+      "This model must be equipped with one of the following: 1 servo arm, 1 conversion beamer, 1 flamer, 1 plasma cutter and 2 servo-arms"
+    ],
     abilities: [
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -7521,6 +8333,12 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "6", skill: "4+", s: "8", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with one of the following: 1 heavy bolter, 1 multi-melta, 1 twin heavy bolter, 1 twin heavy flamer",
+      "This model can be equipped with 1 hunter-killer missile.",
+      "This model can be equipped with 1 storm bolter.",
+      "This model can be equipped with 1 explorator augury web."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -7553,6 +8371,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" }
+    ],
+    options: [
+      "1 model's heavy bolt pistol can be replaced with one of the following: 1 hand flamer, 1 inferno pistol, 1 plasma pistol",
+      "For every 5 models in this unit, 1 model's Astartes chainsword can be replaced with equipped with 1 eviscerator.",
+      "1 model’s Astartes chainsword can be replaced with one of the following: 1 power fist, 1 power weapon, 1 thunder hammer"
     ],
     abilities: [
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
@@ -7605,6 +8428,13 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "3", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "2", skill: "4+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "4", skill: "3+", s: "4", ap: "-2", d: "1" }
+    ],
+    options: [
+      "Any number of models can each have their bolt pistol replaced with one of the following: 1 hand flamer, 1 grav-pistol, 1 inferno pistol, 1 plasma pistol",
+      "Any number of Company Veterans can each have their bolt pistol replaced with 1 Astartes shield.",
+      "Any number of Company Veterans can each have their bolt pistol and boltgun replaced with 1 twin lightning claws.",
+      "The Company Ancient’s bolt pistol can be replaced with one of the following: 1 boltgun, 1 combi-weapon",
+      "Any number of Company Veterans can each have their boltgun replaced with one of the following: 1 Astartes chainsword, 1 Astartes shield, 1 combi-weapon, 1 flamer, 1 heavy bolter, 1 heavy flamer, 1 grav-cannon, 1 grav-gun, 1 lascannon, 1 meltagun, 1 missile launcher, 1 multi-melta, 1 plasma cannon, 1 plasma gun, 1 storm bolter, 1 power fist, 1 power weapon, 1 thunder hammer"
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -7674,6 +8504,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "3", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "2", skill: "4+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "Up to 4 Devastator Marines can each have their boltgun replaced with one of the following: : 1 grav-cannon, 1 heavy bolter, 1 lascannon, 1 missile launcher, 1 multi-melta, 1 plasma cannon",
+      "The Devastator Sergeant’s bolt pistol and boltgun can be replaced with two different weapons from the following list:* : 1 Astartes chain sword, 1 bolt pistol, 1 boltgun, 1 combi-weapon, 1 grav-pistol, 1 plasma pistol, 1 power fist, 1 power weapon, 1 thunder hammer",
+      "* This model can only be equipped with two ranged weapons if one of them is a Pistol (and it can only have one Pistol)"
+    ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Signum", text: "Whenever this unit Remains Stationary, its ranged weapons gain Ignores Cover until your next Movement phase." },
@@ -7705,6 +8540,12 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured tracks", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s plasma destroyer can be replaced with one of the following: 1 conversion beam cannon, 1 infernus cannon, 1 magna-melta cannon",
+      "This model can be equipped with one of the following: 2 heavy bolters, 2 heavy flamers, 2 lascannons",
+      "This model can be equipped with 1 storm bolter.",
+      "This model can be equipped with 1 hunter-killer missile."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -7742,6 +8583,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "1 model’s bolt rifle can be replaced with one of the following: 1 Astartes chainsword, 1 hand flamer, 1 inferno pistol, 1 plasma pistol",
+      "For every 5 models in this unit, 1 model's bolt rifle and close combat weapon can be replaced with 1 eviscerator.",
+      "For every 5 models in this unit, 1 model equipped with a bolt rifle can be equipped with 1 Astartes grenade launcher.",
+      "1 model’s close combat weapon can be replaced with one of the following: 1 Astartes chainsword, 1 power fist, 1 power weapon, 1 thunder hammer"
+    ],
     abilities: [
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -7777,6 +8624,14 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "5", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "Any number of Deathwing Command Terminators can each have their storm bolter and power fist replaced with one of the following: 1 twin lightning claws, 1 thunder hammer and 1 storm shield",
+      "Any number of Deathwing Command Terminators can each have their power fist replaced with 1 chainfist.",
+      "1 Deathwing Command Terminator’s power fist can be replaced with 1 power weapon.",
+      "For every 5 models in this unit, 1 Deathwing Command Terminator can replace its storm bolter with one of the following: 1 assault cannon, 1 heavy flamer, 1 plasma cannon, 1 storm bolter and 1 cyclone missile launcher (this model’s storm bolter cannot be replaced)",
+      "This unit can be equipped with 1 Watcher in the Dark.*",
+      "* The rules for a Watcher in the Dark can be found on the Deathwing Knights datasheet."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -7807,6 +8662,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "4", skill: "2+", s: "8", ap: "-2", d: "2" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "4", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "6", skill: "2+", s: "5", ap: "-2", d: "1" }
+    ],
+    options: [
+      "This model’s storm bolter and master-crafted power weapon can be replaced with either 1 twin lightning claws, or two different weapons from the following list: 1 storm bolter, 1 chainfist, 1 mace of absolution, 1 power fist, 1 thunder hammer, 1 storm shield"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -7840,6 +8698,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with one of the following: 1 ironhail heavy stubber, 1 multi-melta",
+      "This model’s 2 storm bolters can be replaced with 2 fragstorm grenade launchers.",
+      "This model can be equipped with one of the following: 1 bellicatus missile array, 1 ironhail skytalon array, 1 orbital comms array, 1 shield dome"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
@@ -7870,6 +8733,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thunder hammer", tags: "devastating wounds", a: "4", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "6", skill: "2+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "This model’s power fist can be replaced with one of the following: 1 chainfist, 1 close combat weapon, 1 power weapon, 1 thunder hammer",
+      "This model’s storm bolter and power fist can be replaced with one of the following: 1 twin lightning claws, 1 thunder hammer and 1 Terminator storm shield"
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
@@ -7896,6 +8763,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Fealty – strike", tags: "lethal hits", a: "8", skill: "2+", s: "12", ap: "-4", d: "4" },
       { name: "Fealty – sweep", tags: "sustained hits 1", a: "16", skill: "2+", s: "6", ap: "-3", d: "2" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -7940,6 +8810,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thunder hammer", tags: "devastating wounds", a: "5", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "7", skill: "2+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "This model’s bolt pistol can be replaced with one of the following: 1 combi-weapon, 1 hand flamer, 1 inferno pistol, 1 master-crafted boltgun, 1 plasma pistol, 1 storm bolter, 1 relic shield*, 1 relic weapon, 1 power fist, 1 thunder hammer",
+      "This model’s Astartes chainsword can be replaced with one of the following: 1 close combat weapon and 1 relic shield*, 1 power fist, 1 relic weapon",
+      "This model’s bolt pistol and Astartes chainsword can be replaced with 1 twin lightning claws.",
+      "* Maximum one per model."
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -7969,6 +8845,14 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Dreadnought chainfist", tags: "anti-vehicle 3+", a: "4", skill: "3+", s: "12", ap: "-2", d: "3" },
       { name: "Dreadnought combat weapon", tags: "", a: "5", skill: "3+", s: "12", ap: "-2", d: "3" },
       { name: "Seismic hammer", tags: "", a: "3", skill: "3+", s: "14", ap: "-3", d: "D6+2" }
+    ],
+    options: [
+      "This model’s seismic hammer can be replaced with 1 Dreadnought chainfist.",
+      "This model’s Dreadnought combat weapon and storm bolter can be replaced with 1 hurricane bolter.",
+      "This model’s storm bolter can be replaced with 1 heavy flamer.",
+      "This model’s meltagun can be replaced with 1 heavy flamer.",
+      "This model can be equipped with up to 2 hunter-killer missiles.",
+      "This model can be equipped with 1 Ironclad assault launchers."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -8073,6 +8957,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" },
       { name: "Combat knife", tags: "precision", a: "4", skill: "3+", s: "4", ap: "-1", d: "1" }
     ],
+    options: [
+      "All models in this unit can each have their combat knife replaced with 1 bolt carbine and 1 close combat weapon.",
+      "If the Reiver Sergeant is equipped with 1 bolt carbine, it can be equipped with 1 combat knife.",
+      "All models in this unit can each be equipped with 1 Reiver grav-chute.",
+      "All models in this unit can each be equipped with 1 grapnel launcher."
+    ],
     abilities: [
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -8131,6 +9021,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "3", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "For every 5 models in this unit, 1 model’s heavy bolt pistol can be replaced with 1 plasma pistol.",
+      "For every 5 models in this unit, 1 model’s Astartes chainsword can be replaced with 1 eviscerator.",
+      "1 model’s Astartes chainsword can be replaced with one of the following: 1 power fist, 1 power weapon",
+      "For every 5 models in this unit, 1 model’s heavy bolt pistol and Astartes chainsword can be replaced with one of the following: 1 hand flamer and 1 Astartes chainsword, 1 hand flamer and 1 power fist, 1 hand flamer and 1 power weapon, 1 heavy bolt pistol and 1 power fist, 1 heavy bolt pistol and 1 power weapon, 1 inferno pistol and 1 Astartes chainsword, 1 inferno pistol and 1 power fist, 1 inferno pistol and 1 power weapon, 1 plasma pistol and 1 Astartes chainsword, 1 plasma pistol and 1 power fist, 1 plasma pistol and 1 power weapon"
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
@@ -8160,6 +9056,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Black Knight combat weapon", tags: "devastating wounds", a: "3", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Master-crafted power weapon", tags: "", a: "6", skill: "2+", s: "5", ap: "-2", d: "2" }
+    ],
+    options: [
+      "For every 3 models in this unit, 1 model’s plasma talon can be replaced with 1 Astartes grenade launcher."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -8193,6 +9092,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" },
       { name: "Combat knife", tags: "precision", a: "4", skill: "3+", s: "4", ap: "-1", d: "1" },
       { name: "Paired combat blades", tags: "sustained hits 1", a: "3", skill: "3+", s: "4", ap: "-1", d: "1" }
+    ],
+    options: [
+      "One model equipped with a Deathwatch marksman bolt carbine can be equipped with one of the following: 1 helix gauntlet, 1 Infiltrator comms array",
+      "One model can replace its bolt sniper rifle with 1 instigator bolt carbine.",
+      "Any number of models can each replace their bolt sniper rifle with 1 las fusil.",
+      "Any number of models can each replace their combat knife with 1 Deathwatch bolt carbine and 1 close combat weapon."
     ],
     abilities: [
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
@@ -8231,6 +9136,17 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Deathwatch thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "10", ap: "-2", d: "3" },
       { name: "Power weapon", tags: "", a: "3", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Xenophase blade", tags: "devastating wounds", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" }
+    ],
+    options: [
+      "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with one of the following: : 1 boltgun, 1 Astartes shield and 1 close combat weapon, 1 power weapon and 1 Astartes shield",
+      "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch thunder hammer.",
+      "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with 1 stalker-pattern boltgun and 1 close combat weapon.",
+      "For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch shotgun and 1 close combat weapon.",
+      "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with 1 frag cannon and 1 close combat weapon.",
+      "For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with 1 infernus heavy bolter and 1 close combat weapon.",
+      "1 model’s boltgun and power weapon can be replaced with 1 Black Shield blades.",
+      "The Watch Sergeant’s power weapon can be replaced with 1 xenophase blade.",
+      "The Watch Sergeant’s boltgun can be replaced with 1 combi-weapon."
     ],
     abilities: [
       { name: "Mission Tactics", text: "At the start of your Command phase, pick one Mission Tactic to be active until your next Command phase — each can only be chosen once per battle." },
@@ -8319,6 +9235,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thunder hammer", tags: "devastating wounds", a: "2", skill: "4+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "This model’s bolt pistol and Astartes chainsword can be replaced with 1 twin lightning claws.",
+      "This model’s bolt pistol and Astartes chainsword can be replaced with two different weapons from the following list:*: 1 bolt pistol, 1 combi-weapon, 1 plasma pistol, 1 storm bolter, 1 Astartes chainsword, 1 power fist, 1 power weapon, 1 thunder hammer, 1 storm shield",
+      "* This model can only be equipped with two ranged weapons if one of them is a Pistol (and it can only have one Pistol)."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
@@ -8352,6 +9273,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "5", skill: "3+", s: "5", ap: "-2", d: "1" }
+    ],
+    options: [
+      "This model’s storm bolter and power weapon can be replaced with 1 twin lightning claws.",
+      "This model’s storm bolter and power weapon can be replaced with two different options from the following list:*: 1 assault cannon, 1 heavy flamer, 1 cyclone missile launcher and 1 storm bolter, 1 storm bolter, 1 chainfist, 1 power fist, 1 thunder hammer, 1 storm shield",
+      "This model’s storm bolter can be replaced with 1 combi-weapon.",
+      "* This model can only be equipped with two ranged weapons if one of them is a cyclone missile launcher and the other is either a storm bolter or a combi-weapon."
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -8388,6 +9315,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thunder hammer", tags: "devastating wounds", a: "2", skill: "4+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "This model’s bolt pistol and boltgun can be replaced with 1 twin lightning claws.",
+      "This model’s bolt pistol and boltgun can be replaced with two different weapons from the following list:*: 1 bolt pistol, 1 boltgun, 1 combi-weapon, 1 plasma pistol, 1 storm bolter, 1 Astartes chainsword, 1 power fist, 1 power weapon, 1 thunder hammer, 1 storm shield",
+      "* This model can only be equipped with two ranged weapons if one of them is a Pistol (and it can only have one Pistol)."
+    ],
     abilities: [
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -8411,6 +9343,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Teeth and claws", tags: "", a: "4", skill: "4+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
@@ -8463,6 +9398,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "5", skill: "2+", s: "8", ap: "-2", d: "2" },
       { name: "Relic weapon", tags: "", a: "6", skill: "2+", s: "5", ap: "-2", d: "2" }
     ],
+    options: [
+      "This model’s heavy bolt pistol can be replaced with 1 inferno pistol.",
+      "This model’s master-crafted chainsword can be replaced with one of the following: : 1 relic weapon, 1 power fist"
+    ],
     abilities: [
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -8493,6 +9432,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power fist", tags: "", a: "5", skill: "2+", s: "8", ap: "-2", d: "2" },
       { name: "Relic weapon", tags: "", a: "6", skill: "2+", s: "5", ap: "-2", d: "2" }
     ],
+    options: [
+      "This model’s heavy bolt pistol can be replaced with one of the following: : 1 plasma pistol, 1 hand flamer",
+      "This model’s Astartes chainsword can be replaced with one of the following: : 1 relic weapon, 1 power fist"
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
@@ -8521,6 +9464,12 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Blood talons", tags: "twin-linked", a: "7", skill: "3+", s: "8", ap: "-2", d: "3" },
       { name: "Twin Furioso fists", tags: "twin-linked", a: "5", skill: "3+", s: "12", ap: "-3", d: "3" }
+    ],
+    options: [
+      "This model’s storm bolter can be replaced with 1 heavy flamer.",
+      "This model’s meltagun can be replaced with 1 heavy flamer.",
+      "This model’s Furioso fists can be replaced with 1 blood talons.",
+      "This model can be equipped with 1 smoke launchers."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -8557,6 +9506,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "Any number of models can each have their boltgun and close combat weapon replaced with one of the following: 1 Astartes chainsword and 1 bolt pistol, 1 thunder hammer",
+      "Any number of models can each have their bolt pistol replaced with one of the following: 1 hand flamer, 1 inferno pistol, 1 plasma pistol",
+      "Any number of models can each have their Astartes chainsword replaced with one of the following: 1 power fist, 1 power weapon"
+    ],
     abilities: [
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -8589,6 +9543,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" },
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "Any number of models can each have their boltgun and close combat weapon replaced with one of the following: 1 Astartes chainsword and 1 bolt pistol, 1 thunder hammer",
+      "Any number of models can each have their bolt pistol replaced with one of the following: 1 hand flamer, 1 inferno pistol, 1 plasma pistol",
+      "Any number of models can each have their Astartes chainsword replaced with one of the following: 1 power fist, 1 power weapon"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -8624,6 +9583,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "3", skill: "4+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "5", skill: "3+", s: "5", ap: "-2", d: "1" }
+    ],
+    options: [
+      "Up to 3 Deathwatch Terminators can each have their storm bolter replaced with one of the following: 1 assault cannon, 1 heavy flamer, 1 plasma cannon, 1 cyclone missile launcher and 1 storm bolter (this model’s storm bolter cannot be replaced)",
+      "Any number of models can each have their power fist and storm bolter replaced with one of the following: 1 storm bolter and 1 power weapon, 1 storm bolter and 1 chainfist, 1 thunder hammer and 1 storm shield, 1 twin lightning claws"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -8662,6 +9625,19 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "3", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Force weapon", tags: "psychic", a: "5", skill: "2+", s: "5", ap: "-3", d: "D3" }
     ],
+    options: [
+      "Chaplain Cassius is equipped with: artificer crozius; bolt pistol.",
+      "Vael Donatus is equipped with: boltgun; bolt pistol; close combat weapon.",
+      "Zameon Gydrael is equipped with: Long Vigil ranged weapon; Long Vigil melee weapon.",
+      "Rodricus Grytt is equipped with: frag cannon; bolt pistol; close combat weapon.",
+      "Antor Delassio is equipped with: Long Vigil ranged weapon; Long Vigil melee weapon, jump pack.",
+      "Edryc Setorax is equipped with: twin lightning claws, jump pack.",
+      "Jensus Natorian is equipped with: psychic Cleanse; bolt pistol; force weapon; psychic hood.",
+      "Drenn Redblade is equipped with: Long Vigil melee weapon; boltgun.",
+      "Garran Branatar is equipped with: heavy flamer; Long Vigil ranged weapon; power fist.",
+      "Ennox Sorrlock is equipped with: Long Vigil ranged weapon; close combat weapon.",
+      "Jetek Suberei is equipped with: Deathwatch twin boltgun; Long Vigil melee weapon."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Assigned Agents", text: "Lets an Imperium army include Agents of the Imperium units even without selecting that Army Faction, within a limited points allowance." },
@@ -8693,6 +9669,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Master-crafted power weapon", tags: "", a: "7", skill: "2+", s: "5", ap: "-2", d: "2" },
       { name: "Thunder hammer", tags: "devastating wounds", a: "5", skill: "3+", s: "8", ap: "-2", d: "2" }
     ],
+    options: [
+      "This model's master-crafted power weapon can be replaced with 1 thunder hammer.",
+      "This model’s storm shield can be replaced with one of the following: 1 master-crafted bolt carbine, 1 master-crafted heavy bolt pistol, 1 plasma pistol"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -8718,6 +9698,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Master-crafted power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "2" },
       { name: "Paired master-crafted power weapons", tags: "", a: "6", skill: "3+", s: "5", ap: "-2", d: "2" },
       { name: "Teeth and claws", tags: "", a: "3", skill: "4+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "All of the models in this unit can each have their master-crafted power weapon and storm shield replaced with 1 paired master-crafted power weapons."
     ],
     abilities: [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -8745,6 +9728,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Fenrisian greataxe – strike", tags: "", a: "6", skill: "3+", s: "10", ap: "-2", d: "D6+1" },
       { name: "Fenrisian greataxe – sweep", tags: "", a: "12", skill: "3+", s: "6", ap: "-2", d: "1" },
       { name: "Great wolf claw", tags: "", a: "6", skill: "3+", s: "10", ap: "-3", d: "3" }
+    ],
+    options: [
+      "This model’s Fenrisian greataxe or great wolf claw and storm bolter can be replaced with 1 blizzard shield and 1 heavy flamer.",
+      "If this model is not equipped with a storm bolter, its heavy flamer can be replaced with 1 storm bolter."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -8815,6 +9802,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "sustained hits 1", a: "4", skill: "3+", s: "5", ap: "-2", d: "2" },
       { name: "Xenophase blade", tags: "devastating wounds", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "For every 5 models in the unit, up to 1 model’s infernus heavy bolter can be replaced with one of the following: 1 frag cannon., 1 hellstorm bolt rifle and 1 Astartes grenade launcher.",
+      "For every 5 models in the unit, up to 1 model’s heavy thunder hammer can be replaced with 1 power weapon and 1 Astartes shield.",
+      "For every 5 models in the unit, up to 1 model’s stalker bolt rifle can be replaced with 1 plasma incinerator.",
+      "For every 5 models in the unit, up to 1 model’s Deathwatch marksman bolt carbine can be replaced with 1 combat knife."
+    ],
     abilities: [
       { name: "Mission Tactics", text: "At the start of your Command phase, pick one Mission Tactic to be active until your next Command phase — each can only be chosen once per battle." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -8847,6 +9840,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Power weapon", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "1" },
       { name: "Runic stave", tags: "psychic", a: "3", skill: "3+", s: "6", ap: "-1", d: "D3" },
       { name: "Teeth and claws", tags: "", a: "2", skill: "4+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "1 Wolf Scout’s plasma pistol can be replaced with 1 plasma gun.",
+      "1 Wolf Scout equipped with a plasma pistol can be equipped with 1 haywire mine (That model’s plasma pistol cannot be replaced).",
+      "1 Wolf Scout’s plasma pistol and combat blade can be replaced with 1 bolt pistol, 1 Thunderclap and 1 runic stave.",
+      "If this unit contains 12 models, 1 Wolf Scout’s plasma pistol can be replaced with 1 instigator bolt carbine."
     ],
     abilities: [
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
@@ -8961,6 +9960,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thunder hammer", tags: "devastating wounds", a: "4", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "6", skill: "2+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "This model’s power weapon can be replaced with one of the following: 1 chainfist, 1 power fist, 1 relic shield and 1 close combat weapon, 1 thunder hammer",
+      "This model’s storm bolter and power weapon can be replaced with 1 twin lightning claws.",
+      "This model’s storm bolter can be replaced with one of the following: 1 chainfist, 1 power fist, 1 power weapon, 1 thunder hammer, 1 combi-weapon"
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -8996,6 +10000,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thunder hammer", tags: "devastating wounds", a: "4", skill: "3+", s: "8", ap: "-2", d: "2" },
       { name: "Twin lightning claws", tags: "twin-linked", a: "6", skill: "2+", s: "5", ap: "-2", d: "1" }
     ],
+    options: [
+      "This model’s bolt pistol and relic weapon can be replaced with 1 twin lightning claws.",
+      "This model’s bolt pistol can be replaced with one of the following: 1 combi-weapon, 1 master-crafted boltgun, 1 plasma pistol, 1 storm bolter, 1 power fist, 1 relic weapon, 1 thunder hammer",
+      "This model’s relic weapon can be replaced with one of the following: 1 plasma pistol, 1 power fist, 1 thunder hammer, 1 storm shield and 1 close combat weapon"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -9024,6 +10033,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Kustom Choppa", tags: "CLEAVE 2", a: "6", skill: "2+", s: "7", ap: "-2", d: "2" },
       { name: "Power Klaw", tags: "", a: "6", skill: "2+", s: "12", ap: "-2", d: "2" }
+    ],
+    options: [
+      "This model’s Kustom Choppa can be replaced with 1 Power Klaw.",
+      "This model’s Kustom Shoota can be replaced with one of the following: 1 Kombi-rokkit, 1 Kombi-skorcha"
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -9082,6 +10095,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Killsaw", tags: "", a: "3", skill: "4+", s: "10", ap: "-2", d: "3" },
       { name: "Power Klaw", tags: "", a: "3", skill: "3+", s: "10", ap: "-2", d: "2" }
+    ],
+    options: [
+      "This model can be equipped with one of the following: 1 Tellyport Blasta, 1 Kustom Force Field",
+      "This model’s Kustom Shoota can be replaced with one of the following: 1 Killsaw, 1 Kombi-weapon, 1 Kustom Mega-blasta"
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -9147,6 +10164,14 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Kustom Choppa", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "2" },
       { name: "Power Klaw", tags: "", a: "3", skill: "3+", s: "10", ap: "-2", d: "2" }
     ],
+    options: [
+      "Any number of Nob models can each have their Kustom Choppa and Kombi-skorcha replaced with 1 Big Choppa.",
+      "Any number of Nob models can each have their Kustom Choppa replaced with 1 Power Klaw.",
+      "Any number of Nob models can each have their Kombi-skorcha replaced with one of the following: 1 Kombi-rokkit, 1 Kustom Shoota",
+      "For every 10 models in this unit, 1 Boy model can have their Shoota replaced with 1 Big Shoota.",
+      "For every 10 models in this unit, 1 Boy model can have their Shoota replaced with 1 Rokkit Launcha.",
+      "For every 10 models in this unit, 1 Boy model can have their Shoota replaced with 1 Burna."
+    ],
     abilities: [
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Ammo Runts (Once per battle, per unit)", text: "Once per battle, when this unit shoots, its ranged attacks get +1 to hit." },
@@ -9174,6 +10199,10 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Gitstikka", tags: "", a: "3", skill: "3+", s: "5", ap: "0", d: "1" },
       { name: "Smash Hammer - Standard", tags: "", a: "3", skill: "3+", s: "7", ap: "-2", d: "2" },
       { name: "Smash Hammer - Hunter", tags: "", a: "3", skill: "3+", s: "12", ap: "-2", d: "3" }
+    ],
+    options: [
+      "The Nob can have their Rokkit Pistol replaced with 1 Smash Hammer.",
+      "1 Tankbusta model can be equipped with one of the following: 1 Busta Rokkit Launcha, 1 Pulsa Rokkit"
     ],
     abilities: [
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -9203,6 +10232,13 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Big Choppa", tags: "CLEAVE 2", a: "4", skill: "3+", s: "7", ap: "-1", d: "2" },
       { name: "Kustom Choppa", tags: "", a: "4", skill: "3+", s: "5", ap: "-2", d: "2" },
       { name: "Kustom Krumpa", tags: "", a: "3", skill: "3+", s: "10", ap: "-2", d: "2" }
+    ],
+    options: [
+      "For every 5 models in this unit, 1 model can have their Kustom Krumpa and Kustom Shoota replaced with 1 Big Skorcha and 1 Kustom Choppa.",
+      "For every 5 models in this unit, 1 model can have their Kustom Krumpa and Kustom Shoota replaced with 1 Kustom Big Shoota and 1 Kustom Choppa.",
+      "For every 5 models in this unit, 1 model can have their Kustom Krumpa and Kustom Shoota replaced with 1 Big Choppa.",
+      "For every 5 models in this unit, 1 model can have their Kustom Shoota replaced with 1 Paired Krumpas.",
+      "Any number of models can each have their Kustom Shoota replaced with 1 Kombi-rokkit."
     ],
     abilities: [
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -9234,6 +10270,13 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Choppa", tags: "", a: "3", skill: "3+", s: "5", ap: "-1", d: "1" },
       { name: "Power Klaw", tags: "", a: "3", skill: "3+", s: "10", ap: "-2", d: "2" }
     ],
+    options: [
+      "The Nob can have their Choppa replaced with one of the following: 1 Big Choppa, 1 Power Klaw",
+      "1 Kommando model can be equipped with 1 Burna.",
+      "1 Kommando model can be equipped with 1 Rokkit Launcha.",
+      "1 Kommando model can have their Choppa replaced with 1 Breacha Ram.",
+      "Up to 2 Kommando models can each be equipped with 1 Kustom Shoota."
+    ],
     abilities: [
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
       { name: "Stealth", text: "If every model in this unit has Stealth, the unit gets the Benefit of Cover against ranged attacks even without terrain." },
@@ -9262,6 +10305,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Beastchoppa - Standard", tags: "CLEAVE 1", a: "6", skill: "2+", s: "6", ap: "-2", d: "2" },
       { name: "Beastchoppa - Hunter", tags: "", a: "6", skill: "2+", s: "12", ap: "-2", d: "D6" },
       { name: "Squigosaur’s Jaws", tags: "ANTI-MONSTER/VEHICLE 3+, Extra Attacks", a: "3", skill: "3+", s: "7", ap: "-2", d: "3" }
+    ],
+    options: [
+      "This model can be equipped with 1 Thump Gun."
     ],
     abilities: [
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
@@ -9371,6 +10417,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       
     ],
+    options: [
+      "This model can be equipped with up to 3 Big Shootas."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
@@ -9463,6 +10512,12 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "3", skill: "4+", s: "5", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s high-output burst cannon can be replaced with one of the following: 1 airbursting fragmentation projector*, 1 battlesuit support system*, 1 burst cannon, 1 cyclic ion blaster*, 1 fusion blaster, 1 missile pod, 1 plasma rifle, 1 shield generator*, 1 T’au flamer, 1 weapon support system*",
+      "This model can be equipped with up to two of the following, and can take duplicates: 1 gun drone, 1 marker drone, 1 shield drone",
+      "This model can be equipped with up to three of the following, and can take duplicates: 1 airbursting fragmentation projector*, 1 battlesuit support system*, 1 burst cannon, 1 cyclic ion blaster*, 1 fusion blaster, 1 missile pod, 1 plasma rifle, 1 shield generator*, 1 T’au flamer, 1 weapon support system*",
+      "* This model cannot have duplicates of these pieces of wargear."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -9489,6 +10544,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Honour stave", tags: "", a: "2", skill: "4+", s: "5", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with 1 hover drone.",
+      "This model can be equipped with up to two of the following, and can take duplicates: 1 gun drone, 1 marker drone, 1 shield drone"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -9512,6 +10571,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "3", skill: "4+", s: "3", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with up to two of the following, and can take duplicates: 1 gun drone, 1 marker drone, 1 shield drone"
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -9593,6 +10655,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Fidelity", tags: "sustained hits 1", a: "6", skill: "3+", s: "5", ap: "-1", d: "2" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Inspirational Defiance", text: "While this model is leading a unit, that unit gets +1 Objective Control." },
@@ -9615,6 +10680,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "1", skill: "6+", s: "2", ap: "0", d: "1" },
       { name: "Supreme honour blade", tags: "", a: "3", skill: "3+", s: "5", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Lone Operative", text: "Unless part of an Attached unit, this model can only be targeted by ranged attacks from within the stated distance (12\" by default)." },
@@ -9667,6 +10735,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "1", skill: "5+", s: "3", ap: "0", d: "1" }
     ],
+    options: [
+      "The Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates: 1 guardian drone (it cannot take duplicates of this piece of wargear), 1 gun drone, 1 marker drone, 1 shield drone",
+      "Any number of Fire Warrior models can each have their pulse rifle replaced with 1 pulse carbine."
+    ],
     abilities: [
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Suppression Volley", text: "After this unit shoots, an Infantry unit it hit is suppressed until your next turn, taking -1 to hit on its attacks while this unit remains on the battlefield." },
@@ -9690,6 +10762,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "1", skill: "5+", s: "3", ap: "0", d: "1" }
+    ],
+    options: [
+      "The Breacher Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates: 1 guardian drone (it cannot take duplicates of this piece of wargear), 1 gun drone, 1 marker drone, 1 shield drone"
     ],
     abilities: [
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -9716,6 +10791,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "2", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "The Long-quill’s Kroot rifle can be replaced with 1 Kroot carbine.",
+      "For every 10 models in this unit, one Kroot Carnivore’s Kroot rifle can be replaced with 1 Tanglebomb launcher."
+    ],
     abilities: [
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
       { name: "Stealth", text: "If every model in this unit has Stealth, the unit gets the Benefit of Cover against ranged attacks even without terrain." },
@@ -9740,6 +10819,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "2", skill: "3+", s: "4", ap: "0", d: "1" },
       { name: "Krootox fists", tags: "EXTRA ATTACKS", a: "4", skill: "3+", s: "6", ap: "-1", d: "2" }
+    ],
+    options: [
+      "Any number of models can each have their repeater cannon replaced with 1 tanglecannon."
     ],
     abilities: [
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -9787,6 +10869,13 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "2", skill: "5+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "The Stealth Shas’vre can be equipped with 1 gun drone.",
+      "The Stealth Shas’vre can be equipped with 1 marker drone.",
+      "The Stealth Shas’vre can be equipped with 1 pulse pistol.",
+      "1 Stealth Shas’ui can be equipped with 1 homing beacon.",
+      "2 models can each have their burst cannon replaced with 1 fusion blaster."
+    ],
     abilities: [
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
       { name: "Stealth", text: "If every model in this unit has Stealth, the unit gets the Benefit of Cover against ranged attacks even without terrain." },
@@ -9818,6 +10907,13 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "3", skill: "5+", s: "5", ap: "0", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their burst cannon replaced with one of the following: 1 airbursting fragmentation projector*, 1 battlesuit support system*, 1 cyclic ion blaster, 1 fusion blaster, 1 missile pod, 1 plasma rifle, 1 shield generator*, 1 T’au flamer, 1 weapon support system*",
+      "Any number of models can be equipped with up to two of the following, and can take duplicate: 1 gun drone, 1 marker drone, 1 shield drone",
+      "Any number of models can each be equipped with up to three of the following, and can take duplicates**: 1 airbursting fragmentation projector*, 1 battlesuit support system*, 1 burst cannon, 1 cyclic ion blaster, 1 fusion blaster, 1 missile pod, 1 plasma rifle, 1 shield generator*, 1 T’au flamer, 1 weapon support system*",
+      "* Each model cannot have duplicates of these pieces of wargear.",
+      "** Each model cannot be equipped with more than 3 ranged weapons."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -9847,6 +10943,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Ghostkeel fists", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "2" }
+    ],
+    options: [
+      "This model’s fusion collider can be replaced with 1 cyclic ion raker.",
+      "This model’s twin T’au flamer can be replaced with one of the following: 1 twin fusion blaster, 1 twin burst cannon",
+      "This model can be equipped with one battlesuit support system."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -9879,6 +10980,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Riptide fists", tags: "", a: "6", skill: "5+", s: "6", ap: "0", d: "2" }
     ],
+    options: [
+      "This model’s heavy burst cannon can be replaced with 1 ion accelerator.",
+      "This model’s twin plasma rifles can be replaced with one of the following: 1 twin fusion blaster, 1 twin smart missile system",
+      "This model can be equipped with up to 2 missile drones."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -9910,6 +11016,12 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "1", skill: "5+", s: "3", ap: "0", d: "1" }
     ],
+    options: [
+      "The Pathfinder Shas’ui can be equipped with one of the following: 1 grav-inhibitor drone, 1 pulse accelerator drone, 1 recon drone",
+      "The Pathfinder Shas’ui can be equipped with up to two of the following, and can take duplicates: 1 gun drone, 1 marker drone, 1 shield drone",
+      "Up to 3 Pathfinders can each have their pulse carbine replaced with one of the following: 1 ion rifle, 1 rail rifle",
+      "1 model in this unit equipped with a pulse carbine can be equipped with 1 semi-automatic grenade launcher. That model’s pulse carbine cannot be replaced."
+    ],
     abilities: [
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -9938,6 +11050,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "2", skill: "5+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their Piranha burst cannon can be replaced with 1 Piranha fusion blaster.",
+      "Any number of models can each be equipped with up to 2 seeker missiles."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -9964,6 +11080,10 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s 2 twin pulse carbines can be replaced with 2 smart missile systems.",
+      "This model can be equipped with up to 2 seeker missiles."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -9992,6 +11112,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s accelerator burst cannon can be replaced with 1 missile pod."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -10019,6 +11142,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s missile pod can be replaced with 1 twin missile pod."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -10045,6 +11171,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Stingwing claws", tags: "", a: "1", skill: "4+", s: "4", ap: "-1", d: "1" }
     ],
+    options: [
+      "If this unit contains 10 models: The Vespid Strain Leader can be equipped with 1 Oversight Drone., 1 Vespid Stingwing can replace its neutron blaster with 1 T’au flamer, 1 Vespid Stingwing can replace its neutron blaster with 1 neutron grenade launcher, 1 Vespid Stingwing can replace its neutron blaster with 1 neutron rail rifle."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Airborne Agility", text: "At the end of your opponent's turn, if unengaged, this unit can return to Strategic Reserves." },
@@ -10067,6 +11196,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapons", tags: "", a: "4", skill: "5+", s: "3", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
@@ -10094,6 +11226,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s 2 twin pulse carbines can be replaced with one of the following: 2 accelerator burst cannons, 2 smart missile systems"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -10123,6 +11258,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s railgun can be replaced with 1 ion cannon.",
+      "This model’s 2 twin pulse carbines can be replaced with one of the following: 2 accelerator burst cannons, 2 smart missile systems",
+      "This model can be equipped with up to 2 seeker missiles."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -10155,6 +11295,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s railgun can be replaced with 1 ion cannon.",
+      "This model’s 2 twin pulse carbines can be replaced with one of the following: 2 accelerator burst cannons, 2 smart missile systems",
+      "This model can be equipped with up to 2 seeker missiles."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -10182,6 +11327,12 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Crushing bulk", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "1" }
+    ],
+    options: [
+      "Any number of models can each have their heavy rail rifle replaced with 1 high-yield missile pods.",
+      "Any number of models can each be equipped with up to two of the following, but cannot take duplicates: 1 seeker missile, 1 twin plasma rifle*, 1 twin smart missile system*, 1 weapon support system",
+      "Any number of models can each be equipped with up to two of the following, and can take duplicates: 1 gun drone, 1 marker drone, 1 missile drone, 1 shield drone",
+      "* No model can be equipped with both a twin plasma rifle and twin smart missile system at the same time."
     ],
     abilities: [
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -10214,6 +11365,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Thunderous footfalls", tags: "", a: "3", skill: "5+", s: "8", ap: "-1", d: "2" }
     ],
+    options: [
+      "This model’s pulse driver cannon can be replaced with 1 pulse blast cannon.",
+      "This model’s twin T’au flamer can be replaced with one of the following: 1 twin airbursting fragmentation projector, 1 twin burst cannon"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -10237,6 +11392,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -10262,6 +11420,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       
     ],
+    options: [
+      "This model can be equipped with 1 Tidewall defence platform."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
@@ -10286,6 +11447,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
@@ -10309,6 +11473,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "3", skill: "4+", s: "5", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -10336,6 +11503,12 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "3", skill: "5+", s: "5", ap: "0", d: "1" }
+    ],
+    options: [
+      "Any number of models can each have their fusion cascade replaced with one of the following: 1 phased ion gun, 1 twin hazard burst cannon",
+      "Any number of models can each have their twin hazard burst cannon replaced with one of the following: 1 fusion cascade, 1 phased ion gun",
+      "Any number of models can each be equipped with one of the following: 1 battlesuit support system, 1 shield generator, 1 weapon support system",
+      "Any number of models can each be equipped with up to two of the following, and can take duplicates: 1 gun drone, 1 marker drone, 1 shield drone"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -10365,6 +11538,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "6", skill: "5+", s: "6", ap: "0", d: "2" }
     ],
+    options: [
+      "This model can be equipped with up to 2 missile drones."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -10388,6 +11564,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "6", skill: "5+", s: "6", ap: "0", d: "2" }
+    ],
+    options: [
+      "This model can be equipped with up to 2 missile drones."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -10421,6 +11600,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Crushing feet", tags: "", a: "6", skill: "5+", s: "8", ap: "-1", d: "2" }
     ],
+    options: [
+      "This model’s tri-axis ion cannon can be replaced with 1 fusion eradicator.",
+      "This model’s fusion eradicator can be replaced with 1 tri-axis ion cannon.",
+      "This model’s 3 pulse ordnance drivers can be replaced with one of the following: 2 nexus missile launchers, 1 heavy rail cannon array and 1 fragmentation cluster shell launcher"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Super-heavy Walker", text: "This model can move through other models and terrain features 4\" or less in height as if they weren't there, though it can't end a move within Engagement Range that way." },
@@ -10443,6 +11627,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapons", tags: "", a: "2", skill: "5+", s: "3", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -10470,6 +11657,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "2", skill: "5+", s: "4", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s 2 plasma rifles can be replaced with one of the following: 2 fusion blasters, 2 missile pods, 2 rail rifles"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -10494,6 +11684,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "1", skill: "6+", s: "3", ap: "0", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their burst cannon and markerlight replaced with 1 twin burst cannon."
+    ],
     abilities: [
       { name: "Drone Escort", text: "Once per turn, when a friendly T'au Empire unit within 6\" is targeted in your opponent's Shooting phase, this unit can shoot back immediately as if it were your Shooting phase." },
       { name: "Markerlight", text: "The bearer has the Markerlight keyword." }
@@ -10515,6 +11708,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Close combat weapon", tags: "", a: "1", skill: "5+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
@@ -10548,6 +11744,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s 2 long-barrelled burst cannons can be replaced with 2 cyclic ion blasters.",
+      "This model’s swiftstrike burst cannon can be replaced with one of the following: 1 ion cannon, 1 swiftstrike railgun",
+      "This model can be equipped with up to 4 seeker missiles."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -10580,6 +11781,12 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s 2 burst cannons can be replaced with 2 cyclic ion blasters.",
+      "This model’s 2 ion cannons can be replaced with one of the following: 2 swiftstrike burst cannons, 2 swiftstrike railguns",
+      "This model can be equipped with up to 6 seeker missiles.",
+      "This model’s transport bay can be replaced with 2 skyspear missile racks."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -10609,6 +11816,10 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "5+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "This model can be equipped with up to 6 seeker missiles.",
+      "This model’s 2 burst cannons can be replaced with 2 cyclic ion blasters."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -10632,6 +11843,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "3", skill: "5+", s: "8", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -10661,6 +11875,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Armoured hull", tags: "", a: "8", skill: "5+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
@@ -10685,6 +11902,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Orbital Comms Array (Aura)", text: "Friendly T'au Empire units within 6\" have a chance (5+ on a D6) to gain 1 Command Point whenever targeted by a Stratagem." },
@@ -10711,6 +11931,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       
     ],
+    options: [
+      "This model’s twin plasma rifle can be replaced with one of the following: 1 twin burst cannon, 1 twin fusion blaster, 1 twin missile pod"
+    ],
     abilities: [
       { name: "Sentinel Protocols", text: "When this Fortification uses Fire Overwatch, it hits on unmodified rolls of 5+ instead of the usual 6." },
       { name: "Reinforced Cover", text: "A ranged attack against a friendly model is treated as Benefit of Cover if this Fortification blocks it from being fully visible." },
@@ -10733,6 +11956,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Knarloc beak and talons", tags: "extra attacks", a: "4", skill: "3+", s: "6", ap: "-1", d: "1" },
       { name: "Kroot rifle", tags: "", a: "2", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -10758,6 +11984,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Great Knarloc beak and talons", tags: "extra attacks", a: "4", skill: "3+", s: "7", ap: "-1", d: "3" },
       { name: "Kroot rifle", tags: "", a: "2", skill: "3+", s: "4", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model can be equipped with one of the following: 1 Kroot bolt thrower and 1 Kroot rifle, 1 twin Kroot gun, 1 baggage harness"
     ],
     abilities: [
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -10788,6 +12017,12 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "3", skill: "4+", s: "5", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s burst cannon can be replaced with one of the following: 1 airbursting fragmentation projector*, 1 battlesuit support system*, 1 cyclic ion blaster, 1 fusion blaster, 1 missile pod, 1 plasma rifle, 1 shield generator*, 1 T’au flamer, 1 weapon support system*",
+      "This model can be equipped with up to two of the following, and can take duplicates: 1 gun drone, 1 marker drone, 1 shield drone",
+      "This model can be equipped with up to three of the following, and can take duplicates: 1 airbursting fragmentation projector*, 1 battlesuit support system*, 1 burst cannon, 1 cyclic ion blaster, 1 fusion blaster, 1 missile pod, 1 plasma rifle, 1 shield generator*, 1 T’au flamer, 1 weapon support system*",
+      "* This model cannot have duplicates of these pieces of wargear."
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -10822,6 +12057,12 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "3", skill: "4+", s: "5", ap: "0", d: "1" }
     ],
+    options: [
+      "This model’s burst cannon can be replaced with one of the following: 1 airbursting fragmentation projector*, 1 battlesuit support system*, 1 cyclic ion blaster*, 1 fusion blaster, 1 missile pod, 1 plasma rifle, 1 shield generator*, 1 T’au flamer, 1 weapon support system*",
+      "This model can be equipped with up to two of the following, and can take duplicates: 1 gun drone, 1 marker drone, 1 shield drone",
+      "This model can be equipped with up to three of the following, and can take duplicates: 1 airbursting fragmentation projector*, 1 battlesuit support system*, 1 burst cannon, 1 cyclic ion blaster*, 1 fusion blaster, 1 missile pod, 1 plasma rifle, 1 shield generator*, 1 T’au flamer, 1 weapon support system*",
+      "* This model cannot have duplicates of these pieces of wargear."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -10854,6 +12095,11 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Ripping fangs", tags: "", a: "3", skill: "3+", s: "3", ap: "0", d: "1" },
       { name: "Ritual blade", tags: "", a: "3", skill: "3+", s: "5", ap: "0", d: "1" }
     ],
+    options: [
+      "The Kroot Kill-broker’s Farstalker firearm can be replaced with 1 T’au-tech rifle.",
+      "1 Kroot Farstalker’s Farstalker firearm can be replaced with one of the following: 1 Dvorgite skinner, 1 Londaxi tribalest",
+      "1 Kroot Farstalker equipped with a Farstalker firearm can be equipped with 1 Pech’ra."
+    ],
     abilities: [
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
       { name: "Stealth", text: "If every model in this unit has Stealth, the unit gets the Benefit of Cover against ranged attacks even without terrain." },
@@ -10876,6 +12122,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "3", skill: "5+", s: "5", ap: "0", d: "1" }
+    ],
+    options: [
+      "Any number of models can be equipped with up to two of the following, but cannot take duplicates: 1 gun drone, 1 marker drone, 1 shield drone"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -10900,6 +12149,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "3", skill: "5+", s: "5", ap: "0", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their plasma rifle replaced with 1 missile pod.",
+      "Any number of models can each have their missile pod replaced with 1 plasma rifle.",
+      "Any number of models can be equipped with up to two of the following, but cannot take duplicates: 1 gun drone, 1 marker drone, 1 shield drone"
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
@@ -10923,6 +12177,11 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Battlesuit fists", tags: "", a: "3", skill: "5+", s: "5", ap: "0", d: "1" }
+    ],
+    options: [
+      "Any number of models can each have their burst cannon replaced with 1 T’au flamer.",
+      "Any number of models can each have their T’au flamer replaced with 1 burst cannon.",
+      "Any number of models can be equipped with up to two of the following, but cannot take duplicates: 1 gun drone, 1 marker drone, 1 shield drone"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -10973,6 +12232,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Bladestave and prey-hook", tags: "lethal hits", a: "4", skill: "2+", s: "5", ap: "-1", d: "2" },
       { name: "Shaper’s blade", tags: "", a: "4", skill: "2+", s: "5", ap: "0", d: "1" }
+    ],
+    options: [
+      "This model’s dart-bow and tri-bade can be replaced with 1 bladestave and prey-hook."
     ],
     abilities: [
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
@@ -11027,6 +12289,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Hunting javelin", tags: "lance", a: "3", skill: "3+", s: "4", ap: "-1", d: "1" },
       { name: "Kalamandra’s bite", tags: "extra attacks", a: "4", skill: "4+", s: "5", ap: "-1", d: "1" }
     ],
+    options: [
+      "This model’s Kroot long gun can be replaced with 1 blast javelin and 1 hunting javelin."
+    ],
     abilities: [
       { name: "Lone Operative", text: "Unless part of an Attached unit, this model can only be targeted by ranged attacks from within the stated distance (12\" by default)." },
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -11080,6 +12345,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Ion scattercannon", tags: "extra attacks", a: "3", skill: "4+", s: "7", ap: "-2", d: "2" },
       { name: "XV pulse pistol", tags: "", a: "4", skill: "3+", s: "6", ap: "-1", d: "2" }
     ],
+    options: [
+      "None."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
@@ -11107,6 +12375,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Monstrous bonesword and lash whip", tags: "twin-linked", a: "6", skill: "2+", s: "9", ap: "-2", d: "3" },
       { name: "Monstrous scything talons", tags: "extra attacks", a: "4", skill: "2+", s: "7", ap: "-2", d: "2" }
+    ],
+    options: [
+      "This model’s monstrous bonesword and lash whip can be replaced with one of the following: 1 heavy venom cannon, 1 stranglethorn cannon, 1 monstrous scything talons",
+      "This model’s monstrous scything talons can be replaced with one of the following: 1 heavy venom cannon*, 1 stranglethorn cannon*",
+      "*This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -11211,6 +12484,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Massive scything talons – strike", tags: "", a: "4", skill: "3+", s: "9", ap: "-2", d: "D6" },
       { name: "Massive scything talons – sweep", tags: "", a: "8", skill: "3+", s: "7", ap: "-1", d: "2" }
     ],
+    options: [
+      "This model’s massive scything talons can be replaced with 1 massive crushing claws."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Shadow in the Warp", text: "Once per battle, in either Command phase, if a unit with this ability is on the battlefield, every enemy unit must take a Battle-shock test — with an extra -1 penalty if they are within 6\\\" of a friendly Synapse unit." },
@@ -11262,6 +12538,13 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Chitinous claws and teeth", tags: "", a: "1", skill: "4+", s: "3", ap: "0", d: "1" }
     ],
+    options: [
+      "All models in this unit can each have their fleshborer replaced with 1 Termagant devourer.",
+      "All models in this unit can each have their fleshborer replaced with 1 Termagant spinefists.",
+      "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 shardlauncher",
+      "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 spike rifle.",
+      "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 strangleweb"
+    ],
     abilities: [
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Skulking Horrors", text: "In your opponent's Movement phase, if an enemy ends a move within 8\" and this unit isn't engaged, it can make a Normal move of up to D6\"." }
@@ -11304,6 +12587,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Chitinous claws and teeth", tags: "sustained hits 1", a: "6", skill: "5+", s: "2", ap: "0", d: "1" }
     ],
+    options: [
+      "All models in this unit can each be equipped with 1 spinemaws."
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -11328,6 +12614,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Crushing claws and rending claws", tags: "twin-linked", a: "2", skill: "4+", s: "8", ap: "-2", d: "2" },
       { name: "Scything talons and rending claws", tags: "", a: "5", skill: "3+", s: "5", ap: "-1", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their scything talons and rending claws replaced with one of the following: 1 bone cleaver, lash whip and rending claws, 1 crushing claws and rending claws"
+    ],
     abilities: [
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Guardian Organism", text: "While a Character is leading this unit, that Character has Feel No Pain 5+." }
@@ -11349,6 +12638,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Chitinous claws and teeth", tags: "", a: "3", skill: "4+", s: "5", ap: "0", d: "1" }
+    ],
+    options: [
+      "Any number of models can each have their shockcannon replaced with 1 impaler cannon."
     ],
     abilities: [
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -11539,6 +12831,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Ravener claws and talons", tags: "twin-linked", a: "3", skill: "3+", s: "5", ap: "-2", d: "2" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -11560,6 +12855,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Claws and teeth", tags: "sustained hits 1", a: "6", skill: "5+", s: "2", ap: "0", d: "1" }
+    ],
+    options: [
+      "Any number of models can each be equipped with 1 spinemaws."
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -11606,6 +12904,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Scything wings", tags: "", a: "4", skill: "4+", s: "7", ap: "-1", d: "2" }
+    ],
+    options: [
+      "This model’s twin stranglethorn cannon can be replaced with 1 twin heavy venom cannon."
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -11732,6 +13033,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Carnifex scything talons", tags: "", a: "6", skill: "4+", s: "9", ap: "-2", d: "3" },
       { name: "Chitinous claws and teeth", tags: "", a: "4", skill: "4+", s: "6", ap: "0", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their Carnifex extra scything talons replaced with one of the following: 1 deathspitters with slimer maggots, 1 devourers with brainleech worms, 1 heavy venom cannon, 1 stranglethorn cannon, 1 Carnifex crushing claws",
+      "Any number of models can each have their Carnifex scything talons replaced with one of the following: 1 deathspitters with slimer maggots, 1 devourers with brainleech worms, 1 Carnifex crushing claws",
+      "Any number of models can each be equipped with 1 bio-plasma.",
+      "Any number of models can each be equipped with 1 spine banks."
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -11846,6 +13153,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Powerful limbs", tags: "", a: "4", skill: "3+", s: "8", ap: "0", d: "2" }
     ],
+    options: [
+      "This model’s fleshborer hive can be replaced with one of the following: 1 acid spray, 1 rupture cannon"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -11914,6 +13224,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Grasping tail", tags: "", a: "4", skill: "4+", s: "5", ap: "0", d: "2" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Stealth", text: "If every model in this unit has Stealth, the unit gets the Benefit of Cover against ranged attacks even without terrain." },
@@ -11939,6 +13252,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Massive scything sickle-talons", tags: "twin-linked", a: "10", skill: "3+", s: "9", ap: "-2", d: "3" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -11961,6 +13277,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Hierodule scything talons", tags: "", a: "8", skill: "3+", s: "14", ap: "-2", d: "D3+3" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -11982,6 +13301,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Gargantuan scything talons", tags: "", a: "6", skill: "3+", s: "14", ap: "-2", d: "D6" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -12008,6 +13330,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Lashwhip pods", tags: "extra attacks", a: "10", skill: "3+", s: "5", ap: "-1", d: "1" },
       { name: "Titanic scything talons", tags: "", a: "8", skill: "3+", s: "20", ap: "-2", d: "D6+1" }
     ],
+    options: [
+      "None"
+    ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -12030,6 +13355,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Hierodule scything talons", tags: "", a: "10", skill: "3+", s: "14", ap: "-2", d: "D3+3" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -12055,6 +13383,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Monstrous bonesword and lash whip", tags: "twin-linked", a: "6", skill: "2+", s: "9", ap: "-2", d: "3" },
       { name: "Monstrous scything talons", tags: "extra attacks", a: "4", skill: "2+", s: "7", ap: "-2", d: "2" },
       { name: "Tyrant talons", tags: "", a: "5", skill: "2+", s: "7", ap: "-2", d: "2" }
+    ],
+    options: [
+      "This model’s monstrous bonesword and lash whip can be replaced with one of the following: 1 heavy venom cannon, 1 stranglethorn cannon, 1 monstrous scything talons"
     ],
     abilities: [
       { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
@@ -12148,6 +13479,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Neurotyrant claws and lashes", tags: "", a: "6", skill: "3+", s: "5", ap: "0", d: "1" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
@@ -12246,6 +13580,11 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Tyranid Warrior claws and talons", tags: "", a: "5", skill: "3+", s: "5", ap: "-1", d: "1" }
     ],
+    options: [
+      "Any number of models can each have their devourer replaced with one of the following: 1 deathspitter, 1 spinefists",
+      "For every 3 models in this unit, 1 model’s devourer can be replaced with 1 barbed strangler.",
+      "For every 3 models in this unit, 1 model’s devourer can be replaced with 1 venom cannon."
+    ],
     abilities: [
       { name: "Shadow in the Warp", text: "Once per battle, in either Command phase, if a unit with this ability is on the battlefield, every enemy unit must take a Battle-shock test — with an extra -1 penalty if they are within 6\\\" of a friendly Synapse unit." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -12291,6 +13630,9 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     meleeWeapons: [
       { name: "Prime talons", tags: "", a: "6", skill: "2+", s: "6", ap: "-1", d: "2" }
+    ],
+    options: [
+      "None"
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
@@ -12425,6 +13767,9 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Lash whip", tags: "extra attacks", a: "8", skill: "2+", s: "4", ap: "-2", d: "1" },
       { name: "Scything talons", tags: "", a: "6", skill: "2+", s: "6", ap: "-2", d: "2" }
     ],
+    options: [
+      "None."
+    ],
     abilities: [
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Shadow in the Warp", text: "Once per battle, in either Command phase, if a unit with this ability is on the battlefield, every enemy unit must take a Battle-shock test — with an extra -1 penalty if they are within 6\\\" of a friendly Synapse unit." },
@@ -12449,6 +13794,9 @@ GAMES["warhammer-40k"].datasheets = [
     meleeWeapons: [
       { name: "Gaping maw", tags: "extra attacks, devastating wounds, precision", a: "1", skill: "2+", s: "5", ap: "-", d: "D3+2" },
       { name: "Scything talons", tags: "", a: "12", skill: "2+", s: "7", ap: "-2", d: "2" }
+    ],
+    options: [
+      "None."
     ],
     abilities: [
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
