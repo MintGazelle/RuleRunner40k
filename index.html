@@ -152,6 +152,8 @@
   .fallback{
     margin-top:10px;margin-bottom:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;
   }
+  .shared-mic-caption{color:var(--bone-dim);font-size:0.8rem;}
+  .search-inputs-group{display:flex;flex-direction:column;gap:8px;margin-bottom:4px;}
   .input-wrap{
     position:relative;flex:1;min-width:140px;display:flex;align-items:center;
     border:1.5px solid var(--gold);border-radius:var(--radius-md);
@@ -560,18 +562,26 @@
       <span class="dot"></span>
       <span id="micLabel" class="sr-only">Listen</span>
     </button>
+    <span class="shared-mic-caption">One mic — catches both rules questions and unit names from the table talk.</span>
+  </div>
+
+  <div class="search-inputs-group">
     <div class="input-wrap">
       <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
       <input type="text" id="manualInput" placeholder="Type or paste a line from the table talk…">
+    </div>
+    <div class="input-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="text" id="datasheetInput" placeholder="Or type a unit name — try &quot;Intercessors&quot;">
     </div>
   </div>
   <div class="scan-feedback" id="scanFeedback"></div>
 
   <div class="caveat unsupported" id="unsupportedNotice">
-    This browser doesn't support live speech recognition (works best in Chrome or Edge). Use the text box below instead — just type or paste what's being said and results appear automatically.
+    This browser doesn't support live speech recognition (works best in Chrome or Edge). Use the text boxes below instead — just type or paste what's being said and results appear automatically.
   </div>
   <div class="caveat unsupported" id="insecureNotice">
-    This page was opened as a local file (<code>file://…</code>), and browsers block microphone access on local files for security reasons. Live listening needs the page served over <code>https://</code> or <code>localhost</code> — try hosting it (e.g. GitHub Pages, Netlify) or running a quick local server (<code>python3 -m http.server</code> in the file's folder, then open <code>http://localhost:8000</code>). The text box below works fine either way.
+    This page was opened as a local file (<code>file://…</code>), and browsers block microphone access on local files for security reasons. Live listening needs the page served over <code>https://</code> or <code>localhost</code> — try hosting it (e.g. GitHub Pages, Netlify) or running a quick local server (<code>python3 -m http.server</code> in the file's folder, then open <code>http://localhost:8000</code>). The text boxes below work fine either way.
   </div>
   <div class="caveat unsupported" id="micErrorNotice"></div>
 
@@ -582,17 +592,7 @@
 
   <div class="datasheet-section">
     <h2 class="datasheet-heading">Look up a unit</h2>
-    <p class="datasheet-subtext">Search or say a unit name — e.g. "Intercessors" — for a quick-glance stat card, separate from the rules search above.</p>
-    <div class="fallback">
-      <button class="mic-btn" id="datasheetMicBtn" aria-label="Listen for a unit name">
-        <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3"/></svg>
-        <span class="dot"></span>
-      </button>
-      <div class="input-wrap">
-        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-        <input type="text" id="datasheetInput" placeholder="Try &quot;Intercessors&quot;">
-      </div>
-    </div>
+    <p class="datasheet-subtext">Say or type a unit name above — e.g. "Intercessors" — for a quick-glance stat card, separate from the rules search.</p>
     <div id="datasheet-result"></div>
   </div>
 
@@ -1325,7 +1325,10 @@ function goHome(){
 document.getElementById('backHomeBtn').addEventListener('click', goHome);
 document.getElementById('homeIconBtn').addEventListener('click', goHome);
 
-// ---------- Speech recognition ----------
+// ---------- Speech recognition (shared: rules + unit lookups) ----------
+// A single continuous recognition instance feeds BOTH matchers on every
+// final transcript — one mic button, not two — so listening once catches
+// a rules question and a unit name equally well, whichever comes up.
 const micBtn = document.getElementById('micBtn');
 const micLabel = document.getElementById('micLabel');
 let recognition = null;
@@ -1363,13 +1366,19 @@ if (!window.isSecureContext){
       if (event.results[i].isFinal){
         const transcript = event.results[i][0].transcript;
         // Passive/ambient listening stays quiet in the background — it does
-        // NOT fill the visible search box and does NOT show a "no match"
+        // NOT fill either visible search box and does NOT show a "no match"
         // message, since almost every sentence of normal table talk won't
         // match anything, and flashing feedback for each one would make the
         // app look like it's reacting to the whole conversation instead of
         // just quietly catching relevant moments. Only a genuine match
-        // should ever surface something here.
+        // should ever surface something here — checked against both rules
+        // and unit names on every transcript, since one shared mic now
+        // covers both.
         scanText(transcript, false);
+        const unitMatch = findDatasheet(transcript);
+        if (unitMatch){
+          datasheetResult.innerHTML = renderStatCard(unitMatch);
+        }
       }
     }
   };
@@ -1384,7 +1393,7 @@ if (!window.isSecureContext){
       micErrorNotice.style.display = 'block';
       stopListening();
     } else if (event.error !== 'no-speech' && event.error !== 'aborted'){
-      micErrorNotice.textContent = 'Speech recognition error: ' + event.error + '. Try again, or use the text box below.';
+      micErrorNotice.textContent = 'Speech recognition error: ' + event.error + '. Try again, or use the text boxes below.';
       micErrorNotice.style.display = 'block';
     }
   };
@@ -1585,65 +1594,6 @@ datasheetInput.addEventListener('keydown', (e) => {
   if (e.key === 'Enter'){
     clearTimeout(datasheetDebounceTimer);
     runDatasheetSearch(e.target.value);
-  }
-});
-
-// Separate continuous speech recognition instance for unit lookups — stays
-// silent in the background exactly like the main rules mic, and only ever
-// surfaces something when a unit name is actually recognized.
-const datasheetMicBtn = document.getElementById('datasheetMicBtn');
-let datasheetRecognition = null;
-let datasheetListening = false;
-
-if (window.isSecureContext && SpeechRecognitionAPI){
-  datasheetRecognition = new SpeechRecognitionAPI();
-  datasheetRecognition.continuous = true;
-  datasheetRecognition.interimResults = false;
-  datasheetRecognition.lang = 'en-US';
-
-  datasheetRecognition.onresult = (event) => {
-    for (let i = event.resultIndex; i < event.results.length; i++){
-      if (event.results[i].isFinal){
-        const transcript = event.results[i][0].transcript;
-        const match = findDatasheet(transcript);
-        if (match){
-          datasheetResult.innerHTML = renderStatCard(match);
-        }
-        // No match on a passively-overheard sentence stays silent, same
-        // reasoning as the main rules mic — most conversation won't be a
-        // unit name, so don't react visibly to all of it. Also doesn't
-        // touch the visible input box even on a match, for the same
-        // reason the rules mic doesn't — consistent behavior between the
-        // two mics rather than one filling its box and one not.
-      }
-    }
-  };
-  datasheetRecognition.onend = () => {
-    datasheetListening = false;
-    datasheetMicBtn.classList.remove('live');
-  };
-  datasheetRecognition.onerror = () => {
-    datasheetListening = false;
-    datasheetMicBtn.classList.remove('live');
-  };
-} else {
-  datasheetMicBtn.disabled = true;
-  datasheetMicBtn.style.opacity = '0.5';
-  datasheetMicBtn.style.cursor = 'not-allowed';
-}
-
-datasheetMicBtn.addEventListener('click', () => {
-  if (!datasheetRecognition) return;
-  if (datasheetListening){
-    try { datasheetRecognition.stop(); } catch(e){}
-    datasheetListening = false;
-    datasheetMicBtn.classList.remove('live');
-  } else {
-    try {
-      datasheetRecognition.start();
-      datasheetListening = true;
-      datasheetMicBtn.classList.add('live');
-    } catch(e){ /* already starting */ }
   }
 });
 
