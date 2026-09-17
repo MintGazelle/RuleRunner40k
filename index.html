@@ -151,18 +151,22 @@
 
   .fallback{
     margin-top:10px;margin-bottom:4px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;
-    padding:7px;border:1.5px solid var(--gold);border-radius:var(--radius-md);
-    box-shadow:0 0 0 4px var(--gold-glow), var(--shadow-sm);
   }
-  .input-wrap{position:relative;flex:1;min-width:140px;display:flex;align-items:center;}
+  .input-wrap{
+    position:relative;flex:1;min-width:140px;display:flex;align-items:center;
+    border:1.5px solid var(--gold);border-radius:var(--radius-md);
+    box-shadow:0 0 0 4px var(--gold-glow), var(--shadow-sm);
+    background:var(--panel);
+    transition:border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .input-wrap:focus-within{border-color:var(--gold);box-shadow:0 0 0 4px var(--gold-glow), var(--shadow-md);}
   .input-wrap .search-icon{position:absolute;left:13px;width:14px;height:14px;color:var(--muted);pointer-events:none;}
   .fallback input{
     width:100%;
-    background:var(--panel);border:1px solid var(--border);color:var(--bone);
-    padding:12px 14px 12px 36px;border-radius:var(--radius-sm);font-family:'Inter',sans-serif;font-size:16px;
-    transition:border-color 0.15s ease, box-shadow 0.15s ease;
+    background:transparent;border:none;color:var(--bone);
+    padding:12px 14px 12px 36px;font-family:'Inter',sans-serif;font-size:16px;
   }
-  .fallback input:focus{outline:none;border-color:var(--gold-dim);box-shadow:var(--shadow-sm);}
+  .fallback input:focus{outline:none;}
   .fallback button{
     background:var(--panel-raised);border:1px solid var(--border);color:var(--bone);
     padding:12px 20px;border-radius:var(--radius-sm);font-weight:600;font-size:0.85rem;cursor:pointer;
@@ -434,7 +438,6 @@
     color:var(--gold);margin:0 0 12px;
   }
   .landing-game-grid{display:flex;flex-direction:column;gap:10px;margin-bottom:26px;}
-  .landing-no-results{color:var(--muted);font-size:0.85rem;padding:22px 14px;text-align:center;border:1px dashed var(--border);border-radius:var(--radius-sm);}
   .landing-empty-state{color:var(--muted);font-size:0.85rem;padding:22px 14px;text-align:center;border:1px dashed var(--border);border-radius:var(--radius-sm);}
   .landing-game-card{
     display:block;width:100%;text-align:left;background:var(--panel);border:1px solid var(--border);
@@ -498,22 +501,12 @@
     </div>
 
     <div class="landing-howto">
-      <div class="howto-step"><span class="howto-num">1</span><span class="howto-text">Search or say the name of the game you're playing below.</span></div>
+      <div class="howto-step"><span class="howto-num">1</span><span class="howto-text">Pick the game you're playing from the list below.</span></div>
       <div class="howto-step"><span class="howto-num">2</span><span class="howto-text">Type a question, or tap <strong>Listen</strong> to catch it from the table talk.</span></div>
       <div class="howto-step"><span class="howto-num">3</span><span class="howto-text">Tap a linked term to jump to that rule, or <strong>Browse all rules</strong> to see everything.</span></div>
     </div>
 
     <h2 class="landing-section-title">Find your game</h2>
-    <div class="fallback">
-      <button class="mic-btn" id="landingMicBtn" aria-label="Search by voice">
-        <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3"/></svg>
-        <span class="dot"></span>
-      </button>
-      <div class="input-wrap">
-        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-        <input type="text" id="landingGameSearch" placeholder="Search or say a game name…" autofocus>
-      </div>
-    </div>
     <div class="landing-game-grid" id="landingGameGrid"></div>
 
     <footer class="site-footer landing-footer">
@@ -1297,25 +1290,15 @@ document.getElementById('howtoplayToggle').addEventListener('click', () => {
 // ---------- Landing page ----------
 // Descriptions come from games-list.js (GAME_LIST) — nothing game-specific
 // is hardcoded here anymore.
-function renderLandingGrid(filter=''){
+function renderLandingGrid(){
   const grid = document.getElementById('landingGameGrid');
-  const f = filter.trim().toLowerCase();
 
-  if (!f){
-    grid.innerHTML = `<div class="landing-empty-state">Type or say a game name above to find it — try "${GAME_LIST[0] ? GAMES[GAME_LIST[0].id].name : 'a game'}".</div>`;
+  if (GAME_LIST.length === 0){
+    grid.innerHTML = `<div class="landing-empty-state">No games available yet.</div>`;
     return;
   }
 
-  const matches = GAME_LIST.filter(g =>
-    GAMES[g.id].name.toLowerCase().includes(f) || (g.description || '').toLowerCase().includes(f)
-  );
-
-  if (matches.length === 0){
-    grid.innerHTML = `<div class="landing-no-results">No games match "${filter}" — try a different word.</div>`;
-    return;
-  }
-
-  grid.innerHTML = matches.map(g => `
+  grid.innerHTML = GAME_LIST.map(g => `
     <button class="landing-game-card" data-game="${g.id}">
       <span class="lg-name">${GAMES[g.id].name}</span>
       <span class="lg-desc">${g.description || ''}</span>
@@ -1326,10 +1309,6 @@ function renderLandingGrid(filter=''){
   });
 }
 renderLandingGrid();
-document.getElementById('landingGameSearch').addEventListener('input', e => renderLandingGrid(e.target.value));
-// Fallback for browsers that don't reliably honor the autofocus attribute
-// (e.g. if the element isn't immediately visible when the page first parses).
-document.getElementById('landingGameSearch').focus();
 
 function startApp(gameId){
   switchToGame(gameId);
@@ -1440,59 +1419,6 @@ function stopListening(){
   micBtn.classList.remove('live');
   micLabel.textContent = 'Listen';
 }
-
-// ---------- Landing page voice search ----------
-// A separate, simpler recognition instance from the main app's mic button —
-// this is a one-shot "say a game name" interaction (non-continuous, stops
-// itself after a single result) that fills the search box rather than
-// directly switching games, so a misheard word never accidentally jumps you
-// into the wrong game.
-const landingMicBtn = document.getElementById('landingMicBtn');
-let landingRecognition = null;
-let landingListening = false;
-
-if (!window.isSecureContext || !SpeechRecognitionAPI){
-  landingMicBtn.disabled = true;
-  landingMicBtn.style.opacity = '0.5';
-  landingMicBtn.style.cursor = 'not-allowed';
-} else {
-  landingRecognition = new SpeechRecognitionAPI();
-  landingRecognition.continuous = false;
-  landingRecognition.interimResults = false;
-  landingRecognition.lang = 'en-US';
-
-  landingRecognition.onresult = (event) => {
-    const transcript = event.results[0][0].transcript;
-    const searchInput = document.getElementById('landingGameSearch');
-    searchInput.value = transcript;
-    renderLandingGrid(transcript);
-  };
-
-  landingRecognition.onend = () => {
-    landingListening = false;
-    landingMicBtn.classList.remove('live');
-  };
-
-  landingRecognition.onerror = () => {
-    landingListening = false;
-    landingMicBtn.classList.remove('live');
-  };
-}
-
-landingMicBtn.addEventListener('click', () => {
-  if (!landingRecognition) return;
-  if (landingListening){
-    try { landingRecognition.stop(); } catch(e){}
-    landingListening = false;
-    landingMicBtn.classList.remove('live');
-  } else {
-    try {
-      landingRecognition.start();
-      landingListening = true;
-      landingMicBtn.classList.add('live');
-    } catch(e){ /* already starting */ }
-  }
-});
 
 // ---------- Unit datasheet lookup ----------
 // A separate search, separate from rules — matches unit names instead of
