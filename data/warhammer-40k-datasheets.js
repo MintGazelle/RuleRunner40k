@@ -2064,7 +2064,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 Icarus rocket pod."
     ],
     abilities: [
-      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 3 mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "At the start of your Command phase, pick one enemy unit as your Oath of Moment target until your next Command phase. Attacks by models with this ability against that target can re-roll the Hit roll — and, if your detachment isn't restricted to a specific Chapter with its own replacement rule (Black Templars, Blood Angels, Dark Angels, Deathwatch, Space Wolves), can also add 1 to the Wound roll." },
       { name: "Reaping Tally", text: "This model's twin heavy onslaught gatling cannon gains Sustained Hits 2 against Infantry units." }
     ],
@@ -2099,7 +2099,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 Icarus rocket pod."
     ],
     abilities: [
-      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 3 mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "At the start of your Command phase, pick one enemy unit as your Oath of Moment target until your next Command phase. Attacks by models with this ability against that target can re-roll the Hit roll — and, if your detachment isn't restricted to a specific Chapter with its own replacement rule (Black Templars, Blood Angels, Dark Angels, Deathwatch, Space Wolves), can also add 1 to the Wound roll." },
       { name: "Priority Target Acquisition", text: "When this model attacks the closest eligible Monster/Vehicle with its twin las-talon, add 1 to the Hit roll." }
     ],
@@ -2510,7 +2510,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 Icarus rocket pod."
     ],
     abilities: [
-      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 3 mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "At the start of your Command phase, pick one enemy unit as your Oath of Moment target until your next Command phase. Attacks by models with this ability against that target can re-roll the Hit roll — and, if your detachment isn't restricted to a specific Chapter with its own replacement rule (Black Templars, Blood Angels, Dark Angels, Deathwatch, Space Wolves), can also add 1 to the Wound roll." },
       { name: "Aquilon Optics", text: "When this model shoots, you can re-roll one Hit roll, one Wound roll, and one Damage roll among its attacks." }
     ],
