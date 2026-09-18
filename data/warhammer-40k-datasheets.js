@@ -71,6 +71,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Objective Secured", text: "If you control an objective marker at the end of your Command phase and this unit is within range of it, you keep control of that marker even without models nearby, until your opponent controls it." },
       { name: "Hail of Bolts", text: "When this unit is selected to shoot, pick one visible enemy unit — this unit's Bolt Rifle attacks against that unit get +2 Attacks." },
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "BATTLELINE", "GRENADES", "IMPERIUM", "TACTICUS", "INTERCESSOR SQUAD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Intercessor Sergeant + 4-9 Intercessors. Every model is equipped with a bolt pistol, bolt rifle, and close combat weapon.",
@@ -122,6 +128,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Combat Squads", text: "At the start of the Declare Battle Formations step, before any units have been set up, this unit can be split into two units of 5 models each." },
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "BATTLELINE", "GRENADES", "IMPERIUM", "TACTICAL SQUAD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Tactical Sergeant + 9 Tactical Marines. Every model is equipped with a bolt pistol, boltgun, and close combat weapon by default — one Marine's boltgun can be swapped for a heavy or special weapon, a second for a special weapon only, and the Sergeant has his own separate weapon options.",
@@ -156,6 +168,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Rites of Battle", text: "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of the Stratagem by 1." },
       { name: "Finest Hour", text: "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of this model's melee weapons, and those weapons gain the Devastating Wounds ability." },
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "CHARACTER", "GRENADES", "IMPERIUM", "TACTICUS", "CAPTAIN"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Captain, equipped with a bolt pistol, master-crafted bolter, and close combat weapon by default — a range of pistol/melee weapon combos can be swapped in, including an option that grants a relic shield (raising Wounds to 6).",
@@ -164,7 +182,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "terminator-squad",
     name: "Terminator Squad",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "40mm",
     stats: { M: "5\"", T: "5", Sv: "2+", W: "3", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -216,6 +234,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Self Repair", text: "At the end of your Command phase, this model regains 1 lost wound." },
       { name: "One Shot", text: "A weapon with this ability can only be fired once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["TRANSPORT", "DEDICATED TRANSPORT", "IMPERIUM", "FRAME", "RHINO", "VEHICLE", "SMOKE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Rhino.",
@@ -242,6 +266,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Close-quarters Firepower", text: "When a model in this unit shoots its closest eligible target, that attack's Armour Penetration improves by 1." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GRAVIS", "AGGRESSOR SQUAD", "INFANTRY", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Aggressor Sergeant; 2-5 Aggressors.",
@@ -273,6 +303,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Shock Assault", text: "When a model in this unit makes a melee attack, re-roll a Wound roll of 1 — or re-roll any Wound roll instead if the target is within range of an objective marker." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "TACTICUS", "ASSAULT INTERCESSOR SQUAD", "GRENADES", "INFANTRY", "BATTLELINE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Assault Intercessor Sergeant; 4-9 Assault Intercessors.",
@@ -299,6 +335,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Unyielding in the Face of the Foe", text: "While this unit is within range of an objective marker you control, add 1 to armour saves it makes against attacks with a Damage characteristic of 1." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GRAVIS", "IMPERIUM", "GRENADES", "BATTLELINE", "INFANTRY", "HEAVY INTERCESSOR SQUAD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Heavy Intercessor Sergeant; 4-9 Heavy Intercessors.",
@@ -328,6 +370,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Reposition Under Covering Fire", text: "If this unit includes an Eliminator Sergeant equipped with an instigator bolt carbine, it can make a Normal Move after shooting — but can't declare a charge for the rest of the turn if it does." },
       { name: "Mark the Target", text: "Whenever this unit Remains Stationary, its ranged weapons gain the Devastating Wounds ability until your next Movement phase." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["ELIMINATOR SQUAD", "PHOBOS", "IMPERIUM", "GRENADES", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Eliminator Sergeant; 2 Eliminators.",
@@ -355,6 +403,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Bladeguard", text: "Once per turn, when this unit fights or is targeted by an enemy unit, choose one: this unit's melee attacks get +1 to hit, or attacks targeting this unit get -1 to hit." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "DEATHWING", "BLADEGUARD VETERAN SQUAD", "TACTICUS", "IMPERIUM", "GRENADES"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Bladeguard Veteran Sergeant; 2-5 Bladeguard Veterans.",
@@ -384,6 +438,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Helix Gauntlet", text: "Models in the bearer's unit have the Feel No Pain 6+ ability." },
       { name: "Infiltrator Comms Array", text: "Each time the bearer's unit is targeted by a Stratagem, roll a D6 — on a 5+, you gain 1 Command Point." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GRENADES", "SMOKE", "IMPERIUM", "INFILTRATOR SQUAD", "PHOBOS", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Infiltrator Sergeant; 4-9 Infiltrators.",
@@ -406,6 +466,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Litany of Hate", text: "While this model is leading a unit, add 1 to the Wound roll for that unit's melee attacks." },
       { name: "Spiritual Leader", text: "Once per battle, at the start of any phase, remove Battle-shocked status from one friendly Adeptus Astartes unit within 12\" of this model." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "TACTICUS", "CHAPLAIN", "CHARACTER", "INFANTRY", "GRENADES"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Chaplain.",
@@ -430,6 +496,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Psychic Hood", text: "While this model is leading a unit, that unit has the Feel No Pain 4+ ability specifically against Psychic Attacks." },
       { name: "Mental Fortress (Psychic)", text: "While this model is leading a unit, that unit has a 4+ invulnerable save." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "CHARACTER", "GRENADES", "PSYKER", "LIBRARIAN", "TACTICUS", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Librarian.",
@@ -453,6 +525,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Suppression Fire", text: "After this unit shoots, pick an enemy unit hit by its accelerator autocannon — until your next turn, while this unit remains on the battlefield, that enemy unit's attacks take a -1 Hit roll penalty." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["FLY", "GRENADES", "SMOKE", "JUMP PACK", "IMPERIUM", "INFANTRY", "SUPPRESSOR SQUAD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Suppressor Sergeant; 2 Suppressors.",
@@ -475,11 +553,17 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Into the Foe", text: "If a unit disembarks from this Transport before it moves, that unit can charge this turn even if it also Advanced." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["RAVENWING", "IMPERIUM", "VEHICLE", "AIRCRAFT", "TRANSPORT", "CAESTUS ASSAULT RAM", "FLY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Caestus Assault Ram.",
@@ -508,10 +592,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s las-talon can be replaced with 1 Icarus stormcannon."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Interceptor", text: "When this model makes a ranged attack against a unit that can Fly, add 1 to the Hit roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["SMOKE", "STORMHAWK INTERCEPTOR", "RAVENWING", "VEHICLE", "AIRCRAFT", "FLY", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Stormhawk Interceptor.",
@@ -537,6 +627,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Sentinel Protocols", text: "When this unit uses the Fire Overwatch Stratagem, it hits on unmodified rolls of 4+ instead of the usual 6." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "ARTILLERY", "IMPERIUM", "FIRESTRIKE SERVO-TURRETS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1-2 Firestrike Servo-turrets.",
@@ -558,10 +654,16 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Armoured feet", tags: "", a: "5", skill: "3+", s: "7", ap: "0", d: "1" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Ballistus Strike", text: "When this model makes a ranged attack against a unit that isn't Below Half-strength, you can re-roll the Hit roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["DEATHWING", "BALLISTUS DREADNOUGHT", "DREADNOUGHT", "IMPERIUM", "WALKER", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Ballistus Dreadnought.",
@@ -589,10 +691,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 heavy bolter, 1 heavy flamer, 1 multi-melta, 1 storm bolter"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Sunderer of Fortresses", text: "Attacks from this model against a Vehicle improve Strength and Damage by 1 (by 2 instead against a Fortification)." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["TYPHON", "SMOKE", "IMPERIUM", "FRAME", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Typhon.",
@@ -618,6 +726,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Sentinel Protocols", text: "When this unit uses the Fire Overwatch Stratagem, it hits on unmodified rolls of 4+ instead of the usual 6." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "TARANTULA SENTRY BATTERY", "ARTILLERY", "FRAME", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Tarantula Sentry Battery.",
@@ -639,9 +753,16 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
+      { name: "Oath of Moment", text: "At the start of your Command phase, pick one enemy unit as your Oath of Moment target until your next Command phase. Attacks by models with this ability against that target can re-roll the Hit roll — and, if your detachment isn't restricted to a specific Chapter with its own replacement rule (Black Templars, Blood Angels, Dark Angels, Deathwatch, Space Wolves), can also add 1 to the Wound roll." },
       { name: "Sentry Programming", text: "This model can use the Fire Overwatch Stratagem for 0CP, even if you've already used it on a different unit this turn — but only once per turn for this model." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["FRAME", "VEHICLE", "IMPERIUM", "TARANTULA AIR DEFENCE BATTERY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Tarantula Air Defence Battery.",
@@ -668,6 +789,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Total Obliteration", text: "Ranged attacks from this unit against a Monster or Vehicle can re-roll the Hit roll, the Wound roll, and the Damage roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GRAVIS", "INFANTRY", "GRENADES", "IMPERIUM", "ERADICATOR SQUAD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Eradicator Sergeant; 2-5 Eradicators.",
@@ -697,6 +824,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Powerful Volley", text: "If this model Remained Stationary this turn, its unit's Heavy weapons gain Lethal Hits when it shoots." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["RAPIER CARRIER", "ARTILLERY", "FRAME", "IMPERIUM", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Rapier Carrier.",
@@ -727,10 +860,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s 2 twin heavy bolters can be replaced with one of the following: 2 assault cannons, 2 Dreadnought inferno cannons, 2 heavy plasma cannons, 2 missile launchers, 2 multi-meltas, 2 twin autocannons, 2 twin lascannons"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Mortis Strike", text: "When this model makes a ranged attack against a unit that isn't Below Half-strength, you can re-roll the Hit roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["MORTIS DREADNOUGHT", "VEHICLE", "WALKER", "IMPERIUM", "DEATHWING", "DREADNOUGHT"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Mortis Dreadnought.",
@@ -759,11 +898,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s 2 twin hellstrike missile launchers can be replaced with 2 twin lascannons"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Armoured Resilience", text: "Attacks allocated to this model have their Damage reduced by 1." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["AIRCRAFT", "TRANSPORT", "IMPERIUM", "RAVENWING", "VEHICLE", "FLY", "STORM EAGLE GUNSHIP"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Storm Eagle Gunship.",
@@ -784,11 +929,17 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "4", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Hammerstrike", text: "After this model shoots, pick an enemy unit it hit — that unit loses Benefit of Cover until the end of the phase." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "FRAME", "STORM SPEEDER HAMMERSTRIKE", "RAVENWING", "VEHICLE", "FLY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Storm Speeder Hammerstrike.",
@@ -820,10 +971,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s Dreadnought combat weapon and storm bolter can be replaced with one of the following: 1 missile launcher and 1 close combat weapon, 1 heavy flamer and 1 Dreadnought combat weapon"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Wisdom of the Ancients (Aura)", text: "Friendly Adeptus Astartes Infantry units within 6\" can re-roll a Hit roll of 1." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["SMOKE", "WALKER", "VEHICLE", "DEATHWING", "DREADNOUGHT", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Dreadnought.",
@@ -845,11 +1002,17 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Drop Pod Assault", text: "This model starts in Reserves without counting against normal Reserves limits, and can arrive in the first, second, or third Movement phase regardless of mission rules." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["FRAME", "VEHICLE", "DREADNOUGHT DROP POD", "TRANSPORT", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Dreadnought Drop Pod.",
@@ -870,11 +1033,17 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "4", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Hailstrike", text: "After this model shoots, pick an enemy unit (not a Monster/Vehicle) it hit — until the end of the phase, friendly Adeptus Astartes ranged attacks against that unit get +1 Armour Penetration (once per unit)." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "FLY", "RAVENWING", "STORM SPEEDER HAILSTRIKE", "FRAME", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Storm Speeder Hailstrike.",
@@ -902,6 +1071,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Meteoric Descent", text: "When arriving via Deep Strike, this unit can instead set up more than 6\" from all enemy units (rather than the usual 9\"), but can't charge this turn if it does." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INCEPTOR SQUAD", "FLY", "INFANTRY", "JUMP PACK", "IMPERIUM", "GRAVIS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Inceptor Sergeant; 2-5 Inceptors.",
@@ -924,6 +1099,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Incendiary Terror", text: "After this unit shoots, an Infantry unit hit by its pyreblaster must take a Battle-shock test at -1." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GRENADES", "IMPERIUM", "TACTICUS", "INFERNUS SQUAD", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Infernus Sergeant; 4-9 Infernus Marines.",
@@ -946,11 +1127,17 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Storm Assault", text: "A unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["LAND SPEEDER STORM", "IMPERIUM", "DEDICATED TRANSPORT", "TRANSPORT", "VEHICLE", "FLY", "RAVENWING"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Speeder Storm.",
@@ -978,10 +1165,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s Brutalis fists and Brutalis bolt rifles can be replaced with 1 Brutalis talons."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Brutalis Charge", text: "When this model ends a Charge move, roll a D6 for one engaged enemy unit: 2-3 deals D3 mortal wounds, 4-5 deals 3, and a 6 deals D3+3." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["DREADNOUGHT", "VEHICLE", "WALKER", "BRUTALIS DREADNOUGHT", "IMPERIUM", "DEATHWING"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Brutalis Dreadnought.",
@@ -1024,6 +1217,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Outflank", text: "When this unit arrives from Strategic Reserves, it can be set up inside the opponent's deployment zone (all other Reserves restrictions still apply)." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["SCOUT BIKE SQUAD", "GRENADES", "SMOKE", "IMPERIUM", "RAVENWING", "MOUNTED"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Scout Biker Sergeant; 2-5 Scout Bikers.",
@@ -1032,7 +1231,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "ravenwing-darkshroud",
     name: "Ravenwing Darkshroud",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "60mm flying base",
     stats: { M: "14\"", T: "8", Sv: "3+", W: "10", Ld: "6+", OC: "3", InvSv: "5+" },
     rangedWeapons: [
@@ -1046,7 +1245,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s heavy bolter can be replaced with 1 assault cannon."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Icon of Old Caliban (Aura)", text: "Friendly Adeptus Astartes units within 6\" gain the Stealth ability." }
     ],
@@ -1058,7 +1257,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "nephilim-jetfighter",
     name: "Nephilim Jetfighter",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "120 x 92mm flying base",
     stats: { M: "-", T: "8", Sv: "3+", W: "11", Ld: "6+", OC: "-", InvSv: "5+" },
     rangedWeapons: [
@@ -1074,7 +1273,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s avenger mega bolter can be replaced with 1 Nephilim lascannons."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Lightning-fast Manoeuvres", text: "Ranged attacks targeting this unit take a -1 penalty to their Wound roll." }
     ],
@@ -1086,7 +1285,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "ravenwing-dark-talon",
     name: "Ravenwing Dark Talon",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "120 x 92mm flying base",
     stats: { M: "-", T: "8", Sv: "3+", W: "11", Ld: "6+", OC: "-", InvSv: "5+" },
     rangedWeapons: [
@@ -1097,7 +1296,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Armoured hull", tags: "", a: "3", skill: "4+", s: "6", ap: "0", d: "1" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Stasis Bomb", text: "At the end of your opponent's Fight phase, pick a visible enemy unit within 24\" and slow it until their next Movement phase, restricting how it can move that phase." }
     ],
@@ -1109,7 +1308,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "land-speeder-vengeance",
     name: "Land Speeder Vengeance",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "60mm flying base",
     stats: { M: "14\"", T: "8", Sv: "3+", W: "10", Ld: "6+", OC: "3", InvSv: "5+" },
     rangedWeapons: [
@@ -1125,7 +1324,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s heavy bolter can be replaced with 1 assault cannon."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Storm of Vengeance", text: "Once per turn, when a friendly Adeptus Astartes unit within 6\" is destroyed in your opponent's Shooting phase, this model can shoot back immediately as if it were your Shooting phase." }
     ],
@@ -1137,7 +1336,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "blood-claws",
     name: "Blood Claws",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "7\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -1165,7 +1364,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "grey-hunters",
     name: "Grey Hunters",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "7\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "3" },
     rangedWeapons: [
@@ -1195,7 +1394,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "stormwolf",
     name: "Stormwolf",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "120 x 92mm flying base",
     stats: { M: "14\"", T: "10", Sv: "3+", W: "14", Ld: "6+", OC: "-" },
     rangedWeapons: [
@@ -1213,7 +1412,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s 2 skyhammer missile launchers can replaced with one of the following: 2 twin heavy bolters, 2 twin multi-meltas"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Into the Foe", text: "If a unit disembarks from this Transport before it moves, that unit can charge this turn even if it also Advanced." }
@@ -1226,7 +1425,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "stormfang-gunship",
     name: "Stormfang Gunship",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "120 x 92mm flying base",
     stats: { M: "14\"", T: "10", Sv: "3+", W: "14", Ld: "6+", OC: "-" },
     rangedWeapons: [
@@ -1246,7 +1445,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s twin stormstrike missile launcher can be replaced with 1 twin lascannon."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Frozen Prey", text: "After this model shoots, an enemy Monster/Vehicle hit by its helfrost destructor is Frozen until your opponent's next turn, cutting its Move, Advance, and Charge distances by 2." }
@@ -1278,10 +1477,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 heavy bolter, 1 heavy flamer, 1 multi-melta, 1 storm bolter"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Atomantic Arc-reactor", text: "If this unit Remained Stationary this turn, its Cerberus neutron pulse array gains Lethal Hits." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "CERBERUS", "VEHICLE", "SMOKE", "FRAME"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Cerberus.",
@@ -1307,11 +1512,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s incendium cannon can be replaced with 1 twin ironhail autocannon."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Combat Support", text: "Once per turn, when a friendly Adeptus Astartes Phobos Infantry unit within 6\" is targeted in your opponent's Shooting phase, this model can shoot back immediately as if it were your Shooting phase." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INVICTOR TACTICAL WARSUIT", "PHOBOS", "IMPERIUM", "WALKER", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Invictor Tactical Warsuit.",
@@ -1339,6 +1550,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Outrider Escort", text: "Once per turn, when another friendly Adeptus Astartes Mounted unit within 6\" is targeted in your opponent's Shooting phase, this model can shoot back immediately as if it were your Shooting phase." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["RAVENWING", "MOUNTED", "GRENADES", "IMPERIUM", "FRAME", "INVADER ATV"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Invader ATV.",
@@ -1376,6 +1593,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Guerrilla Tactics", text: "At the end of your opponent's turn, if this unit is more than 6\" from all enemy models, you can remove it and return it to Strategic Reserves." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GRENADES", "SMOKE", "IMPERIUM", "SCOUT SQUAD", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Scout Sergeant; 4-9 Scouts.",
@@ -1399,11 +1622,17 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Isolate and Destroy", text: "When this model attacks a target with no other enemy units within 6\" of it, add 1 to the Wound roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "IMPERIUM", "LAND SPEEDER TEMPEST", "RAVENWING", "FLY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Speeder Tempest.",
@@ -1429,11 +1658,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s assault cannon can be replaced with 1 heavy flamer."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Strafing Enfilade", text: "After this model makes a Normal move, pick an enemy unit (not Monster/Vehicle) it moved over and roll six D6 — each 4+ deals 1 mortal wound to that unit." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "FLY", "IMPERIUM", "LAND SPEEDER TORNADO", "RAVENWING"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Speeder Tornado.",
@@ -1457,11 +1692,17 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 2D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 2D6 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Aerial Assault", text: "A Deep Strike unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "TITANIC", "AIRCRAFT", "TRANSPORT", "IMPERIUM", "RAVENWING", "FLY", "SOKAR-PATTERN STORMBIRD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Sokar-pattern Stormbird.",
@@ -1489,10 +1730,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s 2 lascannons can be replaced with on of the following: 2 heavy bolters, 2 heavy flamers, 2 volkite culverins"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 2D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 2D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Inviolable Transport", text: "Once per battle round, an attack allocated to this model can have its Damage changed to 0." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "TITANIC", "FRAME", "VEHICLE", "MASTODON", "SMOKE", "TRANSPORT"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Mastodon.",
@@ -1519,10 +1766,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s skyhammer missile launcher can be replaced with one of the following: 1 twin heavy bolter, 1 twin lascannon, 1 typhoon missile launcher"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Strafing Run", text: "When this model makes a ranged attack against a unit that can't Fly, add 1 to the Hit roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "FLY", "IMPERIUM", "AIRCRAFT", "STORMTALON GUNSHIP", "RAVENWING"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Stormtalon Gunship.",
@@ -1555,11 +1808,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 2 hurricane bolters."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Armoured Resilience", text: "Attacks allocated to this model have their Damage reduced by 1." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["RAVENWING", "STORMRAVEN GUNSHIP", "IMPERIUM", "VEHICLE", "FLY", "TRANSPORT"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Stormraven Gunship.",
@@ -1590,10 +1849,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s assault cannon can be replaced with one of the following: 1 Dreadnought inferno cannon, 1 heavy plasma cannon, 1 multi-melta, 1 storm bolter and 1 Dreadnought combat weapon, 1 heavy flamer and 1 Dreadnought combat weapon, 1 twin lascannon"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Spiritual Leader", text: "Once per battle, at the start of any phase, remove Battle-shocked status from one friendly Adeptus Astartes unit within 12\" of this model." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "DEATHWING", "CHAPLAIN VENERABLE DREADNOUGHT", "DREADNOUGHT", "IMPERIUM", "WALKER"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Chaplain Venerable Dreadnought.",
@@ -1623,6 +1888,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Decimator Protocols", text: "When a model in this unit makes a ranged attack, re-roll a Hit roll of 1 — or re-roll any Hit roll if the target is within range of an objective marker." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "IMPERIUM", "CENTURION", "CENTURION DEVASTATOR SQUAD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Devastator Centurion Sergeant; 2-5 Devastator Centurions.",
@@ -1652,6 +1923,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Concealed Positions", text: "This unit can only be targeted by ranged attacks from within 12\"." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GRENADES", "INFANTRY", "SMOKE", "IMPERIUM", "SCOUT SNIPER SQUAD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Scout Sniper Sergeant; 4-9 Scout Snipers.",
@@ -1678,11 +1955,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s 2 twin autocannons can be replaced with 2 quad heavy bolters."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Strafing Run", text: "When this model makes a ranged attack against a unit that can't Fly, add 1 to the Hit roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "FLY", "AIRCRAFT", "IMPERIUM", "RAVENWING", "FIRE RAPTOR GUNSHIP"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Fire Raptor Gunship.",
@@ -1703,11 +1986,17 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Close combat weapon", tags: "", a: "4", skill: "3+", s: "4", ap: "0", d: "1" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Thunderstrike", text: "After this model shoots, pick an enemy Monster/Vehicle it hit — friendly Adeptus Astartes ranged attacks against it get +1 to the Wound roll until the end of the phase." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["FLY", "RAVENWING", "STORM SPEEDER THUNDERSTRIKE", "FRAME", "IMPERIUM", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Storm Speeder Thunderstrike.",
@@ -1739,10 +2028,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 heavy bolter, 1 heavy flamer, 1 multi-melta, 1 storm bolter"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6+2", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6+2 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Titan-killer", text: "Ranged attacks from this model's twin Falchion volcano cannon against a Monster/Vehicle gain Devastating Wounds." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "FRAME", "TITANIC", "IMPERIUM", "SMOKE", "FALCHION"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Falchion.",
@@ -1769,12 +2064,18 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 Icarus rocket pod."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
-      { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 3 mortal wounds." },
+      { name: "Oath of Moment", text: "At the start of your Command phase, pick one enemy unit as your Oath of Moment target until your next Command phase. Attacks by models with this ability against that target can re-roll the Hit roll — and, if your detachment isn't restricted to a specific Chapter with its own replacement rule (Black Templars, Blood Angels, Dark Angels, Deathwatch, Space Wolves), can also add 1 to the Wound roll." },
       { name: "Reaping Tally", text: "This model's twin heavy onslaught gatling cannon gains Sustained Hits 2 against Infantry units." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "IMPERIUM", "FRAME", "GLADIATOR REAPER", "SMOKE"],
-    factionKeywords: ["BLACK TEMPLARS", "ADEPTUS ASTARTES"],
+    factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Gladiator Reaper.",
     points: [{ models: 1, pts: 160 }],
   },
@@ -1798,12 +2099,18 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 Icarus rocket pod."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
-      { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 3 mortal wounds." },
+      { name: "Oath of Moment", text: "At the start of your Command phase, pick one enemy unit as your Oath of Moment target until your next Command phase. Attacks by models with this ability against that target can re-roll the Hit roll — and, if your detachment isn't restricted to a specific Chapter with its own replacement rule (Black Templars, Blood Angels, Dark Angels, Deathwatch, Space Wolves), can also add 1 to the Wound roll." },
       { name: "Priority Target Acquisition", text: "When this model attacks the closest eligible Monster/Vehicle with its twin las-talon, add 1 to the Hit roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GLADIATOR VALIANT", "IMPERIUM", "SMOKE", "VEHICLE", "FRAME"],
-    factionKeywords: ["ADEPTUS ASTARTES", "BLACK TEMPLARS"],
+    factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Gladiator Valiant.",
     points: [{ models: 1, pts: 150 }],
   },
@@ -1826,11 +2133,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s 2 combi-bolters can be replaced with one of the following: 2 heavy flamers, 2 twin volkite chargers"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Termite Assault", text: "This model starts in Reserves without counting against normal Reserves limits, and can arrive in the first, second, or third Movement phase regardless of mission rules, along with any units embarked within it." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["TERRAX-PATTERN TERMITE", "DEDICATED TRANSPORT", "TRANSPORT", "VEHICLE", "FRAME", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Terrax-pattern Termite.",
@@ -1858,6 +2171,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Outrider Escort", text: "Once per turn, when another friendly Adeptus Astartes Mounted unit within 6\" is targeted in your opponent's Shooting phase, this model can shoot back immediately as if it were your Shooting phase." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["RAVENWING", "ATTACK BIKE SQUAD", "IMPERIUM", "GRENADES", "MOUNTED"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1-3 Attack Bikes.",
@@ -1882,11 +2201,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s heavy bolter can be replaced with 1 multi-melta."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Fire and Redeploy", text: "After this model shoots, if it's not within Engagement Range of any enemy, it can make a Normal move of up to D6\" — but can't charge this turn if it does." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["RAVENWING", "IMPERIUM", "FLY", "VEHICLE", "LAND SPEEDER TYPHOON"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Speeder Typhoon.",
@@ -1917,10 +2242,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 heavy bolter, 1 heavy flamer, 1 multi-melta, 1 storm bolter"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Assault Ramp", text: "A unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["SMOKE", "IMPERIUM", "TRANSPORT", "FRAME", "VEHICLE", "SPARTAN"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Spartan.",
@@ -1929,7 +2260,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "sternguard-veteran-squad",
     name: "Sternguard Veteran Squad",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -1977,11 +2308,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s deathstorm cannon array can be replaced with 1 deathstorm missile array"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Deathstorm Assault", text: "This model starts in Reserves without counting against normal Reserves limits, and can arrive in the first, second, or third Movement phase regardless of mission rules." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["DEATHSTORM DROP POD", "IMPERIUM", "FRAME", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Deathstorm Drop Pod.",
@@ -2013,10 +2350,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 aiolos missile launcher, 1 boreas air defence missiles"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Deredeo Strike", text: "When this model makes a ranged attack against a unit that isn't Below Half-strength, you can re-roll the Hit roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["WALKER", "SMOKE", "DREADNOUGHT", "DEREDEO DREADNOUGHT", "DEATHWING", "IMPERIUM", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Deredeo Dreadnought.",
@@ -2046,6 +2389,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Targeter Optics", text: "Whenever this unit Remains Stationary, its ranged weapons gain Ignores Cover until your next Movement phase." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "DESOLATION SQUAD", "TACTICUS", "IMPERIUM", "GRENADES"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Desolation Sergeant; 4 Desolation Marines.",
@@ -2076,10 +2425,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 ironhail heavy stubber."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6+2", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6+2 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Suppression Fire", text: "After this unit shoots, pick an enemy unit hit by its accelerator autocannon — until your next turn, while this unit remains on the battlefield, that enemy unit's attacks take a -1 Hit roll penalty." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["ASTRAEUS", "TITANIC", "VEHICLE", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Astraeus.",
@@ -2117,10 +2472,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 combi-weapon, 1 heavy bolter, 1 heavy flamer, 1 multi-melta, 1 storm bolter"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6+2", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6+2 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Rolling Fortress", text: "A ranged attack against a friendly model is treated as Benefit of Cover if this model blocks that model from being fully visible to the attacker." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "TITANIC", "FRAME", "IMPERIUM", "FELLBLADE", "SMOKE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Fellblade.",
@@ -2149,14 +2510,23 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 Icarus rocket pod."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
-      { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 3 mortal wounds." },
+      { name: "Oath of Moment", text: "At the start of your Command phase, pick one enemy unit as your Oath of Moment target until your next Command phase. Attacks by models with this ability against that target can re-roll the Hit roll — and, if your detachment isn't restricted to a specific Chapter with its own replacement rule (Black Templars, Blood Angels, Dark Angels, Deathwatch, Space Wolves), can also add 1 to the Wound roll." },
       { name: "Aquilon Optics", text: "When this model shoots, you can re-roll one Hit roll, one Wound roll, and one Damage roll among its attacks." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GLADIATOR LANCER", "FRAME", "IMPERIUM", "SMOKE", "VEHICLE"],
-    factionKeywords: ["ADEPTUS ASTARTES", "BLACK TEMPLARS"],
+    factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Gladiator Lancer.",
-    points: [{ models: 1, pts: 160 }],
+    points: [{ models: 1, pts: 160 }, { models: 1, pts: 170 }],
+    // First value: 1st-2nd units. Second value: 3rd+ units. Confirmed via
+    // live wahapedia.ru page — flagging that Reaper/Valiant weren't
+    // individually re-checked for the same tiered-cost pattern.
   },
   {
     id: "land-speeder",
@@ -2181,6 +2551,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Purgation Run", text: "After this unit shoots, it can make a Normal move of up to D6\" — but can't charge this turn if it does." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "LAND SPEEDER", "IMPERIUM", "RAVENWING", "FLY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Speeder.",
@@ -2210,6 +2586,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Thunderous Impact", text: "If this unit made a Charge move this turn, its melee attacks get +1 Strength and +1 Damage." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["RAVENWING", "OUTRIDER SQUAD", "MOUNTED", "GRENADES", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Outrider Sergeant; 2-5 Outriders; 0-1 Invader ATV.",
@@ -2241,10 +2623,16 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s twin fragstorm grenade launcher can be replaced with 1 twin storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Duty Eternal", text: "Attacks allocated to this model have their Damage reduced by 1." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "IMPERIUM", "DREADNOUGHT", "REDEMPTOR DREADNOUGHT", "DEATHWING", "WALKER"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Redemptor Dreadnought.",
@@ -2253,7 +2641,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "repulsor-executioner",
     name: "Repulsor Executioner",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "100mm",
     stats: { M: "10\"", T: "12", Sv: "3+", W: "16", Ld: "6+", OC: "5" },
     rangedWeapons: [
@@ -2277,7 +2665,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 Icarus rocket pod."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
       { name: "Interception Strike", text: "When this model attacks an enemy unit within 12\" of a friendly Adeptus Astartes unit, you can re-roll the Hit roll." }
     ],
@@ -2303,11 +2691,17 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6+2", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6+2 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Aerial Deployment", text: "If this model starts the game in Hover mode and in Strategic Reserves, it can arrive in the first, second, or third Movement phase regardless of mission rules." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "TITANIC", "AIRCRAFT", "TRANSPORT", "IMPERIUM", "THUNDERHAWK TRANSPORTER", "FLY", "RAVENWING"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Thunderhawk Transporter.",
@@ -2316,7 +2710,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "tyrannic-war-veterans",
     name: "Tyrannic War Veterans",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "25mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -2355,10 +2749,16 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Interceptor", text: "When this model makes a ranged attack against a unit that can Fly, add 1 to the Hit roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "FLY", "AIRCRAFT", "IMPERIUM", "XIPHON INTERCEPTOR", "RAVENWING"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Xiphon Interceptor.",
@@ -2391,6 +2791,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Hammer of Wrath", text: "When this unit ends a Charge move, roll a D6 for each of its models within Engagement Range of one enemy unit — each 4+ deals 1 mortal wound to that enemy." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["TACTICUS", "ASSAULT INTERCESSORS WITH JUMP PACKS", "JUMP PACK", "FLY", "IMPERIUM", "GRENADES", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Assault Intercessor Sergeant with Jump Pack; 4-9 Assault Intercessors with Jump Packs.",
@@ -2413,6 +2819,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Overlapping Detonations", text: "When this unit shoots, pick a visible non-Monster/Vehicle enemy unit — its heavy bolters gain Blast 1 against that target this phase." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "INFANTRY", "ERADICATOR SQUAD", "GRAVIS", "ERADICATOR SQUAD WITH HEAVY BOLTERS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Eradicator Sergeant; 2 Eradicators.",
@@ -2439,7 +2851,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 Buzzsaw, 1 Grabbin' Klaw"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Pilin’ Out", text: "In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this model, units embarked within it can rapid disembark." }
@@ -2493,7 +2905,7 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Strafing Run", text: "When this model makes a ranged attack against a unit that can't Fly, add 1 to the Hit roll." }
     ],
@@ -2521,7 +2933,7 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Burna Bomb", text: "At the end of your opponent's Fight phase, target a visible enemy unit within 36\" and roll a D6 — on a 2+, it takes D3 mortal wounds, can't be hidden until your next turn, and attacks against it improve." }
     ],
@@ -2545,7 +2957,7 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Boom Bomb", text: "At the end of your opponent's Fight phase, target a visible enemy unit within 24\" and roll a D6 — 1-3 deals D3 mortal wounds, 4-5 deals 3, and a 6 deals D3+3." }
     ],
@@ -2598,7 +3010,7 @@ GAMES["warhammer-40k"].datasheets = [
       "Any number of models can each have their Mek Speshul replaced with 1 Rivet Kannon."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Drive-by Skorchin’", text: "In your Movement phase, pick a visible non-Monster/Vehicle enemy unit within 6\" — it can't use Fire Overwatch against you until the end of the turn." }
     ],
@@ -2655,7 +3067,7 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Mobile Fortress", text: "Ranged attacks targeting this unit have their Damage reduced by 1." }
@@ -2687,7 +3099,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s Skorcha can be replaced with one of the following: 1 Extra Klaw, 1 Big Shoota, 1 Kustom Mega-blasta, 1 Rokkit Launcha"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Dread ’Ard", text: "Attacks targeting this unit have their Damage reduced by 1." }
     ],
@@ -2711,7 +3123,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Kan Klaw", tags: "", a: "3", skill: "4+", s: "8", ap: "-2", d: "3" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Spiteful Power Trip", text: "This unit's attacks against a unit with no Toughness 7+ models get +1 to hit." }
     ],
@@ -2764,7 +3176,7 @@ GAMES["warhammer-40k"].datasheets = [
       "For every four models in this unit, one model can be equipped with one of the following in addition to any other weapons: 1 Grot tank shoota, 1 grotzooka, 1 kustom mega-blasta, 1 rokkit launcha, 1 skorcha"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Scatter!", text: "In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit and it's not in Engagement Range, this unit can make a Normal move of up to 6\"." }
     ],
@@ -2795,7 +3207,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s twin grotzooka can be replaced with one of the following: 1 twin big shoota, 1 twin kustom mega-blasta, 1 twin rokkit launcha, 1 twin skorcha"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Bizarrely Resilient", text: "Attacks targeting this model have their Armour Penetration worsened by 1." }
     ],
@@ -2828,7 +3240,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 big shoota, 2 big shootas, 1 big shoota and 1 rokkit launcha, 1 rokkit launcha, 2 rokkit launchas"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Da Bigger Dey Are, da Better Dey Drop", text: "When this model's lifta-droppa destroys an enemy model with Deadly Demise, that ability triggers on a 3+ instead of only a 6." }
     ],
@@ -2857,7 +3269,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 kannon, 1 supa-kannon"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Spiked Ram", text: "When this model ends a Charge move, roll a D6 for one engaged enemy unit: 2-5 deals D3 mortal wounds, and a 6 deals 3." }
@@ -2886,7 +3298,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s bursta kannon can be replaced with 1 giga shoota."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6+2", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6+2 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Wall of Dakka", text: "When this model makes a ranged attack against a target within half range, add 1 to the Hit roll." }
     ],
@@ -3038,7 +3450,7 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Mobile Arsenal", text: "This unit's ranged attacks can re-roll a Hit roll of 1." }
     ],
@@ -3061,7 +3473,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Saw Blades", tags: "CLEAVE 1", a: "4", skill: "3+", s: "7", ap: "-1", d: "2" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Squig Barrage", text: "After this unit shoots, an enemy unit (not Monster/Vehicle) hit by its Squig Launchas takes a -1 to hit penalty on its own attacks until your next turn." }
     ],
@@ -3088,6 +3500,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Surgical Precision", text: "While this model is leading a unit, that unit's weapons gain Lethal Hits." },
       { name: "Vivispectrum", text: "If this model's unit destroys an enemy unit in melee, this model's Objective Control becomes 9 for the rest of the battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["CHARACTER", "IMPERIUM", "INFANTRY", "BIOLOGIS", "APOTHECARY", "GRAVIS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Apothecary Biologis.",
@@ -3115,6 +3533,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Narthecium", text: "While this model is leading a unit, in your Command phase you can return 1 destroyed model (not Characters) to that unit." },
       { name: "Gene-seed Recovery", text: "When this model's Bodyguard unit is destroyed, roll a D6 — on a 2+, you gain 1 Command Point." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GRENADES", "APOTHECARY", "IMPERIUM", "CHARACTER", "MOUNTED", "RAVENWING"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Apothecary on Bike.",
@@ -3142,11 +3566,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Assault Ramp", text: "A unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["LAND RAIDER", "FRAME", "IMPERIUM", "TRANSPORT", "DEATHWING", "VEHICLE", "SMOKE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Raider.",
@@ -3177,6 +3607,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Psychic Hood", text: "While this model is leading a unit, that unit has the Feel No Pain 4+ ability specifically against Psychic Attacks." },
       { name: "Veil of Time (Psychic)", text: "While this model is leading a unit, that unit's weapons gain Sustained Hits 1." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "DEATHWING", "LIBRARIAN", "TERMINATOR", "IMPERIUM", "PSYKER", "CHARACTER"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Librarian in Terminator Armour.",
@@ -3204,11 +3640,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Ferocious Assault", text: "When this model attacks the closest eligible Monster/Vehicle, add 1 to the Hit roll." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "SICARAN VENATOR", "SMOKE", "FRAME", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Sicaran Venator.",
@@ -3233,6 +3675,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Litany of Hate", text: "While this model is leading a unit, add 1 to the Wound roll for that unit's melee attacks." },
       { name: "Catechism of Fire", text: "When this model's unit shoots, pick an enemy unit within 12\" and visible — that unit's ranged weapons gain Devastating Wounds against that target this phase." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["CHAPLAIN", "IMPERIUM", "RAVENWING", "GRENADES", "CHARACTER", "MOUNTED"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Chaplain on Bike.",
@@ -3261,12 +3709,18 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with up to 2 hunter-killer missiles."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Fire and Redeploy", text: "After this model shoots, if it's not within Engagement Range of any enemy, it can make a Normal move of up to D6\" — but can't charge this turn if it does." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "FLY", "VEHICLE", "RAVENWING", "JAVELIN ATTACK SPEEDER"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Javelin Attack Speeder.",
@@ -3304,6 +3758,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Litany of Hate", text: "While this model is leading a unit, add 1 to the Wound roll for that unit's melee attacks." },
       { name: "Exhortation of Rage", text: "When this model's unit fights, pick an engaged enemy unit and roll a D6: 4-5 deals D3 mortal wounds, and a 6 deals 3." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["JUMP PACK", "INFANTRY", "CHARACTER", "CHAPLAIN", "IMPERIUM", "FLY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Chaplain with Jump Pack.",
@@ -3352,6 +3812,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Turbo-boost", text: "When this unit Advances, skip the Advance roll and instead add 6\" to its Move for the phase." },
       { name: "ATTACHED UNITS", text: "A Character with the Leader ability that can attach to an Outrider Squad can attach to this unit too." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["BIKE SQUAD", "IMPERIUM", "GRENADES", "MOUNTED", "RAVENWING"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Biker Sergeant; 2-5 Space Marine Bikers; 0-1 Attack Bike.",
@@ -3378,6 +3844,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Psychic Hood", text: "While this model is leading a unit, that unit has the Feel No Pain 4+ ability specifically against Psychic Attacks." },
       { name: "Shrouding (Psychic)", text: "While this model is leading a unit, that unit gains Stealth and can only be targeted by ranged attacks from within 12\"." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["PSYKER", "LIBRARIAN", "PHOBOS", "IMPERIUM", "INFANTRY", "CHARACTER", "GRENADES"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Librarian in Phobos Armour.",
@@ -3386,7 +3858,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "venerable-dreadnought",
     name: "Venerable Dreadnought",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "60mm",
     stats: { M: "8\"", T: "9", Sv: "2+", W: "8", Ld: "6+", OC: "3" },
     rangedWeapons: [
@@ -3408,7 +3880,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s assault cannon, storm bolter and Dreadnought combat weapon can be replaced with one of the following: 1 Fenrisian greataxe, 1 blizzard shield and 1 storm bolter, 1 Fenrisian greataxe, 1 blizzard shield and 1 heavy flamer"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Fervour of the Ancients (Aura)", text: "Friendly Space Wolves units within 6\" get +1 to Advance and Charge rolls." },
       { name: "Blizzard Shield", text: "The bearer has a 4+ invulnerable save." }
@@ -3421,7 +3893,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "uriel-ventris",
     name: "Uriel Ventris",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -3464,11 +3936,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Rotating Death", text: "This model's Punisher rotary cannon gains Sustained Hits 1 against Infantry." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "FRAME", "VEHICLE", "SMOKE", "SICARAN PUNISHER"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Sicaran Punisher.",
@@ -3495,11 +3973,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Fire Support", text: "After this model shoots, pick an enemy unit it hit — friendly models that disembarked from this Transport this turn can re-roll Wound rolls against that unit for the rest of the phase." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "SMOKE", "TRANSPORT", "DEDICATED TRANSPORT", "IMPERIUM", "FRAME", "RAZORBACK"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Razorback.",
@@ -3531,11 +4015,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 3 hunter-killer missiles."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Duty Eternal", text: "Attacks allocated to this model have their Damage reduced by 1." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["WALKER", "IMPERIUM", "SMOKE", "DREADNOUGHT", "DEATHWING", "LEVIATHAN DREADNOUGHT", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Leviathan Dreadnought.",
@@ -3562,8 +4052,15 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Mindlock", text: "While a Techmarine is leading this unit, Astartes Servitor models' weapons get +1 Ballistic Skill and Weapon Skill." },
+      { name: "Oath of Moment", text: "At the start of your Command phase, pick one enemy unit as your Oath of Moment target until your next Command phase. Attacks by models with this ability against that target can re-roll the Hit roll — and, if your detachment isn't restricted to a specific Chapter with its own replacement rule (Black Templars, Blood Angels, Dark Angels, Deathwatch, Space Wolves), can also add 1 to the Wound roll." },
       { name: "SERVITOR RETINUE", text: "At the start of Battle Formations, this unit can join another unit led by a Techmarine, effectively becoming part of that Bodyguard unit for the rest of the battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "INFANTRY", "ASTARTES SERVITORS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "4 Astartes Servitors.",
@@ -3594,6 +4091,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Rites of Battle", text: "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of the Stratagem by 1." },
       { name: "The Imperium’s Sword", text: "You can re-roll Charge rolls made for this model's unit." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["TERMINATOR", "CAPTAIN", "CHARACTER", "INFANTRY", "DEATHWING", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Captain in Terminator Armour.",
@@ -3620,12 +4123,18 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s Thunderhawk cluster bombs can be replaced with 1 hellstrike missile battery."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6+2", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6+2 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Thunderhawk Cluster Bombs", text: "After the bearer makes a Normal move, pick an enemy unit it moved over and roll six D6 — each 3+ deals 1 mortal wound." },
       { name: "Aerial Assault", text: "A Deep Strike unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["FLY", "TITANIC", "VEHICLE", "TRANSPORT", "RAVENWING", "THUNDERHAWK GUNSHIP", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Thunderhawk Gunship.",
@@ -3650,11 +4159,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Hunter Missile Targeting", text: "This model's skyspear missile launcher scores hits against Monster/Vehicle targets on an unmodified 2+." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "IMPERIUM", "SMOKE", "FRAME", "HUNTER"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Hunter.",
@@ -3690,6 +4205,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Vanguard Assault", text: "When this unit ends a Charge move, its melee weapons gain Lethal Hits until the end of the turn." },
       { name: "Storm Shield", text: "The bearer has a 4+ invulnerable save." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["DEATHWING", "VANGUARD VETERAN SQUAD", "IMPERIUM", "FLY", "JUMP PACK", "GRENADES", "VANGUARD VETERAN SQUAD WITH JUMP PACKS", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Vanguard Veteran Sergeant with Jump Pack; 4-9 Vanguard Veterans with Jump Packs.",
@@ -3717,6 +4238,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Swift Assault", text: "While this model is leading a unit, that unit's ranged weapons gain the Assault ability." },
       { name: "Unbreakable Duty", text: "While within range of an objective or within 6\" of the battlefield centre, this model has Feel No Pain 4+." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "IMPERIUM", "CHARACTER", "GRENADES", "IMPERIAL SPACE MARINE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Imperial Space Marine.",
@@ -3725,7 +4252,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "commander-dante",
     name: "Commander Dante",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "50mm",
     stats: { M: "12\"", T: "4", Sv: "2+", W: "6", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -3749,7 +4276,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "librarian-dreadnought",
     name: "Librarian Dreadnought",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "60mm",
     stats: { M: "8\"", T: "9", Sv: "2+", W: "8", Ld: "6+", OC: "3" },
     rangedWeapons: [
@@ -3767,7 +4294,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s storm bolter can be replaced with one of the following: 1 heavy flamer, 1 meltagun"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Shield of Sanguinius (Aura, Psychic)", text: "Friendly Adeptus Astartes units within 6\" gain Feel No Pain 5+ against mortal wounds and Psychic Attacks." },
       { name: "Wings of Sanguinius (Psychic)", text: "Once per turn, at the end of your Movement phase, roll a D6 for this Psyker: on a 1, it takes D3 mortal wounds; on a 2+, teleport a friendly Adeptus Astartes Infantry unit within 12\" to a new location." }
@@ -3780,7 +4307,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "chief-librarian-mephiston",
     name: "Chief Librarian Mephiston",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "40mm",
     stats: { M: "7\"", T: "5", Sv: "2+", W: "6", Ld: "6+", OC: "1", InvSv: "5+" },
     rangedWeapons: [
@@ -3808,7 +4335,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "the-sanguinor",
     name: "The Sanguinor",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "40mm",
     stats: { M: "12\"", T: "4", Sv: "2+", W: "7", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -3833,7 +4360,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "astorath",
     name: "Astorath",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "40mm",
     stats: { M: "12\"", T: "4", Sv: "2+", W: "5", Ld: "5+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -3857,7 +4384,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "sanguinary-priest",
     name: "Sanguinary Priest",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -3880,7 +4407,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "brother-corbulo",
     name: "Brother Corbulo",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "25mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -3906,7 +4433,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "lemartes",
     name: "Lemartes",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "40mm",
     stats: { M: "12\"", T: "4", Sv: "3+", W: "4", Ld: "5+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -3931,7 +4458,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "death-company-dreadnought",
     name: "Death Company Dreadnought",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "90mm",
     stats: { M: "8\"", T: "10", Sv: "2+", W: "12", Ld: "6+", OC: "4" },
     rangedWeapons: [
@@ -3950,7 +4477,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model's blood fists and blood fist bolt rifles can be replaced with 1 blood talons."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Black Rage", text: "This model's melee attacks can re-roll the Hit roll. Unless within 6\" of a friendly Blood Angels Character (or 12\" of a Chaplain), it can't Fall Back and its Objective Control is 0." },
@@ -3964,7 +4491,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "furioso-dreadnought",
     name: "Furioso Dreadnought",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "60mm",
     stats: { M: "8\"", T: "9", Sv: "2+", W: "8", Ld: "6+", OC: "3" },
     rangedWeapons: [
@@ -3985,7 +4512,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 magna-grapple."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Wrathful Rampage", text: "When this model fights, pick an engaged enemy and roll a D6 (+2 if it charged this turn): 4-5 deals D3 mortal wounds, 6+ deals 3." },
       { name: "Magna-grapple", text: "The bearer loses the Smoke keyword, but gets +2 to Charge rolls when charging a Monster or Vehicle." }
@@ -3998,7 +4525,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "baal-predator",
     name: "Baal Predator",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "Use model",
     stats: { M: "12\"", T: "10", Sv: "3+", W: "11", Ld: "6+", OC: "3" },
     rangedWeapons: [
@@ -4019,7 +4546,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 2 heavy bolters, 2 heavy flamers"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Overcharged Engines", text: "You can re-roll Advance rolls made for this model." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
@@ -4032,7 +4559,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "belial",
     name: "Belial",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "50mm",
     stats: { M: "5\"", T: "5", Sv: "2+", W: "6", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -4056,7 +4583,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "asmodai",
     name: "Asmodai",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "50mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "5+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -4080,7 +4607,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "ravenwing-black-knights",
     name: "Ravenwing Black Knights",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "75 x 42mm",
     stats: { M: "12\"", T: "5", Sv: "3+", W: "3", Ld: "6+", OC: "2", InvSv: "5+" },
     rangedWeapons: [
@@ -4109,7 +4636,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "ragnar-blackmane",
     name: "Ragnar Blackmane",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "7\"", T: "4", Sv: "3+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -4132,7 +4659,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "krom-dragongaze",
     name: "Krom Dragongaze",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -4158,7 +4685,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "harald-deathwolf",
     name: "Harald Deathwolf",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "60mm",
     stats: { M: "10\"", T: "6", Sv: "3+", W: "7", Ld: "6+", OC: "2", InvSv: "4+" },
     rangedWeapons: [
@@ -4185,7 +4712,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "canis-wolfborn",
     name: "Canis Wolfborn",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "60mm",
     stats: { M: "10\"", T: "6", Sv: "3+", W: "6", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -4212,7 +4739,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "njal-stormcaller",
     name: "Njal Stormcaller",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "7\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -4237,7 +4764,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "ulrik-the-slayer",
     name: "Ulrik The Slayer",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "7\"", T: "4", Sv: "3+", W: "4", Ld: "5+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -4262,7 +4789,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "bjorn-the-fell-handed",
     name: "Bjorn The Fell-handed",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "60mm",
     stats: { M: "9\"", T: "9", Sv: "2+", W: "8", Ld: "6+", OC: "3", InvSv: "5+" },
     rangedWeapons: [
@@ -4279,7 +4806,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s assault cannon can be replaced with one of the following: Helfrost cannon, Multi-melta"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Legendary Tenacity", text: "When attacked by something with higher Strength than this model's Toughness, subtract 1 from the Wound roll." },
@@ -4293,7 +4820,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wulfen",
     name: "Wulfen",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "9\"", T: "6", Sv: "4+", W: "2", Ld: "7+", OC: "0" },
     rangedWeapons: [
@@ -4319,7 +4846,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "arjac-rockfist",
     name: "Arjac Rockfist",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "50mm",
     stats: { M: "6\"", T: "5", Sv: "2+", W: "6", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -4343,7 +4870,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-guard-terminators",
     name: "Wolf Guard Terminators",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "6\"", T: "5", Sv: "2+", W: "3", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -4375,7 +4902,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "thunderwolf-cavalry",
     name: "Thunderwolf Cavalry",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "60mm",
     stats: { M: "12\"", T: "6", Sv: "3+", W: "4", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -4405,7 +4932,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "fenrisian-wolves",
     name: "Fenrisian Wolves",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "10\"", T: "4", Sv: "6+", W: "1", Ld: "8+", OC: "0" },
     rangedWeapons: [
@@ -4427,7 +4954,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "skyclaws",
     name: "Skyclaws",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "12\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -4484,6 +5011,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Multi-spectrum Array", text: "After this unit shoots, pick a hit enemy — friendly Adeptus Astartes attacks against it get +1 to hit for the rest of the phase." },
       { name: "Haywire Mine", text: "Once per battle, target an enemy within 3\" of the bearer and roll a D6 — on a 2+, it takes D3 mortal wounds (2D3 if a Vehicle)." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "SMOKE", "GRENADES", "INCURSOR SQUAD", "INFANTRY", "PHOBOS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Incursor Sergeant; 4-9 Incursors.",
@@ -4511,11 +5044,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Specialised Weapon System", text: "This model's attacks against its Oath of Moment target gain Ignores Cover and ignore the Indirect Fire penalty against unseen targets." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["SMOKE", "IMPERIUM", "VEHICLE", "FRAME", "SICARAN ARCUS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Sicaran Arcus.",
@@ -4524,7 +5063,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "sergeant-telion",
     name: "Sergeant Telion",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "25mm",
     stats: { M: "6\"", T: "4", Sv: "4+", W: "3", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -4574,11 +5113,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Overwhelming Short-range Firepower", text: "When this model attacks the closest eligible enemy, re-roll a Hit roll of 1 and a Wound roll of 1." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["SICARAN OMEGA", "SMOKE", "VEHICLE", "FRAME", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Sicaran Omega.",
@@ -4608,6 +5153,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Tremor Shells", text: "After this unit shoots, an Infantry unit hit by its thunderfire cannon is Shaken until your opponent's next turn, reducing its Move by 2." },
       { name: "Crewed Artillery", text: "If one model in this unit is destroyed, the remaining model is destroyed too." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["THUNDERFIRE CANNON", "VEHICLE", "FRAME", "IMPERIUM", "ARTILLERY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Techmarine Gunner; 1 Thunderfire Cannon.",
@@ -4631,6 +5182,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Astartes Banner", text: "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit." },
       { name: "Deeds of Heroism", text: "Once per battle, when this model is selected to fight, its unit's melee weapons get +1 Attacks until the end of the phase." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["DEATHWING", "TACTICUS", "CHARACTER", "GRENADES", "IMPERIUM", "ANCIENT", "BLADEGUARD ANCIENT", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Bladeguard Ancient.",
@@ -4662,6 +5219,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Rites of Battle", text: "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of the Stratagem by 1." },
       { name: "Refuse to Yield", text: "Attacks allocated to this model have their Damage halved." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "CHARACTER", "GRENADES", "IMPERIUM", "GRAVIS", "CAPTAIN"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Captain in Gravis Armour.",
@@ -4701,11 +5264,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 hunter killer missile"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Line-breaker", text: "This model can target enemies within Engagement Range with Blast weapons (if no other friendly unit is also engaged with them), and doesn't suffer the usual penalty for shooting while engaged." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["FRAME", "VEHICLE", "SMOKE", "IMPERIUM", "KRATOS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Kratos.",
@@ -4730,11 +5299,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 hunter-killer missile."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Annihilator", text: "When this model attacks a Monster/Vehicle, re-roll a Damage roll of 1." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["FRAME", "IMPERIUM", "VEHICLE", "VINDICATOR LASER DESTROYER", "SMOKE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Vindicator Laser Destroyer.",
@@ -4771,6 +5346,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Astartes Banner", text: "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit." },
       { name: "Unbreakable Duty", text: "While within range of an objective or within 6\" of the battlefield centre, this model has Feel No Pain 4+." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["RAVENWING", "GRENADES", "ANCIENT", "CHARACTER", "MOUNTED", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Ancient on Bike.",
@@ -4799,11 +5380,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Assault Ramp", text: "A unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["FRAME", "TERMINUS ULTRA", "IMPERIUM", "TRANSPORT", "SMOKE", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Terminus Ultra.",
@@ -4831,11 +5418,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Armoured Spearhead", text: "This model's attacks re-roll a Hit roll of 1, or any Hit roll if the target is on an objective you don't control." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "FRAME", "IMPERIUM", "SMOKE", "SICARAN BATTLE TANK"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Sicaran Battle Tank.",
@@ -4860,11 +5453,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Siege Shield", text: "This model's demolisher cannon can target enemies within Engagement Range (if no other friendly unit is also engaged), without the usual shooting-while-engaged penalty." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["SMOKE", "IMPERIUM", "FRAME", "VINDICATOR", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Vindicator.",
@@ -4902,6 +5501,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Psychic Hood", text: "While this model is leading a unit, that unit has the Feel No Pain 4+ ability specifically against Psychic Attacks." },
       { name: "Might of Heroes (Psychic)", text: "While this model is leading a unit, that unit's melee weapons get +1 Armour Penetration." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "JUMP PACK", "FLY", "PSYKER", "GRENADES", "IMPERIUM", "LIBRARIAN", "CHARACTER"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Librarian with Jump Pack.",
@@ -4926,6 +5531,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Tactical Precision", text: "While this model is leading a unit, that unit's weapons gain Lethal Hits." },
       { name: "Deadly Terror", text: "While this model is leading a unit, that unit's Terror Troops ability range increases by 3\"." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GRENADES", "SMOKE", "CHARACTER", "INFANTRY", "LIEUTENANT IN REIVER ARMOUR", "LIEUTENANT", "PHOBOS", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Lieutenant in Reiver Armour.",
@@ -4952,11 +5563,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 hunter-killer missile."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Assault Ramp", text: "A unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "SMOKE", "FRAME", "TRANSPORT", "VEHICLE", "LAND RAIDER PROMETHEUS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Raider Prometheus.",
@@ -4992,6 +5609,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Psychic Hood", text: "While this model is leading a unit, that unit has the Feel No Pain 4+ ability specifically against Psychic Attacks." },
       { name: "Mental Fortress (Psychic)", text: "While this model is leading a unit, that unit has a 4+ invulnerable save." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["RAVENWING", "LIBRARIAN", "IMPERIUM", "PSYKER", "CHARACTER", "MOUNTED", "GRENADES"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Librarian on Bike.",
@@ -5020,11 +5643,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Assault Ramp", text: "A unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["LAND RAIDER ACHILLES", "IMPERIUM", "SMOKE", "FRAME", "VEHICLE", "TRANSPORT"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Raider Achilles.",
@@ -5033,7 +5662,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "chief-librarian-tigurius",
     name: "Chief Librarian Tigurius",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -5079,6 +5708,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "For the Chapter!", text: "When a model in this unit is destroyed, on a 3+ it can shoot back before being removed, even if the destruction was from a failed Hazardous test." },
       { name: "Designer’s Note", text: "This ability still triggers even if the model was destroyed by failing a Hazardous test, potentially letting it shoot twice in a phase." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["TACTICUS", "GRENADES", "INFANTRY", "IMPERIUM", "HELLBLASTER SQUAD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Hellblaster Sergeant; 4-9 Hellblasters.",
@@ -5087,7 +5722,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "adrax-agatone",
     name: "Adrax Agatone",
-    faction: "Space Marines",
+    faction: "Space Marines - Salamanders",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -5129,11 +5764,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Assault Ramp", text: "A unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["TRANSPORT", "DEATHWING", "GRENADES", "LAND RAIDER REDEEMER", "LAND RAIDER", "FRAME", "IMPERIUM", "SMOKE", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Raider Redeemer.",
@@ -5160,6 +5801,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Honour or Death", text: "While this model is leading a unit, that unit gets +1 to Advance and Charge rolls; using Heroic Intervention on this unit costs 1 less CP." },
       { name: "Martial Superiority", text: "When this model makes a melee attack against a Character, you can re-roll both the Hit roll and the Wound roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["PRIMARIS COMPANY CHAMPION", "INFANTRY", "GRENADES", "CHARACTER", "IMPERIUM", "TACTICUS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Primaris Company Champion.",
@@ -5184,11 +5831,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Skyfire Protocols", text: "When this model uses Fire Overwatch against a Flying unit that just moved, you can also target up to three more enemy Fliers within 24\"." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "SMOKE", "FRAME", "STALKER", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Stalker.",
@@ -5197,7 +5850,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "sammael",
     name: "Sammael",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "60mm flying base",
     stats: { M: "12\"", T: "5", Sv: "3+", W: "7", Ld: "6+", OC: "2", InvSv: "4+" },
     rangedWeapons: [
@@ -5222,7 +5875,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "lazarus",
     name: "Lazarus",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -5245,7 +5898,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "tor-garadon",
     name: "Tor Garadon",
-    faction: "Space Marines",
+    faction: "Space Marines - Imperial Fists",
     base: "40mm",
     stats: { M: "5\"", T: "6", Sv: "3+", W: "6", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -5287,6 +5940,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Tactical Precision", text: "While this model is leading a unit, that unit's weapons gain Lethal Hits." },
       { name: "Strategic Dispersal", text: "After this model's unit shoots, if unengaged, it can make a Normal move of up to 6\" — but can't charge this turn if it does." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["LIEUTENANT", "PHOBOS", "IMPERIUM", "GRENADES", "CHARACTER", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Lieutenant in Phobos Armour.",
@@ -5295,7 +5954,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "chaplain-cassius",
     name: "Chaplain Cassius",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "5+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -5340,6 +5999,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Rites of Battle", text: "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of the Stratagem by 1." },
       { name: "Master of Deceit", text: "After deployment, you can redeploy up to three friendly Adeptus Astartes Infantry units, including into Strategic Reserves." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["CAPTAIN", "PHOBOS", "IMPERIUM", "GRENADES", "CHARACTER", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Captain in Phobos Armour.",
@@ -5368,6 +6033,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Annihilator Protocols", text: "This unit's melee weapons gain Sustained Hits 2 against Monster/Vehicle/Fortification targets." },
       { name: "Centurion Assault Launcher", text: "The bearer has the Grenades keyword." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "INFANTRY", "CENTURION ASSAULT SQUAD", "CENTURION"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Assault Centurion Sergeant; 2-5 Assault Centurions.",
@@ -5391,6 +6062,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Tempormortis", text: "While this model is leading a unit, that unit has Fights First." },
       { name: "Silent Fury", text: "When this model destroys an enemy Character, its executioner relic blade gets +1 Attacks for the rest of the battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "CHARACTER", "IMPERIUM", "TACTICUS", "JUDICIAR"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Judiciar.",
@@ -5416,11 +6093,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 hunter-killer missile."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Assault Ramp", text: "A unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "SMOKE", "TRANSPORT", "FRAME", "IMPERIUM", "LAND RAIDER HELIOS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Raider Helios.",
@@ -5448,11 +6131,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Annihilator", text: "When this model attacks a Monster/Vehicle, re-roll a Damage roll of 1." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["FRAME", "SMOKE", "VEHICLE", "PREDATOR ANNIHILATOR", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Predator Annihilator.",
@@ -5480,11 +6169,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Destructor", text: "When this model attacks an Infantry unit, add 1 to that attack's Armour Penetration." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["SMOKE", "IMPERIUM", "FRAME", "PREDATOR DESTRUCTOR", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Predator Destructor.",
@@ -5525,11 +6220,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 cyclone missile launcher."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Even In Death I Serve", text: "The first time this model is destroyed, it skips Deadly Demise — then at the end of the phase, on a 2+, it's set back up nearby with reduced wounds." },
       { name: "Conversion", text: "Attacks with this weapon against targets more than 12\" away score a Critical Hit on an unmodified 4+." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "DREADNOUGHT", "RELIC CONTEMPTOR DREADNOUGHT", "DEATHWING", "WALKER", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Relic Contemptor Dreadnought.",
@@ -5558,11 +6259,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Fire Support", text: "After this model shoots, pick an enemy unit it hit — friendly models that disembarked from this Transport this turn can re-roll Wound rolls against that unit for the rest of the phase." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "SMOKE", "TRANSPORT", "DEDICATED TRANSPORT", "FRAME", "IMPERIUM", "RELIC RAZORBACK"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Relic Razorback.",
@@ -5571,7 +6278,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "repulsor",
     name: "Repulsor",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "100mm",
     stats: { M: "10\"", T: "12", Sv: "3+", W: "16", Ld: "6+", OC: "5" },
     rangedWeapons: [
@@ -5592,7 +6299,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 multi-melta."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
       { name: "Stabilised Disembarkation", text: "If this Transport is shot at, after the attack resolves it can let embarked units disembark and be set up anywhere legal, not just adjacent." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
@@ -5621,11 +6328,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Pinning Bombardment", text: "After this model shoots, an Infantry unit hit by its Whirlwind vengeance launcher must take a Battle-shock test." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "SMOKE", "IMPERIUM", "FRAME", "WHIRLWIND"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Whirlwind.",
@@ -5650,11 +6363,17 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Pinning Bombardment", text: "After this model shoots, an Infantry unit hit by its Whirlwind vengeance launcher must take a Battle-shock test." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["SMOKE", "FRAME", "IMPERIUM", "WHIRLWIND SCORPIUS", "VEHICLE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Whirlwind Scorpius.",
@@ -5663,7 +6382,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "sanguinary-priest-with-jump-pack",
     name: "Sanguinary Priest With Jump Pack",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "32mm",
     stats: { M: "12\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -5708,6 +6427,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Astartes Banner", text: "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit." },
       { name: "Command Squad", text: "While a Character is leading this unit, attacks against it take -1 to the Wound roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["COMPANY HEROES", "ANCIENT", "TACTICUS", "IMPERIUM", "GRENADES", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Ancient; 1 Company Champion; 2 Company Veterans.",
@@ -5732,6 +6457,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Narthecium", text: "While this model is leading a unit, in your Command phase you can return 1 destroyed model (not Characters) to that unit." },
       { name: "Gene-seed Recovery", text: "When this model's Bodyguard unit is destroyed, roll a D6 — on a 2+, you gain 1 Command Point." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["CHARACTER", "GRENADES", "IMPERIUM", "TACTICUS", "APOTHECARY", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Apothecary.",
@@ -5760,6 +6491,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Astartes Banner", text: "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit." },
       { name: "Unbreakable Duty", text: "While within range of an objective or within 6\" of the battlefield centre, this model has Feel No Pain 4+." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["ANCIENT", "TACTICUS", "IMPERIUM", "GRENADES", "CHARACTER", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Ancient.",
@@ -5768,7 +6505,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "fortis-kill-team",
     name: "Fortis Kill Team",
-    faction: "Space Marines",
+    faction: "Space Marines - Deathwatch",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -5817,7 +6554,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "indomitor-kill-team",
     name: "Indomitor Kill Team",
-    faction: "Space Marines",
+    faction: "Space Marines - Deathwatch",
     base: "40mm",
     stats: { M: "5\"", T: "6", Sv: "3+", W: "3", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -5853,7 +6590,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "castellan",
     name: "Castellan",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -5882,7 +6619,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "high-marshal-helbrecht",
     name: "High Marshal Helbrecht",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "60mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "6", Ld: "6+", OC: "3", InvSv: "4+" },
     rangedWeapons: [
@@ -5909,7 +6646,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "marshal",
     name: "Marshal",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -5937,7 +6674,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "sword-brethren-squad",
     name: "Sword Brethren Squad",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "3", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -5972,7 +6709,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "crusader-squad",
     name: "Crusader Squad",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "28.5mm",
     stats: { M: "6\"", T: "4", Sv: "4+", W: "2", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -6008,7 +6745,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "hounds-of-morkai",
     name: "Hounds Of Morkai",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1", InvSv: "6+" },
     rangedWeapons: [
@@ -6034,7 +6771,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "blood-angels-captain",
     name: "Blood Angels Captain",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -6064,7 +6801,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "watch-master",
     name: "Watch Master",
-    faction: "Space Marines",
+    faction: "Space Marines - Deathwatch",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -6091,7 +6828,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "watch-captain-artemis",
     name: "Watch Captain Artemis",
-    faction: "Space Marines",
+    faction: "Space Marines - Deathwatch",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -6119,7 +6856,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "talonstrike-kill-team",
     name: "Talonstrike Kill Team",
-    faction: "Space Marines",
+    faction: "Space Marines - Deathwatch",
     base: "32mm",
     stats: { M: "12\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -6158,7 +6895,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-priest",
     name: "Wolf Priest",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "7\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -6181,7 +6918,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wulfen-with-storm-shields",
     name: "Wulfen with Storm Shields",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "9\"", T: "6", Sv: "4+", W: "2", Ld: "7+", OC: "0", InvSv: "4+" },
     rangedWeapons: [
@@ -6207,7 +6944,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "execrator",
     name: "Execrator",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "5+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -6236,7 +6973,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "crusade-ancient",
     name: "Crusade Ancient",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -6259,7 +6996,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "caanok-var",
     name: "Caanok Var",
-    faction: "Space Marines",
+    faction: "Space Marines - Iron Hands",
     base: "50mm",
     stats: { M: "5\"", T: "5", Sv: "2+", W: "6", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -6285,7 +7022,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "suboden-khan",
     name: "Suboden Khan",
-    faction: "Space Marines",
+    faction: "Space Marines - White Scars",
     base: "90 x 52mm",
     stats: { M: "12\"", T: "5", Sv: "3+", W: "8", Ld: "6+", OC: "2", InvSv: "4+" },
     rangedWeapons: [
@@ -6310,7 +7047,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "marneus-calgar-in-armour-of-antilochus",
     name: "Marneus Calgar in Armour of Antilochus",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "50mm",
     stats: { M: "6\"", T: "6", Sv: "2+", W: "6", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -6334,7 +7071,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "cato-sicarius",
     name: "Cato Sicarius",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -6374,6 +7111,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Master of Rites", text: "In your Command phase, pick one bonus (shoot/charge/etc. after Advancing) to apply to this model's unit until the end of the turn." },
       { name: "Unrelenting and Uncompromising", text: "While this model is leading a unit, that unit's attacks can ignore penalties to Ballistic Skill, Weapon Skill, or the Hit roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["TACTICUS", "INFANTRY", "IMPERIUM", "CHARACTER", "GRENADES", "EPIC HERO", "CAPTAIN", "FERREN AREIOS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Ferren Areios – <span class=\"kwb\">EPIC</span> <span class=\"kwb\">HERO</span>.",
@@ -6401,6 +7144,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Honour or Death", text: "While this model is leading a unit, that unit gets +1 to Advance and Charge rolls; using Heroic Intervention on this unit costs 1 less CP." },
       { name: "Martial Superiority", text: "When this model makes a melee attack against a Character, you can re-roll both the Hit roll and the Wound roll." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["RAVENWING", "MOUNTED", "CHARACTER", "GRENADES", "IMPERIUM", "COMPANY CHAMPION"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Company Champion on Bike.",
@@ -6694,7 +7443,7 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Go fer da Weak Spot", text: "This unit's ranged attacks against Monster/Vehicle targets get +1 to wound." },
       { name: "Blastajet Force Field", text: "Models in this unit have a 5+ invulnerable save and lose the Smoke ability." }
@@ -6722,7 +7471,7 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Super-heavy Walker", text: "This model can move through other models and terrain features 4\" or less in height as if they weren't there, though it can't end a move within Engagement Range that way." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Gut Hatch", text: "After this unit makes a Normal move, embarked units can make an assault disembark move." },
@@ -6752,7 +7501,7 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Super-heavy Walker", text: "This model can move through other models and terrain features 4\" or less in height as if they weren't there, though it can't end a move within Engagement Range that way." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Gut Hatch", text: "After this unit makes a Normal move, embarked units can make an assault disembark move." },
@@ -6781,7 +7530,7 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 2D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 2D6 mortal wounds." },
       { name: "Super-heavy Walker", text: "This model can move through other models and terrain features 4\" or less in height as if they weren't there, though it can't end a move within Engagement Range that way." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Idol of Belligerence", text: "When a unit disembarks from this model, it becomes Riled Up until your next turn." },
@@ -6811,7 +7560,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 kannon, 1 supa-kannon"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 2D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 2D6 mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Gargantuan", text: "This model can move through other models and terrain 4\" or less in height as if they weren't there." },
@@ -6861,7 +7610,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Snagga Klaw", tags: "CLEAVE 2", a: "5", skill: "2+", s: "7", ap: "-2", d: "2" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Da Boss", text: "At the start of the battle round, if this model is your Warlord, gain 1 Command Point." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -6941,7 +7690,7 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -7027,7 +7776,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Stompy Feet", tags: "", a: "4", skill: "3+", s: "6", ap: "-1", d: "1" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Even More Dakka", text: "While Riled Up, this unit's ranged attacks gain Sustained Hits 1." },
       { name: "Blitz Dem Gitz!", text: "In your Shooting phase, this unit's Blitzkannon gets +6 Attacks against non-Monster/Vehicle targets." }
@@ -7100,6 +7849,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Chainsword Doctrines", text: "When this unit fights, pick Sustained Hits 1, Lethal Hits, or Lance to apply to its Astartes chainswords until the end of the phase." },
       { name: "ATTACHED UNITS", text: "A Character with the Leader ability that can attach to a stated unit can attach to this unit too." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GRENADES", "IMPERIUM", "INFANTRY", "ASSAULT SQUAD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Assault Sergeant; 4-9 Assault Marines.",
@@ -7146,6 +7901,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Hammer of Wrath", text: "When this unit ends a Charge move, roll a D6 per model against one engaged enemy — each 4+ deals 1 mortal wound." },
       { name: "ATTACHED UNITS", text: "A Character with the Leader ability that can attach to a stated unit can attach to this unit too." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "INFANTRY", "FLY", "JUMP PACK", "GRENADES", "ASSAULT SQUAD WITH JUMP PACKS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Assault Sergeant with Jump Pack; 4-9 Assault Marines with Jump Packs.",
@@ -7154,7 +7915,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "land-raider-crusader",
     name: "Land Raider Crusader",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "Use model",
     stats: { M: "12\"", T: "12", Sv: "2+", W: "16", Ld: "6+", OC: "5" },
     rangedWeapons: [
@@ -7173,7 +7934,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
       { name: "Assault Ramp", text: "A unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." },
       { name: "Legacy of Jerulas", text: "After this model shoots, pick an enemy it hit — friendly models disembarking from this Transport this turn can re-roll a Hit roll of 1 and a Wound roll of 1 against that unit for the rest of the turn." },
@@ -7208,12 +7969,18 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 combi-weapon."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Rites of Battle", text: "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of the Stratagem by 1." },
       { name: "Assault Ramp", text: "A unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "SMOKE", "TRANSPORT", "FRAME", "IMPERIUM", "LAND RAIDER EXCELSIOR"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Raider Excelsior.",
@@ -7241,6 +8008,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Evade and Survive", text: "In your opponent's Movement phase, if an enemy ends a move within 8\" and this unit isn't engaged, it can make a Normal move of up to 6\"." },
       { name: "LAST SURVIVOR", text: "This model cannot be selected as your Warlord." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["LIEUTENANT WITH COMBI-WEAPON", "LIEUTENANT", "PHOBOS", "IMPERIUM", "GRENADES", "INFANTRY", "CHARACTER"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Lieutenant with Combi-weapon.",
@@ -7278,6 +8051,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Rites of Battle", text: "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of the Stratagem by 1." },
       { name: "Relic Shield", text: "The bearer has a Wounds characteristic of 6." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["TACTICUS", "CAPTAIN", "FLY", "INFANTRY", "CHARACTER", "JUMP PACK", "GRENADES", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Captain with Jump Pack.",
@@ -7301,12 +8080,18 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 hunter-killer missile."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Self Repair", text: "At the end of your Command phase, this model regains 1 lost wound." },
       { name: "Orbital Comms Array (Aura)", text: "Friendly Adeptus Astartes units within 6\" have a chance (5+ on a D6) to gain 1 Command Point whenever targeted by a Stratagem." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["VEHICLE", "TRANSPORT", "FRAME", "IMPERIUM", "RHINO PRIMARIS", "SMOKE"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Rhino Primaris.",
@@ -7325,7 +8110,7 @@ GAMES["warhammer-40k"].datasheets = [
       
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Drop Pod Assault", text: "This model starts in Reserves and can arrive in the first, second, or third Movement phase regardless of mission rules; embarked units must disembark immediately, more than 8\" from all enemies." },
@@ -7333,6 +8118,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Deployment Complete", text: "Once this unit and all its passengers have disembarked, no units can embark in it again for the rest of the battle." },
       { name: "Designer’s Note", text: "Only the highlighted parts of this model count as its hull for movement and destruction purposes." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["FRAME", "IMPERIUM", "DEDICATED TRANSPORT", "VEHICLE", "TRANSPORT", "DROP POD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Drop Pod.",
@@ -7357,12 +8148,18 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Rites of Battle", text: "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of the Stratagem by 1." },
       { name: "Death-hold", text: "This model doesn't suffer the usual penalty for shooting while enemies are within Engagement Range." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["DREADNOUGHT", "VEHICLE", "WALKER", "IMPERIUM", "SMOKE", "CHARACTER", "EPIC HERO", "CARAB CULLN THE RISEN", "DEATHWING"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Carab Culln the Risen – <span class=\"kwb\">EPIC</span> <span class=\"kwb\">HERO</span>.",
@@ -7387,12 +8184,18 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s Hammerfall heavy bolter array can be replaced with 1 Hammerfall heavy flamer array."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Fortification", text: "While an enemy unit is engaged with only Fortification units, it can still be targeted by ranged attacks — those attacks get -1 to hit unless they're Close-Quarters weapons — and if it tries to Fall Back, it automatically passes the hazard roll for doing so (as long as it isn't Battle-shocked)." },
       { name: "Ceramite Cover", text: "A ranged attack against a friendly model is treated as Benefit of Cover if this Fortification blocks it from being fully visible to the attacker." },
       { name: "Defensive Array", text: "This Fortification can use Fire Overwatch for 0CP, even after another unit already used it this turn — but only once per turn for this Fortification." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["FRAME", "IMPERIUM", "VEHICLE", "FORTIFICATION", "HAMMERFALL BUNKER"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Hammerfall Bunker.",
@@ -7433,6 +8236,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Grenade Harness", text: "The bearer has the Grenades keyword." },
       { name: "ATTACHED UNITS", text: "A Character with the Leader ability that can attach to a stated unit can attach to this unit too." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["DEATHWING", "RELIC TERMINATOR SQUAD", "INFANTRY", "IMPERIUM", "TERMINATOR"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Relic Terminator Sergeant; 4-9 Relic Terminators.",
@@ -7461,6 +8270,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Recitation of Faith", text: "While this model is leading a unit, that unit has Feel No Pain 4+ against mortal wounds." },
       { name: "Relic Shield", text: "The bearer has a Wounds characteristic of 6." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "DEATHWING", "TERMINATOR", "IMPERIUM", "CHAPLAIN", "CHARACTER"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Chaplain in Terminator Armour.",
@@ -7489,6 +8304,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Terminatus Assault", text: "At the start of the Fight phase, engaged enemy units must take a Battle-shock test." },
       { name: "Storm Shield", text: "The bearer has a Wounds characteristic of 4." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "IMPERIUM", "TERMINATORS", "TERMINATOR ASSAULT SQUAD", "DEATHWING"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Assault Terminator Sergeant; 4-9 Assault Terminators.",
@@ -7497,7 +8318,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "iron-father-feirros",
     name: "Iron Father Feirros",
-    faction: "Space Marines",
+    faction: "Space Marines - Iron Hands",
     base: "40mm",
     stats: { M: "5\"", T: "6", Sv: "2+", W: "6", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -7524,7 +8345,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "roboute-guilliman",
     name: "Roboute Guilliman",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "60mm",
     stats: { M: "8\"", T: "9", Sv: "2+", W: "10", Ld: "5+", OC: "4", InvSv: "4+" },
     rangedWeapons: [
@@ -7570,6 +8391,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Blessing of the Omnissiah", text: "In your Command phase, pick a nearby friendly Vehicle — it heals up to D3 wounds and gets +1 to hit until your next Command phase (once per model per turn)." },
       { name: "Vengeance of the Omnissiah", text: "If a friendly Vehicle is destroyed within 12\", this model's Omnissian power axe gets Attacks 7 for the rest of the battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["INFANTRY", "CHARACTER", "GRENADES", "TACTICUS", "TECHMARINE", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Techmarine.",
@@ -7578,7 +8405,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "captain-tycho",
     name: "Captain Tycho",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "25mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -7606,7 +8433,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "tycho-the-lost",
     name: "Tycho The Lost",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "25mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "4", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -7636,7 +8463,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "sanguinary-guard",
     name: "Sanguinary Guard",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "40mm",
     stats: { M: "12\"", T: "4", Sv: "2+", W: "3", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -7668,7 +8495,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "gabriel-seth",
     name: "Gabriel Seth",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "25mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "6", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -7695,7 +8522,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "azrael",
     name: "Azrael",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "50mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "6", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -7719,7 +8546,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "ezekiel",
     name: "Ezekiel",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "25mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "4", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -7745,7 +8572,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "deathwing-terminator-squad",
     name: "Deathwing Terminator Squad",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "40mm",
     stats: { M: "5\"", T: "5", Sv: "2+", W: "3", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -7783,7 +8610,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "deathwing-knights",
     name: "Deathwing Knights",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "40mm",
     stats: { M: "5\"", T: "5", Sv: "2+", W: "4", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -7816,7 +8643,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "logan-grimnar",
     name: "Logan Grimnar",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "80mm",
     stats: { M: "6\"", T: "5", Sv: "2+", W: "8", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -7843,7 +8670,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "logan-grimnar-on-stormrider",
     name: "Logan Grimnar On Stormrider",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "120 x 92mm",
     stats: { M: "10\"", T: "6", Sv: "2+", W: "12", Ld: "6+", OC: "4", InvSv: "4+" },
     rangedWeapons: [
@@ -7858,7 +8685,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "High King of Fenris", text: "Once per battle round, in your Movement phase, treat a Reserves unit's arrival timing as one battle round later than actual for setup purposes." },
@@ -7873,7 +8700,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-lord-on-thunderwolf",
     name: "Wolf Lord on Thunderwolf",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "60mm",
     stats: { M: "10\"", T: "6", Sv: "3+", W: "6", Ld: "6+", OC: "2", InvSv: "4+" },
     rangedWeapons: [
@@ -7912,7 +8739,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "lukas-the-trickster",
     name: "Lukas The Trickster",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -7940,7 +8767,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "iron-priest",
     name: "Iron Priest",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "7\"", T: "4", Sv: "2+", W: "4", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -7965,7 +8792,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "murderfang",
     name: "Murderfang",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "60mm",
     stats: { M: "9\"", T: "9", Sv: "2+", W: "8", Ld: "6+", OC: "0" },
     rangedWeapons: [
@@ -7976,7 +8803,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Murderclaws", tags: "sustained hits 1, twin-linked", a: "8", skill: "3+", s: "14", ap: "-2", d: "3" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Curse of the Wulfen", text: "While within range of certain Space Wolves Characters and not Battle-shocked, this unit's Objective Control increases (+1 for Infantry, +3 for Vehicles)." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -7992,7 +8819,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-guard",
     name: "Wolf Guard",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "5+", OC: "1" },
     rangedWeapons: [
@@ -8023,7 +8850,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "long-fangs",
     name: "Long Fangs",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -8071,7 +8898,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "corvus-blackstar",
     name: "Corvus Blackstar",
-    faction: "Space Marines",
+    faction: "Space Marines - Deathwatch",
     base: "120 x 92mm flying base",
     stats: { M: "14\"", T: "10", Sv: "3+", W: "14", Ld: "6+", OC: "0" },
     rangedWeapons: [
@@ -8091,7 +8918,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 auspex array, 1 infernum halo-launcher"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Stealth", text: "If every model in this unit has Stealth, the unit gets the Benefit of Cover against ranged attacks even without terrain." },
       { name: "Mission Tactics", text: "At the start of your Command phase, pick one Mission Tactic to be active until your next Command phase — each can only be chosen once per battle." },
@@ -8132,6 +8959,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Vanguard Assault", text: "When this unit ends a Charge move, its melee weapons gain Lethal Hits until the end of the turn." },
       { name: "ATTACHED UNITS", text: "A Character with the Leader ability that can attach to a stated unit can attach to this unit too." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["GRENADES", "IMPERIUM", "INFANTRY", "VANGUARD VETERAN SQUAD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Vanguard Veteran Sergeant; 4-9 Vanguard Veterans.",
@@ -8176,6 +9009,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Vanguard Assault", text: "When this unit ends a Charge move, its melee weapons gain Lethal Hits until the end of the turn." },
       { name: "COMMAND SQUAD BODYGUARD", text: "A Character with the Leader ability that can attach to an Outrider Squad can attach to this unit instead." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["MOUNTED", "IMPERIUM", "GRENADES", "COMPANY VETERANS", "RAVENWING"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Veteran Biker Sergeant; 1-4 Veteran Bikers.",
@@ -8213,6 +9052,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Target Priority", text: "This unit can shoot and charge even after Falling Back." },
       { name: "Storm Shield", text: "The bearer has a Wounds characteristic of 4." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["CHARACTER", "TACTICUS", "IMPERIUM", "GRENADES", "LIEUTENANT", "INFANTRY"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Lieutenant.",
@@ -8221,7 +9066,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "ravenwing-talonmaster",
     name: "Ravenwing Talonmaster",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "65mm",
     stats: { M: "16\"", T: "7", Sv: "3+", W: "6", Ld: "6+", OC: "2", InvSv: "5+" },
     rangedWeapons: [
@@ -8235,7 +9080,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Talonmaster", text: "While within 3\" of another friendly Mounted or Flying Adeptus Astartes Vehicle, this model has Lone Operative." },
       { name: "Nowhere to Hide", text: "Friendly Mounted or Flying Vehicles within 6\" get Ignores Cover on their ranged weapons." },
@@ -8249,7 +9094,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "sergeant-chronus",
     name: "Sergeant Chronus",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "25mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "3", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -8311,6 +9156,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Vengeance of the Omnissiah", text: "If a friendly Vehicle is destroyed within 12\", this model's Omnissian power axe gets Attacks 7 for the rest of the battle." },
       { name: "Conversion", text: "Attacks with this weapon against targets more than 12\" away score a Critical Hit on an unmodified 4+." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["TECHMARINE", "IMPERIUM", "GRENADES", "RAVENWING", "CHARACTER", "MOUNTED"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Techmarine on Bike.",
@@ -8341,12 +9192,18 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 explorator augury web."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Explorator Augury Web", text: "Enemy Reserves can't set up within 12\" of this model, but its Transport Capacity is halved." },
       { name: "Assault Ramp", text: "A unit disembarking from this model after it made a Normal move makes an assault disembark move instead of a normal one." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["SMOKE", "FRAME", "IMPERIUM", "TRANSPORT", "VEHICLE", "LAND RAIDER PROTEUS"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Land Raider Proteus.",
@@ -8355,7 +9212,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "death-company-marines",
     name: "Death Company Marines",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -8444,6 +9301,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Honour or Death", text: "While this unit contains a Company Champion, it gets +1 to Advance and Charge rolls; using Heroic Intervention on it costs 1 less CP." },
       { name: "ATTACHED UNITS", text: "A Character with the Leader ability that can attach to a stated unit can attach to this unit too." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "COMMAND SQUAD", "INFANTRY", "GRENADES"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Apothecary; 1 Company Ancient; 1 Company Champion; 2 Company Veterans.",
@@ -8452,7 +9315,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "darnath-lysander",
     name: "Darnath Lysander",
-    faction: "Space Marines",
+    faction: "Space Marines - Imperial Fists",
     base: "50mm",
     stats: { M: "5\"", T: "5", Sv: "2+", W: "7", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -8515,6 +9378,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Armorium Cherub", text: "Once per battle, you can change a Hit roll for this unit to an unmodified 6." },
       { name: "Designer’s Note", text: "Only the highlighted parts of this model count as its hull for movement and destruction purposes." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "GRENADES", "INFANTRY", "DEVASTATOR SQUAD"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Devastator Sergeant; 4-9 Devastator Marines.",
@@ -8548,12 +9417,18 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 hunter-killer missile."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Armoured Spearhead", text: "This model's attacks re-roll a Hit roll of 1, or any Hit roll if the target is on an objective you don't control." },
       { name: "Conversion", text: "Attacks with this weapon against targets more than 12\" away score a Critical Hit on an unmodified 4+." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "FRAME", "SMOKE", "VEHICLE", "DEIMOS PREDATOR"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Deimos Predator.",
@@ -8562,7 +9437,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "death-company-marines-with-bolt-rifles",
     name: "Death Company Marines with Bolt Rifles",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -8604,7 +9479,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "deathwing-command-squad",
     name: "Deathwing Command Squad",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "40mm",
     stats: { M: "5\"", T: "5", Sv: "2+", W: "3", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -8649,7 +9524,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "deathwing-strikemaster",
     name: "Deathwing Strikemaster",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "40mm",
     stats: { M: "5\"", T: "5", Sv: "2+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -8682,7 +9557,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "impulsor",
     name: "Impulsor",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "100mm",
     stats: { M: "12\"", T: "9", Sv: "3+", W: "11", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -8704,7 +9579,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one of the following: 1 bellicatus missile array, 1 ironhail skytalon array, 1 orbital comms array, 1 shield dome"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
       { name: "Templar Vows", text: "At the start of the first battle round, pick one Vow to be active for your Adeptus Astartes units for the rest of the battle, granting a bonus tied to that Vow." },
       { name: "Assault Vehicle", text: "Units can disembark from this Transport after it Advances, making a shock disembark move." },
@@ -8745,6 +9620,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Keep the Banner High", text: "While this model is leading a unit, that unit's attacks get +1 to hit if below Starting Strength, and +1 to wound too if Below Half-strength." },
       { name: "Terminator Storm Shield", text: "The bearer has a Wounds characteristic of 6." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["TERMINATOR", "ANCIENT", "DEATHWING", "CHARACTER", "INFANTRY", "IMPERIUM"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Ancient in Terminator Armour.",
@@ -8753,7 +9634,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "lion-eljonson",
     name: "Lion El’jonson",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "60mm",
     stats: { M: "8\"", T: "9", Sv: "2+", W: "10", Ld: "5+", OC: "4", InvSv: "3+" },
     rangedWeapons: [
@@ -8823,6 +9704,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Swift Assault", text: "While this model is leading a unit, that unit's ranged weapons gain the Assault ability." },
       { name: "Rites of Battle", text: "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of the Stratagem by 1." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IMPERIUM", "RAVENWING", "CAPTAIN", "GRENADES", "CHARACTER", "MOUNTED"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Captain on Bike.",
@@ -8855,12 +9742,18 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 Ironclad assault launchers."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Ironclad Assault Launchers", text: "The bearer has the Grenades keyword." },
       { name: "Siege-breaker Protocols", text: "This model's melee attacks against Vehicle/Fortification targets get +1 to hit and +1 to wound." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["IRONCLAD DREADNOUGHT", "DEATHWING", "VEHICLE", "WALKER", "SMOKE", "IMPERIUM", "DREADNOUGHT"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Ironclad Dreadnought.",
@@ -8869,7 +9762,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "kayvaan-shrike",
     name: "Kayvaan Shrike",
-    faction: "Space Marines",
+    faction: "Space Marines - Raven Guard",
     base: "40mm",
     stats: { M: "12\"", T: "4", Sv: "3+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -8896,7 +9789,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "korsarro-khan",
     name: "Kor’sarro Khan",
-    faction: "Space Marines",
+    faction: "Space Marines - White Scars",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -8920,7 +9813,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "pedro-kantor",
     name: "Pedro Kantor",
-    faction: "Space Marines",
+    faction: "Space Marines - Imperial Fists",
     base: "25mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -8971,6 +9864,12 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Grapnel Launcher", text: "This model's unit ignores vertical distance when calculating movement." },
       { name: "Reiver Grav-chute", text: "The bearer has the Deep Strike ability." }
     ],
+    factionAbilityOverrides: {
+      "Black Templars": {
+        name: "Templar Vows",
+        text: "Replaces Oath of Moment entirely for Black Templars armies. At the start of the battle, pick one Vow to apply to your Black Templars units for the rest of the game: Suffer Not the Unclean to Live (melee weapons gain Lethal Hits), Uphold the Honour of the Emperor (objective-holding and action bonuses), Abhor the Witch, Destroy the Witch (anti-psyker bonuses), or Accept Any Challenge, No Matter the Odds (melee damage/attacks bonus). Exact current per-Vow wording should be spot-checked against a live source — this has been revised between the 10th-edition Index and the 2025 Black Templars Codex, and only the general choose-one-Vow mechanic is confirmed current here."
+      }
+    },
     keywords: ["SMOKE", "IMPERIUM", "PHOBOS", "REIVER SQUAD", "INFANTRY", "GRENADES"],
     factionKeywords: ["ADEPTUS ASTARTES"],
     composition: "1 Reiver Sergeant; 4-9 Reivers.",
@@ -8979,7 +9878,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "vulkan-hestan",
     name: "Vulkan He’stan",
-    faction: "Space Marines",
+    faction: "Space Marines - Salamanders",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -9005,7 +9904,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "death-company-marines-with-jump-packs",
     name: "Death Company Marines With Jump Packs",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "32mm",
     stats: { M: "12\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -9043,7 +9942,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "ravenwing-command-squad",
     name: "Ravenwing Command Squad",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "75 x 42mm",
     stats: { M: "12\"", T: "5", Sv: "3+", W: "4", Ld: "6+", OC: "2", InvSv: "5+" },
     rangedWeapons: [
@@ -9075,7 +9974,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "spectrus-kill-team",
     name: "Spectrus Kill Team",
-    faction: "Space Marines",
+    faction: "Space Marines - Deathwatch",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -9118,7 +10017,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "deathwatch-veterans",
     name: "Deathwatch Veterans",
-    faction: "Space Marines",
+    faction: "Space Marines - Deathwatch",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -9163,7 +10062,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "chaplain-grimaldus",
     name: "Chaplain Grimaldus",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "5+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -9192,7 +10091,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "emperors-champion",
     name: "Emperor’s Champion",
-    faction: "Space Marines",
+    faction: "Space Marines - Black Templars",
     base: "40mm",
     stats: { M: "8\"", T: "4", Sv: "2+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -9218,7 +10117,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-guard-pack-leader-with-jump-pack",
     name: "Wolf Guard Pack Leader With Jump Pack",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "12\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -9256,7 +10155,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-guard-pack-leader-in-terminator-armour",
     name: "Wolf Guard Pack Leader In Terminator Armour",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "5\"", T: "5", Sv: "2+", W: "3", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -9296,7 +10195,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-guard-pack-leader",
     name: "Wolf Guard Pack Leader",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -9335,7 +10234,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "cyberwolf",
     name: "Cyberwolf",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "10\"", T: "4", Sv: "6+", W: "2", Ld: "7+", OC: "0", InvSv: "6+" },
     rangedWeapons: [
@@ -9362,7 +10261,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "inner-circle-companions",
     name: "Inner Circle Companions",
-    faction: "Space Marines",
+    faction: "Space Marines - Dark Angels",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "3", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -9386,7 +10285,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "death-company-captain",
     name: "Death Company Captain",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -9418,7 +10317,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "death-company-captain-with-jump-pack",
     name: "Death Company Captain with Jump Pack",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "40mm",
     stats: { M: "12\"", T: "4", Sv: "3+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -9453,7 +10352,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "death-company-dreadnought-with-magna-grapple",
     name: "Death Company Dreadnought with Magna-grapple",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "90mm",
     stats: { M: "8\"", T: "9", Sv: "2+", W: "8", Ld: "6+", OC: "3" },
     rangedWeapons: [
@@ -9472,7 +10371,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 smoke launchers."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
       { name: "Black Rage", text: "This model's melee attacks can re-roll the Hit roll. Unless within 6\" of a friendly Blood Angels Character (or 12\" of a Chaplain), it can't Fall Back and its Objective Control is 0." },
@@ -9488,7 +10387,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "death-company-marines-with-boltguns",
     name: "Death Company Marines with Boltguns",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -9526,7 +10425,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "death-company-marines-with-boltguns-and-jump-packs",
     name: "Death Company Marines with Boltguns and Jump Packs",
-    faction: "Space Marines",
+    faction: "Space Marines - Blood Angels",
     base: "32mm",
     stats: { M: "12\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -9565,7 +10464,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "deathwatch-terminator-squad",
     name: "Deathwatch Terminator Squad",
-    faction: "Space Marines",
+    faction: "Space Marines - Deathwatch",
     base: "40mm",
     stats: { M: "5\"", T: "5", Sv: "2+", W: "3", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -9605,7 +10504,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "kill-team-cassius",
     name: "Kill Team Cassius",
-    faction: "Space Marines",
+    faction: "Space Marines - Deathwatch",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -9656,7 +10555,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-guard-battle-leader",
     name: "Wolf Guard Battle Leader",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "7\"", T: "4", Sv: "3+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -9688,7 +10587,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-guard-headtakers",
     name: "Wolf Guard Headtakers",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "7\"", T: "4", Sv: "3+", W: "3", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -9717,7 +10616,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wulfen-dreadnought",
     name: "Wulfen Dreadnought",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "60mm",
     stats: { M: "9\"", T: "9", Sv: "2+", W: "8", Ld: "6+", OC: "0" },
     rangedWeapons: [
@@ -9734,7 +10633,7 @@ GAMES["warhammer-40k"].datasheets = [
       "If this model is not equipped with a storm bolter, its heavy flamer can be replaced with 1 storm bolter."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Curse of the Wulfen", text: "While within range of certain Space Wolves Characters and not Battle-shocked, this unit's Objective Control increases (+1 for Infantry, +3 for Vehicles)." },
       { name: "Oath of Moment", text: "Army rule: at the start of your Command phase, pick an enemy unit as your Oath of Moment target — attacks against it from models with this rule can re-roll the Hit roll." },
@@ -9750,7 +10649,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "aethon-shaan",
     name: "Aethon Shaan",
-    faction: "Space Marines",
+    faction: "Space Marines - Raven Guard",
     base: "50mm",
     stats: { M: "14\"", T: "4", Sv: "3+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -9776,7 +10675,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "decimus-kill-team",
     name: "Decimus Kill Team",
-    faction: "Space Marines",
+    faction: "Space Marines - Deathwatch",
     base: "32mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -9823,7 +10722,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-scouts",
     name: "Wolf Scouts",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "32mm",
     stats: { M: "7\"", T: "4", Sv: "3+", W: "2", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -9863,7 +10762,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "victrix-honour-guard",
     name: "Victrix Honour Guard",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "2+", W: "3", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -9888,7 +10787,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "captain-titus",
     name: "Captain Titus",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "6", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -9914,7 +10813,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wardens-of-ultramar",
     name: "Wardens of Ultramar",
-    faction: "Space Marines",
+    faction: "Space Marines - Ultramarines",
     base: "40mm",
     stats: { M: "6\"", T: "4", Sv: "3+", W: "4", Ld: "6+", OC: "1" },
     rangedWeapons: [
@@ -9945,7 +10844,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-guard-battle-leader-in-terminator-armour",
     name: "Wolf Guard Battle Leader In Terminator Armour",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "40mm",
     stats: { M: "5\"", T: "5", Sv: "2+", W: "5", Ld: "6+", OC: "1", InvSv: "4+" },
     rangedWeapons: [
@@ -9981,7 +10880,7 @@ GAMES["warhammer-40k"].datasheets = [
   {
     id: "wolf-guard-battle-leader-on-thunderwolf",
     name: "Wolf Guard Battle Leader On Thunderwolf",
-    faction: "Space Marines",
+    faction: "Space Marines - Space Wolves",
     base: "60mm",
     stats: { M: "10\"", T: "6", Sv: "3+", W: "5", Ld: "6+", OC: "2" },
     rangedWeapons: [
@@ -10064,7 +10963,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Copper Staff", tags: "PSYCHIC", a: "3", skill: "3+", s: "8", ap: "-1", d: "2" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Support", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it — the Support-slot counterpart to Leader." },
       { name: "Unstable Energies", text: "This Ork Psyker can use psychic abilities in a battle round up to its total psyker level — e.g. a level-3 Psyker could use three level-1 abilities, or other combinations that add up to 3." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -10390,7 +11289,7 @@ GAMES["warhammer-40k"].datasheets = [
     ],
     abilities: [
       { name: "Damaged", text: "Damaged X: while a model's remaining wounds are X or fewer, its attacks take a -1 penalty to hit rolls." },
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Unstable Energies", text: "This Ork Psyker can use psychic abilities in a battle round up to its total psyker level — e.g. a level-3 Psyker could use three level-1 abilities, or other combinations that add up to 3." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -10421,7 +11320,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with up to 3 Big Shootas."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
       { name: "Raucous Occupants", text: "While near your home objective, this model's Objective Control includes the OC of its embarked passengers." },
@@ -10449,7 +11348,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Grabba Dragga", tags: "CLEAVE 2, Lance", a: "6", skill: "2+", s: "10", ap: "-2", d: "3" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Lone Operative", text: "Unless part of an Attached unit, this model can only be targeted by ranged attacks from within the stated distance (12\" by default)." },
       { name: "Waaagh!", text: "Friendly Orks units with this ability can re-roll Advance rolls and become Riled Up — gaining a 5+ invulnerable save, the Assault ability on ranged weapons, and the ability to still charge after Advancing. Once per battle, War Cry lets you trigger this at the start of the Command phase." },
@@ -10950,7 +11849,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with one battlesuit support system."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
       { name: "Lone Operative", text: "Unless part of an Attached unit, this model can only be targeted by ranged attacks from within the stated distance (12\" by default)." },
       { name: "Stealth", text: "If every model in this unit has Stealth, the unit gets the Benefit of Cover against ranged attacks even without terrain." },
@@ -10986,7 +11885,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with up to 2 missile drones."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Battlesuit Support System", text: "This model's unit can shoot after Falling Back, but only models with this wargear can actually shoot that phase." },
       { name: "Nova Charge", text: "Once per battle, when this unit shoots, one of its ranged weapons gains Devastating Wounds for the phase." },
@@ -11055,7 +11954,7 @@ GAMES["warhammer-40k"].datasheets = [
       "Any number of models can each be equipped with up to 2 seeker missiles."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Drone Harassment Tactics", text: "At the end of your Movement phase, force an enemy unit within 12\" to take a Battle-shock test." },
@@ -11086,7 +11985,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with up to 2 seeker missiles."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Rapid Deployment", text: "Units can disembark from this Transport after it Advances, making a shock disembark move." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
@@ -11116,7 +12015,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s accelerator burst cannon can be replaced with 1 missile pod."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Ground Strike Fighter", text: "When this model attacks a non-Flying unit, add 1 to the Hit roll." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
@@ -11146,7 +12045,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s missile pod can be replaced with 1 twin missile pod."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Pulse Bombs", text: "At the end of your opponent's Fight phase, target a visible enemy within 24\" and roll six D6 — each 4+ deals 1 mortal wound." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
@@ -11231,7 +12130,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s 2 twin pulse carbines can be replaced with one of the following: 2 accelerator burst cannons, 2 smart missile systems"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Velocity Tracker", text: "When this model attacks a Flying unit, you can re-roll the Hit roll." },
       { name: "Targeting Array", text: "When this unit shoots, you can re-roll one Hit roll or one Wound roll." }
@@ -11265,7 +12164,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with up to 2 seeker missiles."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Armour Hunter", text: "When this model attacks a Monster/Vehicle, add 1 to the Hit roll." },
       { name: "Targeting Array", text: "When this unit shoots, you can re-roll one Hit roll or one Wound roll." },
@@ -11301,7 +12200,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with up to 2 seeker missiles."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Armour Hunter", text: "When this model attacks a Monster/Vehicle, add 1 to the Hit roll." },
       { name: "Targeting Array", text: "When this unit shoots, you can re-roll one Hit roll or one Wound roll." },
@@ -11370,7 +12269,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s twin T’au flamer can be replaced with one of the following: 1 twin airbursting fragmentation projector, 1 twin burst cannon"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6+2", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6+2 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Heavy Walker", text: "This model can move through other models and terrain 4\" or less in height as if they weren't there." },
       { name: "Support System", text: "This model's ranged attacks can ignore any Hit roll modifiers." },
@@ -11397,7 +12296,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
       { name: "Droneport", text: "When this Fortification shoots, its drone defender attacks every eligible enemy unit simultaneously." },
       { name: "Fortification", text: "While an enemy unit is engaged with only Fortification units, it can still be targeted by ranged attacks — those attacks get -1 to hit unless they're Close-Quarters weapons — and if it tries to Fall Back, it automatically passes the hazard roll for doing so (as long as it isn't Battle-shocked)." },
@@ -11424,7 +12323,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with 1 Tidewall defence platform."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
       { name: "Fortification", text: "While an enemy unit is engaged with only Fortification units, it can still be targeted by ranged attacks — those attacks get -1 to hit unless they're Close-Quarters weapons — and if it tries to Fall Back, it automatically passes the hazard roll for doing so (as long as it isn't Battle-shocked)." },
       { name: "Tidewall Cover", text: "A ranged attack against a friendly model is treated as Benefit of Cover if this Fortification blocks it from being fully visible." },
@@ -11451,7 +12350,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Firing Deck", text: "Firing Deck X lets embarked passengers shoot from inside this Transport when it's selected to shoot — pick up to X embarked models to each fire one ranged weapon without disembarking." },
       { name: "Fortification", text: "While an enemy unit is engaged with only Fortification units, it can still be targeted by ranged attacks — those attacks get -1 to hit unless they're Close-Quarters weapons — and if it tries to Fall Back, it automatically passes the hazard roll for doing so (as long as it isn't Battle-shocked)." },
       { name: "Tidewall Cover", text: "A ranged attack against a friendly model is treated as Benefit of Cover if this Fortification blocks it from being fully visible." }
@@ -11542,7 +12441,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with up to 2 missile drones."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Battlesuit Support System", text: "This model's unit can shoot after Falling Back, but only models with this wargear can actually shoot that phase." },
       { name: "Nova Burst", text: "Once per battle, before moving, this model can boost its Move to 18\" for the phase." },
@@ -11569,7 +12468,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with up to 2 missile drones."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Battlesuit Support System", text: "This model's unit can shoot after Falling Back, but only models with this wargear can actually shoot that phase." },
       { name: "Nova Shielding", text: "Once per battle, when targeted by a ranged attack, this model reduces the Wound roll by 1 against attacks with higher Strength than its Toughness, for the rest of the phase." },
@@ -11606,7 +12505,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s 3 pulse ordnance drivers can be replaced with one of the following: 2 nexus missile launchers, 1 heavy rail cannon array and 1 fragmentation cluster shell launcher"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6+3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6+3 mortal wounds." },
       { name: "Super-heavy Walker", text: "This model can move through other models and terrain features 4\" or less in height as if they weren't there, though it can't end a move within Engagement Range that way." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Coordinated Strike", text: "While this model is a Guided unit, its attacks against the Spotted target re-roll a Hit roll of 1." }
@@ -11632,7 +12531,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Infiltrators", text: "During deployment, a unit where every model has this ability can be set up anywhere more than 8\" from the enemy deployment zone and all enemy units." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "High-intensity Markerlights", text: "While this unit is an Observer, its Guided unit's attacks against the Spotted target can re-roll the Hit roll." }
@@ -11661,7 +12560,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s 2 plasma rifles can be replaced with one of the following: 2 fusion blasters, 2 missile pods, 2 rail rifles"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Scouts", text: "Scouts X\": before the battle, a unit where every model has this ability can make a free move of up to X\" (or redeploy within your own deployment zone)." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Outflank", text: "When this unit arrives from Strategic Reserves, it can be set up inside the opponent's deployment zone (other Reserves restrictions still apply)." }
@@ -11750,7 +12649,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model can be equipped with up to 4 seeker missiles."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Agile Dogfighter", text: "Attacks against this model take -1 to hit." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
@@ -11788,7 +12687,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s transport bay can be replaced with 2 skyspear missile racks."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6+2", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6+2 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Transport Bay", text: "The bearer can transport up to 12 Tactical Drones." },
       { name: "Strafing Run", text: "After this model shoots, a non-Flying enemy it hit must take a Battle-shock test." },
@@ -11821,7 +12720,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s 2 burst cannons can be replaced with 2 cyclic ion blasters."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6+2", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6+2 mortal wounds." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Titan Hunter", text: "This model's twin heavy rail cannon and seeker missiles gain Anti-Titanic 3+ against targets within half range." },
       { name: "One Shot", text: "The bearer can only shoot with this weapon once per battle." }
@@ -11848,7 +12747,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6+2", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6+2 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Jet Pack Insertion", text: "At the end of your opponent's Movement phase, units embarked in this Transport can disembark if every model in them has Deep Strike." }
@@ -11879,7 +12778,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 3D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 3D6 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "For the Greater Good", text: "Army rule: at the start of your Shooting phase, pick eligible units to become Observers — each Observer that doesn't shoot this phase can mark one visible enemy as a Spotted unit, letting other T'au units get bonuses attacking it." },
       { name: "Aggressive Deployment", text: "After this model shoots, pick an enemy it hit — friendly models disembarking from this Transport this turn can re-roll Wound rolls against that unit for the rest of the turn." },
@@ -12382,7 +13281,7 @@ GAMES["warhammer-40k"].datasheets = [
       "*This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Shadow in the Warp", text: "Once per battle, in either Command phase, if a unit with this ability is on the battlefield, every enemy unit must take a Battle-shock test — with an extra -1 penalty if they are within 6\\\" of a friendly Synapse unit." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -12407,7 +13306,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Bone sabres", tags: "twin-linked", a: "8", skill: "2+", s: "9", ap: "-2", d: "3" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Leader", text: "This model can attach to a matching Bodyguard unit chosen before the battle, forming a single Attached unit with it for the game." },
       { name: "Shadow in the Warp", text: "Once per battle, in either Command phase, if a unit with this ability is on the battlefield, every enemy unit must take a Battle-shock test — with an extra -1 penalty if they are within 6\\\" of a friendly Synapse unit." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -12488,7 +13387,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s massive scything talons can be replaced with 1 massive crushing claws."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Shadow in the Warp", text: "Once per battle, in either Command phase, if a unit with this ability is on the battlefield, every enemy unit must take a Battle-shock test — with an extra -1 penalty if they are within 6\\\" of a friendly Synapse unit." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Spawn Termagants", text: "In your Command phase, a nearby friendly Termagants unit within 6\" can regain up to D3+3 destroyed models (once per phase per unit)." },
@@ -12691,7 +13590,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Massive scything talons – sweep", tags: "", a: "6", skill: "3+", s: "7", ap: "-1", d: "2" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Shadow in the Warp", text: "Once per battle, in either Command phase, if a unit with this ability is on the battlefield, every enemy unit must take a Battle-shock test — with an extra -1 penalty if they are within 6\\\" of a friendly Synapse unit." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Encephalic Diffusion (Aura, Psychic)", text: "Enemy units within 6\" take -1 to hit, and -1 to wound too if they're Below Half-strength." }
@@ -12760,7 +13659,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Chitin-barbed limbs", tags: "", a: "2", skill: "4+", s: "5", ap: "0", d: "1" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Burning Spray", text: "After this unit shoots, an enemy it hit loses Benefit of Cover until the end of the phase." }
     ],
@@ -12783,7 +13682,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Shovelling claws", tags: "extra attacks", a: "4", skill: "3+", s: "14", ap: "-2", d: "D6+1" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Grisly Spectacle", text: "If this model's attacks destroy an enemy unit, other enemies within 6\" must take a Battle-shock test." }
     ],
@@ -12909,7 +13808,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s twin stranglethorn cannon can be replaced with 1 twin heavy venom cannon."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Spore Mine Cysts", text: "At the end of your opponent's Fight phase, either deal mortal wounds to a nearby visible enemy (six D6, each 3+ scores) or spawn a new D3-model Spore Mines unit nearby." }
@@ -12935,7 +13834,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Thorax spur", tags: "anti-fly 2+, extra attacks", a: "1", skill: "3+", s: "10", ap: "-3", d: "D6" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Airborne Predator", text: "When this model attacks a Flying unit, add 1 to the Hit roll." }
     ],
@@ -13003,7 +13902,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Flensing whips", tags: "", a: "6", skill: "4+", s: "7", ap: "-1", d: "2" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Aerial Seeding", text: "This model starts in Reserves without counting against normal Reserves limits, and can arrive in the first, second, or third Movement phase regardless of mission rules." }
@@ -13040,7 +13939,7 @@ GAMES["warhammer-40k"].datasheets = [
       "Any number of models can each be equipped with 1 spine banks."
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Blistering Assault", text: "If this model loses a wound to enemy shooting, this unit can make a surge move of up to D6+2\"." }
     ],
@@ -13062,7 +13961,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Chitin-barbed limbs", tags: "", a: "2", skill: "4+", s: "5", ap: "0", d: "1" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Seed Spore Mines", text: "Once per turn, instead of shooting, this unit can spawn a new Spore Mines unit within 48\" and more than 8\" from all enemies." }
     ],
@@ -13129,7 +14028,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Powerful limbs", tags: "", a: "3", skill: "3+", s: "7", ap: "0", d: "2" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Symbiotic Targeting", text: "After this model shoots, pick an enemy it hit — friendly Tyranids attacks against it re-roll a Hit roll of 1 for the rest of the phase." }
     ],
@@ -13157,7 +14056,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s fleshborer hive can be replaced with one of the following: 1 acid spray, 1 rupture cannon"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Resilient Organism", text: "Once per battle, reduce an attack's Damage against this model to 0." }
     ],
@@ -13179,7 +14078,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Massive toxic lashes", tags: "anti-infantry 2+", a: "12", skill: "3+", s: "6", ap: "-1", d: "2" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Grasping Tendrils", text: "When a non-Titanic enemy within Engagement Range tries to Fall Back, roll a D6 — on a 3+, it must Remain Stationary instead." },
       { name: "Hypertoxic Miasma (Aura)", text: "At the end of your Movement phase, roll a D6 per nearby enemy within 6\" — 2-3 deals 1 mortal wound, 4-5 deals D3, 6 deals D6." }
@@ -13202,7 +14101,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Flensing whips", tags: "", a: "6", skill: "4+", s: "7", ap: "-1", d: "2" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Seed Mucolids", text: "Once per turn, instead of shooting, this unit can spawn a new 1-model Mucolid Spores unit within 18\" and more than 8\" from all enemies." },
       { name: "Hive Defences", text: "This model can use Fire Overwatch for 0CP, even after another unit already used it this turn — but only once per turn for this model." }
@@ -13256,7 +14155,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Digestion Spine", text: "If this model destroys an enemy (non-Vehicle) in melee, it heals up to D3 wounds." }
     ],
@@ -13281,7 +14180,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Overgrown Barbs", text: "After this model shoots, a non-Titanic enemy it hit is suppressed until your next turn, taking -1 to hit while this model remains on the battlefield." }
     ],
@@ -13306,7 +14205,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 2D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 2D6 mortal wounds." },
       { name: "Hover", text: "This unit doesn't subtract 2\" from its move distance when Falling Back or otherwise taking to the skies." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Frenzied Metabolism", text: "When this model shoots, its attacks get +1 to wound for the phase, but afterward it risks D3 mortal wounds to itself (on a 2+)." }
@@ -13334,7 +14233,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 2D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 2D6 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Apex-beast", text: "When this model attacks a Battle-shocked unit, add 1 to the Hit roll." },
       { name: "Stalking Forward", text: "This model can move through other models and terrain 4\" or less in height (excluding Titanic) as if they weren't there." }
@@ -13360,7 +14259,7 @@ GAMES["warhammer-40k"].datasheets = [
       "None"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Irresistible Force", text: "This model can charge even after Falling Back." }
     ],
@@ -13388,7 +14287,7 @@ GAMES["warhammer-40k"].datasheets = [
       "This model’s monstrous bonesword and lash whip can be replaced with one of the following: 1 heavy venom cannon, 1 stranglethorn cannon, 1 monstrous scything talons"
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D3", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D3 mortal wounds." },
       { name: "Deep Strike", text: "When this unit makes an Ingress Move, if every model has Deep Strike, it can be set up anywhere more than 8\" from all enemy units — even inside the opponent's deployment zone." },
       { name: "Shadow in the Warp", text: "Once per battle, in either Command phase, if a unit with this ability is on the battlefield, every enemy unit must take a Battle-shock test — with an extra -1 penalty if they are within 6\\\" of a friendly Synapse unit." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
@@ -13509,7 +14408,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Talons and betentacled maw", tags: "anti-psyker 4+, devastating wounds", a: "6", skill: "3+", s: "6", ap: "-2", d: "2" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Feel No Pain", text: "Feel No Pain X+ means each time a model with this ability would lose a wound, roll a D6 — on an X+, that wound isn't lost." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Bio-stimulus", text: "After this model shoots, pick an enemy it hit — friendly Tyranids melee attacks against it get +1 Armour Penetration for the turn (once per target)." },
@@ -13533,7 +14432,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Screamer-killer talons", tags: "", a: "10", skill: "3+", s: "10", ap: "-2", d: "3" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise 1", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers 1 mortal wounds." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Death Scream", text: "After this model shoots, an enemy it hit must take a Battle-shock test at -1." }
     ],
@@ -13663,7 +14562,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Monstrous rending claws", tags: "extra attacks", a: "4", skill: "2+", s: "7", ap: "-2", d: "2" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Shadow in the Warp", text: "Once per battle, in either Command phase, if a unit with this ability is on the battlefield, every enemy unit must take a Battle-shock test — with an extra -1 penalty if they are within 6\\\" of a friendly Synapse unit." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Singular Purpose", text: "At the start of the battle, pick either a rival enemy unit (re-roll Hit and Wound rolls against it for the battle) or an objective (bonus while defending it)." },
@@ -13688,7 +14587,7 @@ GAMES["warhammer-40k"].datasheets = [
       { name: "Toxinjector harpoon", tags: "extra attacks", a: "4", skill: "2+", s: "12", ap: "-3", d: "D6+1" }
     ],
     abilities: [
-      { name: "Deadly Demise", text: "Deadly Demise X: when a model with this ability is destroyed, roll a D6 — on a 6, every unit within 6\" suffers X mortal wounds." },
+      { name: "Deadly Demise D6", text: "When this model is destroyed, roll a D6 — on a 6, every unit within 6\" suffers D6 mortal wounds." },
       { name: "Shadow in the Warp", text: "Once per battle, in either Command phase, if a unit with this ability is on the battlefield, every enemy unit must take a Battle-shock test — with an extra -1 penalty if they are within 6\\\" of a friendly Synapse unit." },
       { name: "Synapse", text: "Friendly Tyranids units within 6\\\" of a Synapse model are within Synapse Range — while in range, they take Battle-shock tests on 3D6 instead of 2D6, and their melee attacks get +1 Strength." },
       { name: "Singular Purpose", text: "At the start of the battle, pick either a rival enemy unit (re-roll Hit and Wound rolls against it for the battle) or an objective (bonus while defending it)." },
